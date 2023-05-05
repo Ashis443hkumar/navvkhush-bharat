@@ -1,18 +1,20 @@
-.footer{
-  background-color: red;
 
+.footer{
+  background-color: #40407a;
+  padding: 30px 0px;
 }
 .container-fluid{
   padding: 10px 6%;
-
+  color: #fff;
 }
+
 .footer h3{
   font-size: 18px;
+  color: #fff;
+  margin: 15px 0;
+  margin-bottom: 25px;
 }
-.footer{
-  text-align: start;
-  padding-left: 0%;
-}
+
 .footer .donate_btn button{
   padding: 10px 30px;
   border: none;
@@ -20,7 +22,7 @@
   text-align: center;
   margin-left: 0%;
 }
-.head_right .social_link a i{
+/* .head_right .social_link a i{
   margin-left: 10px;
   width: 25px;
   height: 25px;
@@ -31,14 +33,16 @@
   border-radius: 50%;
   color: #fff;
   margin-top: 30px;
-}
+} */
 .footer_content{
   text-align: center;
-
 }
 .footer_content ul{
   text-align: start;
 }
 .footer_content ul li{
-  text-align: end;
+  padding: 5px 0;
+  color: #fff;
 }
+
+
