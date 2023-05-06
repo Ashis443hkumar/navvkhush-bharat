@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container">
+      <section className="container my-4 py-4">
          <div className="row">
            <div className="col-md-6">
              <h3>WHO WE ARE</h3>
@@ -59,7 +59,7 @@ export default function Home() {
       </section>
 
       <section className="container  mission_goal my-4" >
-        <div className="heading">
+        <div className="heading pt-4">
           <h2>Mission & Goals</h2>
           <p>The revolution is here, where are you? Poverty is removed not by sharing but by eradicating!</p>
         </div>
@@ -150,36 +150,198 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="event">
-        <div className="">
+    <section class="current_beneficials">
+     <div className="container">
+      <div className="headerr">
+      <h3>SUCCESSFUL STORIES</h3>
+      <button>All cases</button>
+      </div>
+      <div className="row">
+        <div className="col-md-4">
+          <div className="card">
+            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
+            <div className="card-body">
+              <h3>Manav Kumar (5 Years)</h3>
+              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+              <div class="htfhgjk">
+                <button> Heart Disease</button>
+                <button>MEDICAL DOCUMENTS</button>
+              </div>
+              <div class="dsfsd">
+                <h3>Goal: ₹700000</h3>
+                <h3>Raised: ₹50000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
+            <div className="card-body">
+              <h3>Manav Kumar (5 Years)</h3>
+              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+              <div class="htfhgjk">
+                <button> Heart Disease</button>
+                <button>MEDICAL DOCUMENTS</button>
+              </div>
+              <div class="dsfsd">
+                <h3>Goal: ₹700000</h3>
+                <h3>Raised: ₹50000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
+            <div className="card-body">
+              <h3>Manav Kumar (5 Years)</h3>
+              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+              <div class="htfhgjk">
+                <button> Heart Disease</button>
+                <button>MEDICAL DOCUMENTS</button>
+              </div>
+              <div class="dsfsd">
+                <h3>Goal: ₹700000</h3>
+                <h3>Raised: ₹50000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+     </div>
+    </section>
+
+  <section class="current_beneficials">
+    <div className="container">
+      <div className="headerr">
+      <h3>CURRENT BENEFICIARIES</h3>
+      <button>All cases</button>
+      </div>
+      <div className="row">
+        <div className="col-md-4">
+          <div className="card">
+            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
+            <div className="card-body">
+              <h3>Manav Kumar (5 Years)</h3>
+              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+              <div class="htfhgjk">
+                <button> Heart Disease</button>
+                <button>MEDICAL DOCUMENTS</button>
+              </div>
+              <div class="dsfsd">
+                <h3>Goal: ₹700000</h3>
+                <h3>Raised: ₹50000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
+            <div className="card-body">
+              <h3>Manav Kumar (5 Years)</h3>
+              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+              <div class="htfhgjk">
+                <button> Heart Disease</button>
+                <button>MEDICAL DOCUMENTS</button>
+              </div>
+              <div class="dsfsd">
+                <h3>Goal: ₹700000</h3>
+                <h3>Raised: ₹50000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
+            <div className="card-body">
+              <h3>Manav Kumar (5 Years)</h3>
+              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+              <div class="htfhgjk">
+                <button> Heart Disease</button>
+                <button>MEDICAL DOCUMENTS</button>
+              </div>
+              <div class="dsfsd">
+                <h3>Goal: ₹700000</h3>
+                <h3>Raised: ₹50000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+
+  <section className="arawd_new">
+    <div class="container">
+       <div className="headerr">
+        <div>
+         <h2>LATEST NEWS</h2>
+        </div>
+        <div class="hbvb">
+         <h3>AWARDS</h3>
+         <button>VIEW ALL</button>
+        </div>
+      </div>
+       <hr/>
+     {/* row  */}
         <div className="row">
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/807361_IMG_0103_6fe53f5264_1476e383db.jpg" className="w-100" alt=""/></figure>
+          <div className="col-md-6">
+            {/* row 2 */}
+            <div class="row">
+              <div className="col-md-3">
+                <div className="row">
+                  <div className="col-12 bg-warning"><h3>19may, 2021</h3></div>
+                </div>
+              </div>
+              <div className="col-md-9 lates_new_post">
+                <h6> The Times of India</h6>
+                <h5>Food, ration, O2: NGO reaches out to Poor</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quam quod illum!</p>
+              </div>
+            </div>
+            <hr/>
+            {/* .row end */}
+            <div class="row">
+              <div className="col-md-3">
+                <div className="row">
+                  <div className="col-12 bg-warning"><h3>19may, 2021</h3></div>
+                </div>
+              </div>
+              <div className="col-md-9 lates_new_post">
+                <h6> The Times of India</h6>
+                <h5>Food, ration, O2: NGO reaches out to Poor</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quam quod illum!</p>
+              </div>
+            </div>
+            <hr/>
+            {/* row -end  */}
+            <div class="row">
+              <div className="col-md-3">
+                <div className="row">
+                  <div className="col-12 bg-warning"><h3>19may, 2021</h3></div>
+                </div>
+              </div>
+              <div className="col-md-9 lates_new_post">
+                <h6> The Times of India</h6>
+                <h5>Food, ration, O2: NGO reaches out to Poor</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quam quod illum!</p>
+              </div>
+            </div>
+            <hr/>
           </div>
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/38288153146106_2371957943034568_6104911268093624320_n_0014bf7161_8b7ca277ad.jpg" className="w-100" alt=""/></figure>
-          </div>
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/32722155793542_2391366957760333_5528121289367093248_n_82d7fd641c_9406a6a2e4.jpg" className="w-100" alt=""/></figure>
-          </div>
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/60556148372436_2325324877697875_68205278956355584_n_08da8ba648_ea00b572e9.jpg" className="w-100" alt=""/></figure>
-          </div>
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg" className="w-100" alt=""/></figure>
-          </div>
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/96870145576509_2296943713869325_2741727819766693888_n_58300448bf_e3748b8ca6.jpg" className="w-100" alt=""/></figure>
-          </div>
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" className="w-100" alt=""/></figure>
-          </div>
-          <div className="col-md-3 ">
-            <figure><img src="https://api.nationalngo.net/uploads/45419143952177_2282887211941642_6293387429613142016_n_6438fa69a6_c5200ea47c.jpg" className="w-100" alt=""/></figure>
+          <div className="col-md-6 bg-danger text-center">
+            <img src="https://www.nationalngo.net/assets/images/NCT_Award.png" alt=""/>
           </div>
         </div>
         </div>
       </section>
+
 
       <section className="trust">
             <div className="container">
@@ -216,6 +378,55 @@ export default function Home() {
               </div>
             </div>
       </section>
+
+
+      <section className="event">
+        <div className="">
+        <div className="row">
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/807361_IMG_0103_6fe53f5264_1476e383db.jpg" className="w-100" alt=""/></figure>
+          </div>
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/38288153146106_2371957943034568_6104911268093624320_n_0014bf7161_8b7ca277ad.jpg" className="w-100" alt=""/></figure>
+          </div>
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/32722155793542_2391366957760333_5528121289367093248_n_82d7fd641c_9406a6a2e4.jpg" className="w-100" alt=""/></figure>
+          </div>
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/60556148372436_2325324877697875_68205278956355584_n_08da8ba648_ea00b572e9.jpg" className="w-100" alt=""/></figure>
+          </div>
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg" className="w-100" alt=""/></figure>
+          </div>
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/96870145576509_2296943713869325_2741727819766693888_n_58300448bf_e3748b8ca6.jpg" className="w-100" alt=""/></figure>
+          </div>
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" className="w-100" alt=""/></figure>
+          </div>
+          <div className="col-md-3 ">
+            <figure><img src="https://api.nationalngo.net/uploads/45419143952177_2282887211941642_6293387429613142016_n_6438fa69a6_c5200ea47c.jpg" className="w-100" alt=""/></figure>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      {/* LATEST NEWS  award  */}
+  
+  
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
 
 
      </>

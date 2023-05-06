@@ -24,3 +24,87 @@
   color:#f39c12;
 
 }
+
+/* award home  */
+.arawd_new{
+  padding: 40px 0%;
+  background-color: aliceblue;
+}
+.headerr{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.headerr h2{
+  font-size: 21px;
+}
+.hbvb{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.hbvb h3{
+  font-size: 18px;
+}
+.hbvb button{
+  border: none;
+  outline: none;
+  background: none;
+  text-align: end;
+}
+.lates_new_post h6{
+  font-size: 12px;
+}
+.lates_new_post h5{
+  font-size: 17px;
+
+}
+.lates_new_post p{
+  font-size: 15px;
+}
+.award_cont h3{
+  font-size: 18px;
+}
+ button{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px
+
+}
+
+/* current_beneficials */
+.current_beneficials{
+  padding: 30px 0;
+}
+.headerr{
+  padding-bottom: 20px;
+}
+.headerr button{
+  text-align: end;
+}
+.card-body{
+ text-align: center;
+}
+.card-body h3{
+  font-size: 18px;
+}
+.card-body p{
+  font-size: 14px;
+}
+.htfhgjk{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.htfhgjk button{
+  font-size: 16px;
+}
+.dsfsd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dsfsd h3{
+  font-size: 18px;
+  margin-top: 10px;
+}
