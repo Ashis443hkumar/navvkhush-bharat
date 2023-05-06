@@ -41,6 +41,8 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* WHO WE ARE */}
       <section className="container my-4 py-4">
          <div className="row">
            <div className="col-md-6">
@@ -48,7 +50,7 @@ export default function Home() {
              <p>National Organisation for Social Empowerment (NOFSE) is a registered NGO working for the differently abled and underprivileged of our community. We are a group of dreamers with a collective vision; ‘Inclusiveness’. We believe that a world without barriers should not be a luxury but a right. We are doing our bit to ensure that disability does not entail disadvantage. At National NGO we are working to advance the rights of persons with disabilities (PWDs) in our society and in the larger scheme of national development, through micro level social intervention.
 
              Established in 2012, National NGO has been continually working for social integration of persons with disability. Although we work with a small set of people, we go all the way in supporting them to become self-sufficient. Through these years, we have assumed the role of facilitators, counselors, friends and teachers amongst others</p>
-             <button>Free a Hungry Child</button>
+             <button class="hero_button">Free a Hungry Child</button>
            </div>
            <div className="col-md-6">
              <figure>
@@ -57,6 +59,8 @@ export default function Home() {
            </div>
          </div>
       </section>
+
+{/* mission & goals  */}
 
       <section className="container  mission_goal my-4" >
         <div className="heading pt-4">
@@ -82,6 +86,8 @@ export default function Home() {
         </div>
       </section>
 
+
+{/* recent cases */}
       <section classsName="recen_case my-4">
         <div className="container">
         <div className="heading">
@@ -150,11 +156,13 @@ export default function Home() {
         </div>
       </section>
 
+
+{/* current benificials  */}
     <section class="current_beneficials">
      <div className="container">
       <div className="headerr">
       <h3>SUCCESSFUL STORIES</h3>
-      <button>All cases</button>
+      <button class="outline_btn">All cases</button>
       </div>
       <div className="row">
         <div className="col-md-4">
@@ -213,71 +221,83 @@ export default function Home() {
      </div>
     </section>
 
-  <section class="current_beneficials">
+
+{/* successful stores  */}
+
+  <section class="current_beneficial">
     <div className="container">
       <div className="headerr">
       <h3>CURRENT BENEFICIARIES</h3>
-      <button>All cases</button>
+      <button class="hero_button">All cases</button>
       </div>
       <div className="row">
         <div className="col-md-4">
           <div className="card">
-            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
-            <div className="card-body">
-              <h3>Manav Kumar (5 Years)</h3>
-              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
-              <div class="htfhgjk">
-                <button> Heart Disease</button>
-                <button>MEDICAL DOCUMENTS</button>
-              </div>
-              <div class="dsfsd">
-                <h3>Goal: ₹700000</h3>
-                <h3>Raised: ₹50000</h3>
-              </div>
+            <img src="https://nationalngo.net/php/uploads/1681558370.png" class="img-top w-100" alt="" />
+            <div className="card-body crrent_ben_content">
+               <h3>tanvi kumari</h3>
+               <h3>medicial document</h3>
+               <h4><i class="fa-solid fa-bomb"></i>blood cancer</h4>
+               <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni iusto molestias ipsam distinctio sunt! Aliquam laborum sit ad qui eligendi reprehenderit cupiditate?</p>
+               <div class="current_benificila_btn">
+                 <button class="hero_button">Nonate Now</button>
+                 <div class="current_beneficils_btn">
+                   <button class="hero_button fb_icons"><i class="fa-brands fa-facebook"></i></button>
+                   <button class="hero_button wh-icons"><i class="fa-brands fa-whatsapp"></i></button>
+                 </div>
+               </div>
             </div>
           </div>
         </div>
         <div className="col-md-4">
           <div className="card">
-            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
-            <div className="card-body">
-              <h3>Manav Kumar (5 Years)</h3>
-              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
-              <div class="htfhgjk">
-                <button> Heart Disease</button>
-                <button>MEDICAL DOCUMENTS</button>
-              </div>
-              <div class="dsfsd">
-                <h3>Goal: ₹700000</h3>
-                <h3>Raised: ₹50000</h3>
-              </div>
+            <img src="https://nationalngo.net/php/uploads/1681558370.png" class="img-top w-100" alt="" />
+            <div className="card-body crrent_ben_content">
+               <h3>tanvi kumari</h3>
+               <h3>medicial document</h3>
+               <h4><i class="fa-solid fa-bomb"></i>blood cancer</h4>
+               <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni iusto molestias ipsam distinctio sunt! Aliquam laborum sit ad qui eligendi reprehenderit cupiditate?</p>
+               <div class="current_benificila_btn">
+                 <button>Nonate</button>
+                 <div class="">
+                   <button><i class="fa-brands fa-facebook"></i></button>
+                   <button><i class="fa-brands fa-whatsapp"></i></button>
+                 </div>
+               </div>
             </div>
           </div>
         </div>
         <div className="col-md-4">
           <div className="card">
-            <img src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg" class="img-top w-100" alt="" />
-            <div className="card-body">
-              <h3>Manav Kumar (5 Years)</h3>
-              <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
-              <div class="htfhgjk">
-                <button> Heart Disease</button>
-                <button>MEDICAL DOCUMENTS</button>
-              </div>
-              <div class="dsfsd">
-                <h3>Goal: ₹700000</h3>
-                <h3>Raised: ₹50000</h3>
-              </div>
+            <img src="https://nationalngo.net/php/uploads/1681558370.png" class="img-top w-100" alt="" />
+            <div className="card-body crrent_ben_content">
+               <h3>tanvi kumari</h3>
+               <h3>medicial document</h3>
+               <h4><i class="fa-solid fa-bomb"></i>blood cancer</h4>
+               <p>PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL TREATMENT Meet Manav</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni iusto molestias ipsam distinctio sunt! Aliquam laborum sit ad qui eligendi reprehenderit cupiditate?</p>
+               <div class="current_benificila_btn">
+                 <button>Nonate</button>
+                 <div class="">
+                   <button><i class="fa-brands fa-facebook"></i></button>
+                   <button><i class="fa-brands fa-whatsapp"></i></button>
+                 </div>
+               </div>
             </div>
           </div>
         </div>
+        
 
       </div>
     </div>
   </section>
   
 
+{/* lates News & award  */}
   <section className="arawd_new">
+
     <div class="container">
        <div className="headerr">
         <div>
@@ -343,7 +363,53 @@ export default function Home() {
       </section>
 
 
-      <section className="trust">
+    
+   
+
+
+
+
+
+      {/* LATEST NEWS  award  */}
+  
+
+
+{/* impact  */}
+
+  <section class="impact">
+    <div class="imapct_banner">
+      <div class="impact_content">
+       <i class="fa-solid fa-face-smile"></i>
+        <p>Dry snacks packets provided to migrant labourers</p>
+        <h2>7000+</h2>
+      </div>
+      <div class="impact_content">
+        <i class="fa-solid fa-face-smile"></i>
+        <p>Families provided with Ration kits (during Covid19)</p>
+        <h2>3000++</h2>
+      </div>
+      <div class="impact_content">
+       <i class="fa-solid fa-face-smile"></i>
+       <p>Patients treated</p>
+       <h2>250+</h2>
+      </div>
+      <div class="impact_content">
+       <i class="fa-solid fa-face-smile"></i>
+       <p>People Fed</p>
+       <h2>1250000+</h2>
+      </div>
+      <div class="impact_content">
+        <i class="fa-solid fa-face-smile"></i>
+        <p>480+ underprivileged children had been provided education</p>                
+        <h2>7000+</h2>
+      </div>
+    </div>
+
+  </section>
+
+
+{/* trust section  */}
+  <section className="trust">
             <div className="container">
               <div className="heading">
                 <h3>GIVING YOU CAN TRUST</h3>
@@ -380,8 +446,49 @@ export default function Home() {
       </section>
 
 
-      <section className="event">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* event section  */}
+  <section className="event">
         <div className="">
+          <div className="headeer">
+            <h3>Our Events</h3>
+            <button>View All Events</button>
+          </div>
         <div className="row">
           <div className="col-md-3 ">
             <figure><img src="https://api.nationalngo.net/uploads/807361_IMG_0103_6fe53f5264_1476e383db.jpg" className="w-100" alt=""/></figure>
@@ -395,7 +502,7 @@ export default function Home() {
           <div className="col-md-3 ">
             <figure><img src="https://api.nationalngo.net/uploads/60556148372436_2325324877697875_68205278956355584_n_08da8ba648_ea00b572e9.jpg" className="w-100" alt=""/></figure>
           </div>
-          <div className="col-md-3 ">
+          <div className="col-md-3 m-0 p-0">
             <figure><img src="https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg" className="w-100" alt=""/></figure>
           </div>
           <div className="col-md-3 ">
@@ -410,13 +517,6 @@ export default function Home() {
         </div>
         </div>
       </section>
-
-
-      {/* LATEST NEWS  award  */}
-  
-  
-
-  
  
  
  

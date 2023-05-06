@@ -7,6 +7,7 @@ import {Routes, Route} from "react-router-dom"
 import Home from "./components/pages/home/Home"
 import Programs from "./components/pages/programs/Programs"
 import About from "./components/pages/abouts/About"
+import Contact from "./components/pages/contacts/Contact"
 
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/"  element={<Home/>}  />
         <Route path="/about"  element={<About/>}  />
         <Route path="/programs"  element={<Programs/>}  />
+        <Route path="/contact"  element={<Contact />}  />
 
       </Routes>
       <Footer/>

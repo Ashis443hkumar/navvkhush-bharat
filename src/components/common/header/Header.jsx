@@ -18,13 +18,13 @@ export default function Header() {
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/programs">Programs</NavLink></li>
             <li><NavLink to="/">Blog</NavLink></li>
-            <li><NavLink to="/">Contact</NavLink></li>
-            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/">Join</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
 
             
           </ul>
           <div className="donate_btn">
-            <button>Donate Now</button>
+            <button class="hero_button" >Donate Now</button>
           </div>
         </nav>
          <div className="bargar_menu" onClick={() =>setisMobile(!isMobile)}>

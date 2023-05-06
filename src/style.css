@@ -20,3 +20,23 @@ a{
   padding: 10px 0;
   
 }
+.hero_button{
+  padding: 10px 26px;
+  color: #fff;
+  background-color: #d35400;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 0%;
+
+}
+/* .outline_btn{
+  outline: none;
+  padding: 10px 26px;
+  text-align: center;
+  border: 1px solid red;
+  background: none;
+  font-size: 18px;
+} */

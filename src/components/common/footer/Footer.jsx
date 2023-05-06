@@ -48,7 +48,7 @@ export default function Footer() {
                <h3>CONTACT US</h3>
              <div className="footer_content">
                <div className="donate_btn">
-                <button>Donate Now</button>
+                <button class="hero_button">Donate Now</button>
                </div>
                <div>
                  <ul>
