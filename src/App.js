@@ -9,6 +9,9 @@ import Programs from "./components/pages/programs/Programs"
 import About from "./components/pages/abouts/About"
 import Contact from "./components/pages/contacts/Contact"
 
+import Founder from  "./components/pages/abouts/Founder"
+import WhoWeAre from  "./components/pages/abouts/WhoWeAre"
+
 
 export default function App() {
   return (
@@ -20,7 +23,7 @@ export default function App() {
         <Route path="/about"  element={<About/>}  />
         <Route path="/programs"  element={<Programs/>}  />
         <Route path="/contact"  element={<Contact />}  />
-
+        <Route path="/about/founder"  element={<Founder />}  />
       </Routes>
       <Footer/>
     </div>

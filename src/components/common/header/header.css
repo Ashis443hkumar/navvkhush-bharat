@@ -23,12 +23,35 @@
 .navigation ul  li{
   list-style: none;
   margin-left: 19px;
+  /* position: relative; */
 }
-.navigation ul  li a{
+.navigation ul li a{
   text-decoration: none;
   font-size: 20px;
   color: #fff;
 }
+.navigation ul li a:hover{
+  color: #000;
+}
+
+/* dropdown  */
+
+ul li ul.dropdown_menu{
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  background-color: crimson;
+  padding: 10px;
+}
+ul li ul.dropdown_menu li a{
+  display: inline-block;
+}
+ul li:hover ul.dropdown_menu{
+  display: block;
+} 
+
+/* button  */
 .donate_btn button{
   margin-left: 30px;
   padding: 10px 30px;
