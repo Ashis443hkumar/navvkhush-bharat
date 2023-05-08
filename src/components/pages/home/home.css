@@ -27,7 +27,6 @@
 .headerr{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  
 }
 .headerr h2{
   font-size: 21px;
@@ -153,12 +152,11 @@
 }
 .impact_content i{
   font-size: 52px;
-
 }
-
 /* events  */
 .event{
   padding: 30px 0;
+  margin-bottom: 0%;
   padding-bottom: 0%;
 }
 .event .col-md-3{
@@ -175,7 +173,6 @@
   align-items: center;
   padding: 20px 5%;
 }
-
 
 /* .current_beneficials */
 .current_beneficial{
