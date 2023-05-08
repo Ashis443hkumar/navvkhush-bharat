@@ -36,6 +36,38 @@ export default function Founder() {
          </div>
        </section>
 
+
+       <section class="impact">
+    <div class="imapct_banner">
+      <div class="impact_content">
+       <i class="fa-solid fa-face-smile"></i>
+        <p>Dry snacks packets provided to migrant labourers</p>
+        <h2>7000+</h2>
+      </div>
+      <div class="impact_content">
+        <i class="fa-solid fa-face-smile"></i>
+        <p>Families provided with Ration kits (during Covid19)</p>
+        <h2>3000++</h2>
+      </div>
+      <div class="impact_content">
+       <i class="fa-solid fa-face-smile"></i>
+       <p>Patients treated</p>
+       <h2>250+</h2>
+      </div>
+      <div class="impact_content">
+       <i class="fa-solid fa-face-smile"></i>
+       <p>People Fed</p>
+       <h2>1250000+</h2>
+      </div>
+      <div class="impact_content">
+        <i class="fa-solid fa-face-smile"></i>
+        <p>480+ underprivileged children had been provided education</p>                
+        <h2>7000+</h2>
+      </div>
+    </div>
+
+  </section>
+
      </>
   );
 }

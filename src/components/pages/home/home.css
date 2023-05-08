@@ -1,15 +1,16 @@
 .mission_goal i{
   font-size: 52px;
   margin: 10px 0;
-
 }
 .feature_hme{
   margin: 30px 0;
 }
 
-
+/* you can trust me  */
 .trust{
   margin: 30px 0;
+  padding: 30px 0;
+  box-shadow: 0px 5px 5px 0px rgba(91,92,71,0.71);
 }
 .trust .trust_content{
   border-right: 2px solid red;
@@ -69,6 +70,7 @@
 .current_beneficials{
   padding: 30px 0;
 }
+
 .headerr{
   padding-bottom: 20px;
 }
@@ -100,13 +102,7 @@
   background-color: green;
   margin-right: 10px;
 
-  
-
-
 }
-
-
-
 .htfhgjk{
   display: flex;
   justify-content: space-between;
@@ -153,11 +149,19 @@
 .impact_content i{
   font-size: 52px;
 }
-/* events  */
+/* events  section */
 .event{
   padding: 30px 0;
   margin-bottom: 0%;
   padding-bottom: 0%;
+}
+.event h3{
+  color: #f39c12;
+}
+.event button{
+  padding: 10px 20px ;
+  border: 1px solid #f39c12;
+  color: #f39c12;
 }
 .event .col-md-3{
   padding: 0%;
@@ -173,6 +177,13 @@
   align-items: center;
   padding: 20px 5%;
 }
+
+/* successfull_store */
+.successfull_store h3{
+  color: #f39c12;
+
+}
+
 
 /* .current_beneficials */
 .current_beneficial{
@@ -203,4 +214,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* banner section  */
+.banner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 30vh;
+   background-color: #1289A7;
+   color: #fff;
+   padding: 10px 5%;
+}
+
+.banner h3{
+  font-size: 21px;
 }
