@@ -44,7 +44,7 @@ export default function Footer() {
             <strong><i class="fa-solid fa-envelope"></i></strong>
             <span>info@thecrimecontrol.com</span>
           </div>
-          <div class="email">
+          <div class="email phone">
             <strong><i class="fa-solid fa-phone"></i></strong>
             <span>+918287372178</span>
           </div>

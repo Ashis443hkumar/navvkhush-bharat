@@ -71,7 +71,7 @@ footer ul li{
   font-size: 17px;
   color: #999999;
 }
-.email{
+.address_bar .email{
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -85,6 +85,9 @@ footer ul li{
 .addres_link span{
   font-size: 18px;
   color: #999999;
+}
+ .phone{
+  margin-top: 10px;
 }
 
 /*footer  contact  */
