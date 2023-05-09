@@ -4,75 +4,73 @@ import "./footer.css"
 export default function Footer() {
   return (
     <>
-          <footer className="footer">
-          <div className="container-fluid ">
-            <div className="row">
-              <div className="col-md-3">
-                <h3>About </h3>
-                <p>Nearly 1.73 million children die in India every year due to lack of treatment. We work with communities to ensure that everyone receives adequate nutrition and healthcare services.</p>
-              </div>
-              <div className="col-md-2">
-                <h3>Main Links </h3>
-                <ul>
-                  <li>Our Approach</li>
-                  <li>Blood Donation</li>
-                  <li>Bag Donation</li>
-                  <li>Become a Volunteer</li>
-                  <li>Champions</li>
-                  <li>HoNational Calamitiesme</li>
-                </ul>
-              </div>
-              <div className="col-md-2">
-                <h3>Office Address</h3>
-                <ul>
-                  <li>Gallery</li>
-                  <li>Press Releases</li>
-                  <li>Testimonials</li>
-                  <li>Current Beneficiaries</li>
-                  <li>Successful Stories</li>
-                </ul>
-              </div>
-              <div className="col-md-2">
-                <h3>Office Address</h3>
-                <div>
-                <address>
-                  <p>Head Office : 21/41-42 2nd Floor Kalyan Puri, Delhi -110091</p>
-                </address>
-                <address>
-                  <p>Corporate Office : C-809 8th Floor Nirvana Courtyard Sector ,50 Gurugram</p>
-                </address>
-              </div>
-              </div>
-             <div className="col-md-3">
-             <div className="contact_footer">
-               <h3>CONTACT US</h3>
-             <div className="footer_content">
-               <div className="donate_btn">
-                <button class="hero_button">Donate Now</button>
-               </div>
-               <div>
-                 <ul>
-                   <li><i class="fa-solid fa-arrow-right"></i> Privacy Policy</li>
-                   <li><i cla ss="fa-solid fa-arrow-right"></i>Terms & Conditions</li>
-                   <li><i class="fa-solid fa-arrow-right"></i> Refund & Cancellation Policy</li>
-                 </ul>
-               </div>
-              <div className="head_right">
-              <div className="social_link">
+     <footer class="footer">
+        <div class="footer_logo">
+        <h3>ABOUT US</h3>
+          <p>Nearly 1.73 million children die in India every year due to lack of treatment. We work with communities to ensure that everyone receives adequate nutrition and healthcare services.</p>
+          <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
+        </div>
+        <div className="footer_links">
+          <h3>QUICK LINKS </h3>
+          <ul>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Home</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> About Us</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Programs</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Media</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        <div className="footer_links">
+          <h3>National NGO </h3>
+          <ul>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Gallery</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Press Releases</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Testimonials</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Current Beneficiaries </a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Successful Stories</a></li>
+          </ul>
+        </div>
+        <div className="footer_links addres_link">
+          <h3>Office Address</h3>
+          <div class="address_bar">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <address class="address"> Head Office : 21/41-42 2nd Floor Kalyan Puri, Delhi -110091</address> 
+          </div>
+          <div class="address_bar">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <address>Corporate Office : C-314 3th Floor, Nirvana Courtyard, Sector-50, Gurugram -  122018.</address>
+          </div>
+          <div class="email">
+            <strong><i class="fa-solid fa-envelope"></i></strong>
+            <span>info@thecrimecontrol.com</span>
+          </div>
+          <div class="email">
+            <strong><i class="fa-solid fa-phone"></i></strong>
+            <span>+918287372178</span>
+          </div>
+        </div>
+
+        <div className="footer_social_links">
+          <h3>CONTACT US </h3>
+           <div class="">
+             <button>Donate now</button>
+             <ul>
+               <li><a href="">Donation</a></li>
+               <li><a href="">Terms and Conditions</a></li>
+               <li><a href="">Privacy Policy</a></li>
+               <li><a href="">Cancellation & Refund Policy</a></li>
+             </ul>
+             <div className="social_link">
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-youtube"></i></a>
               </div>
-             </div>
-            </div>
            </div>
-          </div>
-
-          </div>
-          </div>
+        </div>
+        
       </footer>
-     
+ 
       
     </>
   );
