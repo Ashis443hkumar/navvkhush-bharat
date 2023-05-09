@@ -78,7 +78,8 @@ export default function Home() {
       </section>
 
       {/* WHO WE ARE */}
-      <section className="container my-4 py-4">
+      <section class="whoAeAre_section">
+        <div className="container my-4 py-4">
         <div className="row">
           <div className="col-md-6">
             <h3>WHO WE ARE</h3>
@@ -90,9 +91,7 @@ export default function Home() {
               without barriers should not be a luxury but a right. We are doing
               our bit to ensure that disability does not entail disadvantage. At
               National NGO we are working to advance the rights of persons with
-              disabilities (PWDs) in our society and in the larger scheme of
-              national development, through micro level social intervention.
-              Established in 2012, National NGO has been continually working for
+              disabilities (PWDs) in our society has been continually working for
               social integration of persons with disability. Although we work
               with a small set of people, we go all the way in supporting them
               to become self-sufficient. Through these years, we have assumed
@@ -111,10 +110,10 @@ export default function Home() {
             </figure>
           </div>
         </div>
+        </div>
       </section>
 
       {/* mission & goals  */}
-
       <section className="container  mission_goal my-4">
         <div className="heading pt-4">
           <h2>Mission & Goals</h2>
@@ -166,201 +165,52 @@ export default function Home() {
           </div>
           <div className="row">
             <div className="col-md-4">
-              <figure>
-                <img
-                  src="https://www.nationalngo.net/assets/images/05.png"
-                  className="w-100"
-                  alt=""
-                />
-                <div>
-                  <h3>Feeding the Hungry</h3>
-                  <p>
-                    Empty stomachs and no roof on the head often lead to
-                    undesirable acts! In the dominant response to COVID-19,
-                    National NGO have been providing cooked meals, Dry Rashan
-                    and other essentials to the needy with support of Delhi
-                    Government. So far we have fed more than 4, 00,000 people in
-                    Delhi by consistently providing food without any failure
-                    every day ... <a href="">Read More</a>{' '}
-                  </p>
-                </div>
-              </figure>
+             <div className="card">
+             <img src="https://www.nationalngo.net/assets/images/05.png" className="w-100" alt=""/>
+              <div className="card-body">
+                <h3>Feeding the Hungry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tempora asperiores, autem sequi veritatis a. Aut aliquam necessitatibus veniam officiis dicta?</p>
+              </div>
+             </div>
             </div>
             <div className="col-md-4">
-              <figure>
-                <img
-                  src="https://www.nationalngo.net/assets/images/05.png"
-                  className="w-100"
-                  alt=""
-                />
-                <div>
-                  <h3>Feeding the Hungry</h3>
-                  <p>
-                    Empty stomachs and no roof on the head often lead to
-                    undesirable acts! In the dominant response to COVID-19,
-                    National NGO have been providing cooked meals, Dry Rashan
-                    and other essentials to the needy with support of Delhi
-                    Government. So far we have fed more than 4, 00,000 people in
-                    Delhi by consistently providing food without any failure
-                    every day ... <a href="">Read More</a>{' '}
-                  </p>
-                </div>
-              </figure>
+             <div className="card">
+             <img src="https://www.nationalngo.net/assets/images/05.png" className="w-100" alt=""/>
+              <div className="card-body">
+                <h3>Feeding the Hungry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tempora asperiores, autem sequi veritatis a. Aut aliquam necessitatibus veniam officiis dicta?</p>
+              </div>
+             </div>
             </div>
+
             <div className="col-md-4">
-              <figure>
-                <img
-                  src="https://www.nationalngo.net/assets/images/05.png"
-                  className="w-100"
-                  alt=""
-                />
-                <div>
-                  <h3>Feeding the Hungry</h3>
-                  <p>
-                    Empty stomachs and no roof on the head often lead to
-                    undesirable acts! In the dominant response to COVID-19,
-                    National NGO have been providing cooked meals, Dry Rashan
-                    and other essentials to the needy with support of Delhi
-                    Government. So far we have fed more than 4, 00,000 people in
-                    Delhi by consistently providing food without any failure
-                    every day ... <a href="">Read More</a>{' '}
-                  </p>
-                </div>
-              </figure>
+             <div className="card">
+             <img src="https://www.nationalngo.net/assets/images/05.png" className="w-100" alt=""/>
+              <div className="card-body">
+                <h3>Feeding the Hungry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tempora asperiores, autem sequi veritatis a. Aut aliquam necessitatibus veniam officiis dicta?</p>
+              </div>
+             </div>
             </div>
+
+
+           
+
+            
+
           </div>
         </div>
       </section>
 
-      <section>
-        <div className="row">
-          <div className="row">
-            <div className="col-md-2">
-              <figure>
-                <img src="" className="w-100" alt="" />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img src="" className="w-100" alt="" />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img src="" className="w-100" alt="" />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img src="" className="w-100" alt="" />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img src="" className="w-100" alt="" />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img src="" className="w-100" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* successful sotore section  */}
-      <section class="current_beneficials successfull_store">
-        <div className="container">
-          <div className="headerr">
-            <h3>SUCCESSFUL STORIES</h3>
-            <button class="outline_btn">All cases</button>
-          </div>
-          <div className="row">
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg"
-                  class="img-top w-100"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h3>Manav Kumar (5 Years)</h3>
-                  <p>
-                    PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL
-                    TREATMENT Meet Manav
-                  </p>
-                  <div class="htfhgjk">
-                    <button> Heart Disease</button>
-                    <button>MEDICAL DOCUMENTS</button>
-                  </div>
-                  <div class="dsfsd">
-                    <h3>Goal: ₹700000</h3>
-                    <h3>Raised: ₹50000</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg"
-                  class="img-top w-100"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h3>Manav Kumar (5 Years)</h3>
-                  <p>
-                    PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL
-                    TREATMENT Meet Manav
-                  </p>
-                  <div class="htfhgjk">
-                    <button> Heart Disease</button>
-                    <button>MEDICAL DOCUMENTS</button>
-                  </div>
-                  <div class="dsfsd">
-                    <h3>Goal: ₹700000</h3>
-                    <h3>Raised: ₹50000</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg"
-                  class="img-top w-100"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h3>Manav Kumar (5 Years)</h3>
-                  <p>
-                    PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL
-                    TREATMENT Meet Manav
-                  </p>
-                  <div class="htfhgjk">
-                    <button> Heart Disease</button>
-                    <button>MEDICAL DOCUMENTS</button>
-                  </div>
-                  <div class="dsfsd">
-                    <h3>Goal: ₹700000</h3>
-                    <h3>Raised: ₹50000</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* successful stores section  */}
-
       <section class="current_beneficial">
         <div className="container">
           <div className="headerr">
             <h3>CURRENT BENEFICIARIES</h3>
             <button class="hero_button">All cases</button>
           </div>
+
           <div className="row">
             <div className="col-md-4">
               <div className="card">
@@ -371,7 +221,7 @@ export default function Home() {
                 />
                 <div className="card-body crrent_ben_content">
                   <h3>tanvi kumari</h3>
-                  <h3>medicial document</h3>
+                  <h3 class="disibale-color">medicial document</h3>
                   <h4>
                     <i class="fa-solid fa-bomb"></i>blood cancer
                   </h4>
@@ -395,6 +245,7 @@ export default function Home() {
                       </button>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -407,7 +258,7 @@ export default function Home() {
                 />
                 <div className="card-body crrent_ben_content">
                   <h3>tanvi kumari</h3>
-                  <h3>medicial document</h3>
+                  <h3 class="disibale-color">medicial document</h3>
                   <h4>
                     <i class="fa-solid fa-bomb"></i>blood cancer
                   </h4>
@@ -421,16 +272,17 @@ export default function Home() {
                     laborum sit ad qui eligendi reprehenderit cupiditate?
                   </p>
                   <div class="current_benificila_btn">
-                    <button>Nonate</button>
-                    <div class="">
-                      <button>
+                    <button class="hero_button">Nonate Now</button>
+                    <div class="current_beneficils_btn">
+                      <button class="hero_button fb_icons">
                         <i class="fa-brands fa-facebook"></i>
                       </button>
-                      <button>
+                      <button class="hero_button wh-icons">
                         <i class="fa-brands fa-whatsapp"></i>
                       </button>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -443,7 +295,7 @@ export default function Home() {
                 />
                 <div className="card-body crrent_ben_content">
                   <h3>tanvi kumari</h3>
-                  <h3>medicial document</h3>
+                  <h3 class="disibale-color">medicial document</h3>
                   <h4>
                     <i class="fa-solid fa-bomb"></i>blood cancer
                   </h4>
@@ -457,16 +309,17 @@ export default function Home() {
                     laborum sit ad qui eligendi reprehenderit cupiditate?
                   </p>
                   <div class="current_benificila_btn">
-                    <button>Nonate</button>
-                    <div class="">
-                      <button>
+                    <button class="hero_button">Nonate Now</button>
+                    <div class="current_beneficils_btn">
+                      <button class="hero_button fb_icons">
                         <i class="fa-brands fa-facebook"></i>
                       </button>
-                      <button>
+                      <button class="hero_button wh-icons">
                         <i class="fa-brands fa-whatsapp"></i>
                       </button>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -481,7 +334,7 @@ export default function Home() {
             <div>
               <h2>LATEST NEWS</h2>
             </div>
-            <div class="hbvb">
+            <div class="award_btn">
               <h3>AWARDS</h3>
               <button>VIEW ALL</button>
             </div>
@@ -559,7 +412,7 @@ export default function Home() {
       </section>
 
 
-      {/* impact  */}
+      {/* impact section   */}
       <section class="impact">
         <div class="imapct_banner">
           <div class="impact_content">
@@ -595,11 +448,9 @@ export default function Home() {
         <div className="container">
           <div className="heading">
             <h3>GIVING YOU CAN TRUST</h3>
-            <p></p>
           </div>
-          <div className="row">
-            <div className="col-md-6 trust_content">
-              <img src="" alt="" />
+          <div className="row mt-4">
+            <div className="col-md-6 pt-3 trust_content">
               <p>
                 National OrganisationFor Social Empowerment was established in
                 2012, we have been continually working for social integration of
@@ -610,9 +461,9 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="col-md-6 trust_people">
+            <div className="col-md-6 p-4 trust_people">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 ">
                   <h2>70M+</h2>
                   <p>Raised for nonprofits</p>
                 </div>
@@ -731,15 +582,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section class="blog">
-   <div className="container">
-     <div className="row">
-       <div className="col-md-4">
-
-       </div>
-     </div>
-   </div>
- </section> */}
+  
     </>
   );
 }
