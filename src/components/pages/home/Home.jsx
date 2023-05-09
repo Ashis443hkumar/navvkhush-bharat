@@ -1,11 +1,14 @@
 import React from 'react';
 import Hero from './hero/Hero';
 import './home.css';
+import Slide from './Slide';
 
 export default function Home() {
   return (
     <>
       <Hero />
+
+      <Slide/>
 
       <section className="feature_hme">
         <div className="container-fluid">
