@@ -10,6 +10,7 @@ export default function Footer() {
           <p>Nearly 1.73 million children die in India every year due to lack of treatment. We work with communities to ensure that everyone receives adequate nutrition and healthcare services.</p>
           <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
         </div>
+        
         <div className="footer_links">
           <h3>QUICK LINKS </h3>
           <ul>
@@ -20,16 +21,7 @@ export default function Footer() {
             <li><a href=""><i class="fa-solid fa-greater-than"></i> Contact Us</a></li>
           </ul>
         </div>
-        <div className="footer_links">
-          <h3>National NGO </h3>
-          <ul>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Gallery</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Press Releases</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Testimonials</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Current Beneficiaries </a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Successful Stories</a></li>
-          </ul>
-        </div>
+     
         <div className="footer_links addres_link">
           <h3>Office Address</h3>
           <div class="address_bar">
