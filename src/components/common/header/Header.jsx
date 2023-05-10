@@ -25,9 +25,21 @@ export default function Header() {
                 <li><NavLink to="">Bank Details</NavLink></li>
               </ul>
             </li>
-            <li><NavLink to="/programs">Programs</NavLink></li>
+            <li><NavLink to="/programs">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
+              <ul class="dropdown_menu">
+                <li><NavLink to="/about/founder">Founder </NavLink></li>
+                <li><NavLink to="">Our Approach</NavLink></li>
+                <li><NavLink to="">Bank Details</NavLink></li>
+              </ul>
+            </li>
+            <li><NavLink to="/programs">Media <i class="fa-solid fa-caret-down"></i></NavLink>
+              <ul class="dropdown_menu">
+                <li><NavLink to="/about/founder">Founder </NavLink></li>
+                <li><NavLink to="">Our Approach</NavLink></li>
+                <li><NavLink to="">Bank Details</NavLink></li>
+              </ul>
+            </li>
             <li><NavLink to="/">Blog</NavLink></li>
-            <li><NavLink to="/">Join</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="donate_btn">
