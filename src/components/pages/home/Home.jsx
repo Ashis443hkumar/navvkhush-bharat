@@ -14,7 +14,7 @@ export default function Home() {
         <div className="container my-4 py-4">
         <div className="row">
           <div className="col-md-6">
-            <h3>What we do</h3>
+            <h3>WHO WE ARE</h3>
             <p>
               National Organisation for Social Empowerment (NOFSE) is a
               registered NGO working for the differently abled and
@@ -85,8 +85,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* recent cases */}
-      <section classsName="recen_case my-4">
+    
+ 
+   {/* youtube thubnails section */}
+     <section class="youtube_thhubanail my-5">
+       <div className="container my-3">
+         <div className="heading">
+           <h1>Video</h1>
+         </div>
+         <div className="row my-3">
+           <div className="col-md-4">
+             <ReactPlayer url='https://youtu.be/f7_OZchjP9s' autoplay  class="w-100" />
+           </div>
+           <div className="col-md-4">
+             <ReactPlayer url='https://youtu.be/wnF8HLbu9VA' class="w-100"  />
+           </div>
+           <div className="col-md-4">
+           <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' class="w-100" />
+           </div>
+  
+         </div>
+       </div>
+     </section>
+
+ {/* recent cases */}
+   <section classsName="recen_case my-4 py-4">
         <div className="container">
           <div className="heading">
             <h2>Our Recent Causes</h2>
@@ -124,164 +147,13 @@ export default function Home() {
               </div>
              </div>
             </div>
-
-
-           
-
-            
-
           </div>
         </div>
       </section>
-
- 
-   {/* youtube thubnails section */}
-     <section class="youtube_thhubanail my-5">
-       <div className="container my-3">
-         <div className="heading">
-           <h1>Video</h1>
-         </div>
-         <div className="row my-3">
-           <div className="col-md-4">
-             <ReactPlayer url='https://youtu.be/f7_OZchjP9s' autoplay  class="w-100" />
-           </div>
-           <div className="col-md-4">
-             <ReactPlayer url='https://youtu.be/wnF8HLbu9VA' class="w-100"  />
-           </div>
-           <div className="col-md-4">
-           <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' class="w-100" />
-           </div>
-  
-         </div>
-       </div>
-     </section>
-
-      {/* successful stores section  */}
-      <section class="current_beneficial">
-        <div className="container">
-          <div className="headerr">
-            <h3>CURRENT BENEFICIARIES</h3>
-            <button class="hero_button">All cases</button>
-          </div>
-
-          <div className="row">
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://nationalngo.net/php/uploads/1681558370.png"
-                  class="img-top w-100"
-                  alt=""
-                />
-                <div className="card-body crrent_ben_content">
-                  <h3>tanvi kumari</h3>
-                  <h3 class="disibale-color">medicial document</h3>
-                  <h4>
-                    <i class="fa-solid fa-bomb"></i>blood cancer
-                  </h4>
-                  <p>
-                    PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL
-                    TREATMENT Meet Manav
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eaque magni iusto molestias ipsam distinctio sunt! Aliquam
-                    laborum sit ad qui eligendi reprehenderit cupiditate?
-                  </p>
-                  <div class="current_benificila_btn">
-                    <button class="hero_button">Nonate Now</button>
-                    <div class="current_beneficils_btn">
-                      <button class="hero_button fb_icons">
-                        <i class="fa-brands fa-facebook"></i>
-                      </button>
-                      <button class="hero_button wh-icons">
-                        <i class="fa-brands fa-whatsapp"></i>
-                      </button>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://nationalngo.net/php/uploads/1681558370.png"
-                  class="img-top w-100"
-                  alt=""
-                />
-                <div className="card-body crrent_ben_content">
-                  <h3>tanvi kumari</h3>
-                  <h3 class="disibale-color">medicial document</h3>
-                  <h4>
-                    <i class="fa-solid fa-bomb"></i>blood cancer
-                  </h4>
-                  <p>
-                    PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL
-                    TREATMENT Meet Manav
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eaque magni iusto molestias ipsam distinctio sunt! Aliquam
-                    laborum sit ad qui eligendi reprehenderit cupiditate?
-                  </p>
-                  <div class="current_benificila_btn">
-                    <button class="hero_button">Nonate Now</button>
-                    <div class="current_beneficils_btn">
-                      <button class="hero_button fb_icons">
-                        <i class="fa-brands fa-facebook"></i>
-                      </button>
-                      <button class="hero_button wh-icons">
-                        <i class="fa-brands fa-whatsapp"></i>
-                      </button>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://nationalngo.net/php/uploads/1681558370.png"
-                  class="img-top w-100"
-                  alt=""
-                />
-                <div className="card-body crrent_ben_content">
-                  <h3>tanvi kumari</h3>
-                  <h3 class="disibale-color">medicial document</h3>
-                  <h4>
-                    <i class="fa-solid fa-bomb"></i>blood cancer
-                  </h4>
-                  <p>
-                    PLEASE HELP SAVE MANAV’S LIFE BY DONATING TO HIS MEDICAL
-                    TREATMENT Meet Manav
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eaque magni iusto molestias ipsam distinctio sunt! Aliquam
-                    laborum sit ad qui eligendi reprehenderit cupiditate?
-                  </p>
-                  <div class="current_benificila_btn">
-                    <button class="hero_button">Nonate Now</button>
-                    <div class="current_beneficils_btn">
-                      <button class="hero_button fb_icons">
-                        <i class="fa-brands fa-facebook"></i>
-                      </button>
-                      <button class="hero_button wh-icons">
-                        <i class="fa-brands fa-whatsapp"></i>
-                      </button>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* lates News & award  */}
-      <section className="arawd_new">
+      <section className="arawd_new mt-4">
         <div class="container">
           <div className="headerr">
             <div>
@@ -347,7 +219,7 @@ export default function Home() {
 
 
       {/* impact section   */}
-      <section class="impact">
+      <section class="impact mt-0">
         <div className="heading my-4">
           <h1>Our Impact to Society</h1>
         </div>
@@ -438,7 +310,7 @@ export default function Home() {
       {/* testimonial section  */}
 
       <section class="home-testimonial">
-    <div class="container-fluid">
+        <div class="container-fluid">
         <div class="row d-flex justify-content-center testimonial-pos">
             <div class="col-md-12 pt-4 d-flex justify-content-center">
                 <h3>Testimonials</h3>
@@ -453,10 +325,10 @@ export default function Home() {
                     <div class="col-md-4 style-3">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="tour-text color-grey-3 text-center">&ldquo; I am so grateful for the work that this NGO does to empower women and educate children. Their commitment to creating a better future for vulnerable communities is truly inspiring.&rdquo;</div>
                                 <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""/></div>
-                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
-                                <div class="link-position d-flex justify-content-center">Student</div>
+                                <div class="link-name d-flex justify-content-center">Seema Yadav</div>
+                                <div class="link-position d-flex justify-content-center">Hr</div>
                             </div>
                         </div>
                     </div>
@@ -464,7 +336,7 @@ export default function Home() {
                     <div class="col-md-4 style-3">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="tour-text color-grey-3 text-center">&ldquo;I have seen firsthand the impact that this NGO has on the lives of women and children. Their dedication to providing education and resources has transformed communities and given hope.&rdquo;</div>
                                 <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" /></div>
                                 <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
                                 <div class="link-position d-flex justify-content-center">Student</div>
@@ -474,7 +346,7 @@ export default function Home() {
                     <div class="col-md-4 style-3">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="tour-text color-grey-3 text-center">&ldquo;As a mother, I cannot express enough how important it is for children to have access to quality education. This NGO is doing incredible work to ensure that all children have the opportunity to learn and succeed..&rdquo;</div>
                                 <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" /></div>
                                 <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
                                 <div class="link-position d-flex justify-content-center">Student</div>
@@ -485,33 +357,9 @@ export default function Home() {
                  </div>
                 </div>
         </section>
-    </div>
-</section>
-
-
-
+        </div>
+      </section>
       {/* testimonial  end  */}
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       {/* our partner section  */}
@@ -580,6 +428,33 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ------------ marq --------- */}
+      <div class = "main">
+      <marquee class="marq" bgcolor = "Green" direction = "left" loop="" >
+         <div class="dsfdfsdf">
+         <div class="rwetewte">
+            <h2>Hello Good Evening</h2>
+          </div>
+          <div class="rwetewte">
+            <h2>Hello Good Evening</h2>
+          </div>
+          <div class="rwetewte">
+            <h2>Hello Good Evening</h2>
+          </div>
+          <div class="rwetewte">
+            <h2>Hello Good Evening</h2>
+          </div>
+          <div class="rwetewte">
+            <h2>Hello Good Evening</h2>
+          </div>
+          <div class="rwetewte">
+            <h2>Hello Good Evening</h2>
+          </div>
+         </div>
+      </marquee>
+      </div>
+
+
      {/* our award section  */}
        <section className="Our_partner arard_partner">
         <div className="container-fluid">
@@ -590,7 +465,7 @@ export default function Home() {
             <div className="col-md-2 partner_img ">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/corpet.jpg"
+                  src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Scopup.jpg"
                   className="w-100"
                   alt=""
                 />
@@ -599,7 +474,7 @@ export default function Home() {
             <div className="col-md-2 partner_img">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/honda.jpg"
+                  src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/world-csr-congress.jpg"
                   className="w-100"
                   alt=""
                 />
@@ -617,7 +492,7 @@ export default function Home() {
             <div className="col-md-2 partner_img">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/munjal.jpg"
+                  src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Zee-Business.jpg"
                   className="w-100"
                   alt=""
                 />
@@ -635,7 +510,7 @@ export default function Home() {
             <div className="col-md-2 partner_img">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg"
+                  src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/UTV-Bindass-logo.png"
                   className="w-100"
                   alt=""
                 />
