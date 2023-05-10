@@ -1,16 +1,14 @@
 import React from 'react';
 import Hero from './hero/Hero';
 import './home.css';
-// import Slide from './Slide';
+
+import ReactPlayer from 'react-player'
 
 export default function Home() {
   return (
     <>
       <Hero />
 
-      {/* <Slide/> */}
-
-  
       {/* WHO WE ARE */}
       <section class="whoAeAre_section">
         <div className="container my-4 py-4">
@@ -136,6 +134,8 @@ export default function Home() {
         </div>
       </section>
 
+ 
+   {/* youtube thubnails section */}
      <section class="youtube_thhubanail my-5">
        <div className="container my-3">
          <div className="heading">
@@ -143,27 +143,15 @@ export default function Home() {
          </div>
          <div className="row my-3">
            <div className="col-md-4">
-             <div class="">
-                <video  autoplay loop muted controls plays-inline > 
-                   {/* <source src="https://youtu.be/znqUwx0b0HI" type="video/mp4"/> */}
-                 </video> 
-              </div>
+             <ReactPlayer url='https://youtu.be/f7_OZchjP9s' autoplay  class="w-100" />
            </div>
            <div className="col-md-4">
-             <div class="">
-                <video  autoplay loop muted controls plays-inline > 
-                   {/* <source src="https://youtu.be/znqUwx0b0HI" type="video/mp4"/> */}
-                 </video> 
-              </div>
+             <ReactPlayer url='https://youtu.be/wnF8HLbu9VA' class="w-100"  />
            </div>
            <div className="col-md-4">
-             <div class="">
-                <video  autoplay loop muted controls plays-inline > 
-                   {/* <source src="https://youtu.be/znqUwx0b0HI" type="video/mp4"/> */}
-                 </video> 
-              </div>
+           <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' class="w-100" />
            </div>
-
+  
          </div>
        </div>
      </section>
@@ -446,6 +434,85 @@ export default function Home() {
           <button class="hero_button">Become a Volunteer</button>
         </div>
       </section>
+
+      {/* testimonial section  */}
+
+      <section class="home-testimonial">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center testimonial-pos">
+            <div class="col-md-12 pt-4 d-flex justify-content-center">
+                <h3>Testimonials</h3>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center">
+                <h2>Explore the students experience</h2>
+            </div>
+        </div>
+        <section class="home-testimonial-bottom">
+            <div class="container testimonial-inner">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""/></div>
+                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" /></div>
+                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" /></div>
+                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+
+                 </div>
+                </div>
+        </section>
+    </div>
+</section>
+
+
+
+      {/* testimonial  end  */}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* our partner section  */}
       <section className="Our_partner">
