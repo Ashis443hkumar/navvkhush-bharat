@@ -72,6 +72,7 @@ ul li ul.dropdown_menu li a{
   padding-bottom: 10px;
   color: #fff;
   margin-right: 0;
+  font-size: 13px;
 }
 ul li:hover ul.dropdown_menu{
   display: block;

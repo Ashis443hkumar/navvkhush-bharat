@@ -27,16 +27,17 @@ export default function Header() {
             </li>
             <li><NavLink to="/programs">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="/about/founder">Founder </NavLink></li>
-                <li><NavLink to="">Our Approach</NavLink></li>
+                <li><NavLink to="/about/founder">WOMEN EMPOWERMENT </NavLink></li>
+                <li><NavLink to="">DIGITAL LITERACY</NavLink></li>
                 <li><NavLink to="">Bank Details</NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/programs">Media <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="/about/founder">Founder </NavLink></li>
-                <li><NavLink to="">Our Approach</NavLink></li>
-                <li><NavLink to="">Bank Details</NavLink></li>
+                <li><NavLink to="/about/founder">Annual report</NavLink></li>
+                <li><NavLink to="">NewsLetter</NavLink></li>
+                <li><NavLink to="">Gallery</NavLink></li>
+                <li><NavLink to="">Upcoming Events</NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/">Blog</NavLink></li>

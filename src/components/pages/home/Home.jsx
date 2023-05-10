@@ -10,76 +10,7 @@ export default function Home() {
 
       {/* <Slide/> */}
 
-      <section className="feature_hme">
-        <div className="container-fluid">
-          <div className="heading">
-            <h3>Asscioation and partner</h3>
-          </div>
-          <div className="row my-3">
-            <div className="col-md-2">
-              <figure>
-                <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/corpet.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/honda.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/hsl.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/munjal.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/shivam.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-2">
-              <figure>
-                <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            {/* <div className="col-md-2">
-              <figure><img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg" className="w-100" alt=""/></figure>
-            </div>
-            <div className="col-md-2">
-              <figure><img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/ag.jpg" className="w-100" alt=""/></figure>
-            </div> */}
-          </div>
-        </div>
-      </section>
-
+  
       {/* WHO WE ARE */}
       <section class="whoAeAre_section">
         <div className="container my-4 py-4">
@@ -500,6 +431,73 @@ export default function Home() {
           <button class="hero_button">Become a Volunteer</button>
         </div>
       </section>
+
+      <section className="feature_hme">
+        <div className="container-fluid">
+          <div className="heading">
+            <h3>Our Partners</h3>
+          </div>
+          <div className="row my-3">
+            <div className="col-md-2">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/corpet.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/honda.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/hsl.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/munjal.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/shivam.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+
+
 
       {/* event section  */}
       <section className="event">
