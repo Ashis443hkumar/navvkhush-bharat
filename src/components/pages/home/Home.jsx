@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container my-4 py-4">
         <div className="row">
           <div className="col-md-6">
-            <h3>WHO WE ARE</h3>
+            <h3>What we do</h3>
             <p>
               National Organisation for Social Empowerment (NOFSE) is a
               registered NGO working for the differently abled and
@@ -136,6 +136,37 @@ export default function Home() {
         </div>
       </section>
 
+     <section class="youtube_thhubanail my-5">
+       <div className="container my-3">
+         <div className="heading">
+           <h1>Video</h1>
+         </div>
+         <div className="row my-3">
+           <div className="col-md-4">
+             <div class="">
+                <video  autoplay loop muted controls plays-inline > 
+                   {/* <source src="https://youtu.be/znqUwx0b0HI" type="video/mp4"/> */}
+                 </video> 
+              </div>
+           </div>
+           <div className="col-md-4">
+             <div class="">
+                <video  autoplay loop muted controls plays-inline > 
+                   {/* <source src="https://youtu.be/znqUwx0b0HI" type="video/mp4"/> */}
+                 </video> 
+              </div>
+           </div>
+           <div className="col-md-4">
+             <div class="">
+                <video  autoplay loop muted controls plays-inline > 
+                   {/* <source src="https://youtu.be/znqUwx0b0HI" type="video/mp4"/> */}
+                 </video> 
+              </div>
+           </div>
+
+         </div>
+       </div>
+     </section>
 
       {/* successful stores section  */}
       <section class="current_beneficial">
@@ -296,25 +327,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              {/* .row end */}
-              <div class="row">
-                <div className="col-md-3">
-                  <div className="row">
-                    <div className="col-12 bg-warning">
-                      <h3>19may, 2021</h3>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-9 lates_new_post">
-                  <h6> The Times of India</h6>
-                  <h5>Food, ration, O2: NGO reaches out to Poor</h5>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolorem quam quod illum!
-                  </p>
-                </div>
-              </div>
-              <hr />
+           
               {/* row -end  */}
               <div class="row">
                 <div className="col-md-3">
@@ -333,9 +346,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <hr />
             </div>
-            <div className="col-md-6 bg-danger text-center">
+            <div className="col-md-6 text-center">
               <img
                 src="https://www.nationalngo.net/assets/images/NCT_Award.png"
                 alt=""
@@ -348,6 +360,9 @@ export default function Home() {
 
       {/* impact section   */}
       <section class="impact">
+        <div className="heading my-4">
+          <h1>Our Impact to Society</h1>
+        </div>
         <div class="imapct_banner">
           <div class="impact_content">
             <i class="fa-solid fa-face-smile"></i>
@@ -432,13 +447,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="feature_hme">
+      {/* our partner section  */}
+      <section className="Our_partner">
         <div className="container-fluid">
           <div className="heading">
             <h3>Our Partners</h3>
           </div>
           <div className="row my-3">
-            <div className="col-md-2">
+            <div className="col-md-2 partner_img ">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/corpet.jpg"
@@ -447,7 +463,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 partner_img">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/honda.jpg"
@@ -456,7 +472,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 partner_img">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/hsl.jpg"
@@ -465,7 +481,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 partner_img">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/munjal.jpg"
@@ -474,7 +490,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 partner_img">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/shivam.jpg"
@@ -483,7 +499,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 partner_img">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg"
@@ -497,6 +513,71 @@ export default function Home() {
         </div>
       </section>
 
+     {/* our award section  */}
+       <section className="Our_partner arard_partner">
+        <div className="container-fluid">
+          <div className="heading">
+            <h3>Our Award</h3>
+          </div>
+          <div className="row my-3">
+            <div className="col-md-2 partner_img ">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/corpet.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2 partner_img">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/honda.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2 partner_img">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/hsl.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2 partner_img">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/munjal.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2 partner_img">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/shivam.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="col-md-2 partner_img">
+              <figure>
+                <img
+                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg"
+                  className="w-100"
+                  alt=""
+                />
+              </figure>
+            </div>
+          
+          </div>
+        </div>
+      </section>
 
 
       {/* event section  */}

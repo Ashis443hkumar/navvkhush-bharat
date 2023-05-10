@@ -2,8 +2,25 @@
   font-size: 52px;
   margin: 10px 0;
 }
-.feature_hme{
-  margin: 30px 0;
+/* --------------Our_partner ----- */
+.Our_partner{
+  padding: 30px 5%;
+  /* background-color: #9999; */
+  background-color: #f2f2f2;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.Our_partner img{
+  width: 100px;
+  height: 100px;
+}
+.Our_partne .partner_img:hover img{
+  transform: rotate(90deg);
+}
+/* arard_partner */
+
+.arard_partner{
+  background-color: #f2f2f2;
 }
 
 /* you can trust me  */
@@ -47,7 +64,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 5%;
+  padding: 10px 5%;
 }
 .award_btn{
   display: flex;
@@ -64,40 +81,12 @@
   font-size: 21px;
 }
 
-/* .hbvb button{
-  border: none;
-  outline: none;
-  background: none;
-  text-align: end;
-}
-.lates_new_post h6{
-  font-size: 12px;
-}
-.lates_new_post h5{
-  font-size: 17px;
-
-}
-.lates_new_post p{
-  font-size: 15px;
-}
-.award_cont h3{
-  font-size: 18px;
-}
- button{
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 18px
-
-} */
-
 /* current_beneficials */
 .current_beneficials{
   padding: 30px 0;
 }
-
 .headerr{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .headerr button{
   text-align: end;
@@ -148,13 +137,17 @@
 
 /* imapct  */
 .impact{
-  background-image: url(https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg);
+  background-image: linear-gradient(rgba(211,211,211,0.91),rgba(231,191,311,0.71)), url(https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
   height: 80vh;
   position: relative;
+}
+.impact .heading h1{
+  color: #fff;
+  margin-bottom: 20px;
 }
 .imapct_banner{
   background-color: #f39c12;
