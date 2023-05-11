@@ -2,7 +2,7 @@
 .footer{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  gap: 40px;
+  /* gap: 40px; */
   column-gap: 30px;
   padding: 40px 6%;
   color: #fff;

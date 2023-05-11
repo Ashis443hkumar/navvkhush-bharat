@@ -1,10 +1,14 @@
 import React from "react";
 import "./heading.css"
 
-export default function About() {
+export default function Heading({ title, subtitle }) {
   return (
      <>
-       <h2>Heading  pages</h2>
+     <section class="heading">
+       <h2>{title}</h2>
+       <p>{subtitle}</p>
+
+     </section>
      </>
   );
 }

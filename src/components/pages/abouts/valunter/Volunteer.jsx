@@ -1,13 +1,15 @@
 import React from 'react';
+import Heading from '../../../common/heading/Heading';
 import "./volunteer.css"
 export default function Volunteer() {
   return (
    <>
    <section class="volunteer">
         <div className="conatiner">
-          <div className="heading">
+          {/* <div className="heading">
             <h1>Volunteer with Us</h1>
-          </div>
+          </div> */}
+          <Heading title="Volunteer with Us" />
           <div className="row">
             <div className="col-12">
               <p>Volunteering is an incredibly rewarding experience that allows individuals to contribute their time and skills towards a worthy cause. At our organisation, we welcome volunteers from all walks of life who share our vision of making a positive impact in our community. Whether you are a student, a working professional, or a retiree, there are numerous opportunities for you to get involved and make a difference</p>
@@ -26,9 +28,11 @@ export default function Volunteer() {
 
     {/* impact section   */}
     <section class="impact mt-0">
-        <div className="heading my-4">
+        {/* <div className="heading my-4">
           <h1>Our Impact to Society</h1>
-        </div>
+        </div> */}
+        <Heading title="OUR ACHIEVEMENTS" />
+
         <div class="imapct_banner">
           <div class="impact_content">
             <i class="fa-solid fa-face-smile"></i>

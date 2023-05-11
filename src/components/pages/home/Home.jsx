@@ -3,6 +3,7 @@ import Hero from './hero/Hero';
 import './home.css';
 
 import ReactPlayer from 'react-player';
+import Heading from '../../common/heading/Heading';
 // import Volunteer from '../abouts/valunter/Volunteer';
 
 export default function Home() {
@@ -12,9 +13,8 @@ export default function Home() {
 
       <section class="about my-4">
          <div className="container">
-           <div className="heading">
-             <h1>Abouts</h1>
-           </div>
+          
+           <Heading title="About us" />
            <div className="row">
              <div className="col-12">
                <p>At the Crime Control & Social Development Organisation (CCSDO), we believe that every woman has the right to live a life of dignity and self-respect. Our registered NGO envisions working towards bringing significant changes in the lives of women across society by providing economic and social support, empowering them with financial independence.
@@ -70,14 +70,9 @@ export default function Home() {
       </section>
 
       {/* mission & goals  */}
-      <section className="container  mission_goal my-4">
-        <div className="heading pt-4">
-          <h2>Mission & Goals</h2>
-          <p>
-            The revolution is here, where are you? Poverty is removed not by
-            sharing but by eradicating!
-          </p>
-        </div>
+    <section className="mission_goal my-4">
+      <div className="container">
+        <Heading title="Mission & Goals"  />
         <div className="row">
           <div className="col-md-4 text-center ">
             <i class="fa-solid fa-face-smile"></i>
@@ -107,14 +102,14 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </div>
       </section>
 
       {/* Our Contribution to SDG’s */}
       <section class="sdg_section">
         <div className="container">
-          <div className="heading pt-3">
-            <h1>Our Contribution to SDG’</h1>
-          </div>
+         <Heading title="Mission & Goals" />
+
           <div className="row py-4">
             <div className="col-2">
               <img
@@ -165,9 +160,8 @@ export default function Home() {
       {/* youtube thubnails section */}
       <section class="youtube_thhubanail my-5">
         <div className="container my-3">
-          <div className="heading">
-            <h1>Video</h1>
-          </div>
+        <Heading title="Youtube videos"  />
+
           <div className="row my-3">
             <div className="col-md-4">
               <ReactPlayer
@@ -181,140 +175,8 @@ export default function Home() {
             </div>
             <div className="col-md-4">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                url="https://www.youtube.com/embed/XKifONoiJDQ"
                 class="w-100"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* recent cases */}
-      <section classsName="recen_case my-4 py-4">
-        <div className="container">
-          <div className="heading">
-            <h2>Our Recent Causes</h2>
-            <p>
-              Leaving people in poverty is like clipping wings of a bird! START
-              WITH A SMALL CHANGE TODAY!
-            </p>
-          </div>
-          <div className="row">
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://www.nationalngo.net/assets/images/05.png"
-                  className="w-100"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h3>Feeding the Hungry</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                    ullam tempora asperiores, autem sequi veritatis a. Aut
-                    aliquam necessitatibus veniam officiis dicta?
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://www.nationalngo.net/assets/images/07.png"
-                  className="w-100"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h3>Feeding the Hungry</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                    ullam tempora asperiores, autem sequi veritatis a. Aut
-                    aliquam necessitatibus veniam officiis dicta?
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="card">
-                <img
-                  src="https://www.nationalngo.net/assets/images/05.png"
-                  className="w-100"
-                  alt=""
-                />
-                <div className="card-body">
-                  <h3>Feeding the Hungry</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                    ullam tempora asperiores, autem sequi veritatis a. Aut
-                    aliquam necessitatibus veniam officiis dicta?
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* lates News & award  */}
-      <section className="arawd_new mt-4">
-        <div class="container">
-          <div className="headerr">
-            <div>
-              <h2>LATEST NEWS</h2>
-            </div>
-            <div class="award_btn">
-              <h3>AWARDS</h3>
-              <button>VIEW ALL</button>
-            </div>
-          </div>
-          <hr />
-          {/* row  */}
-          <div className="row">
-            <div className="col-md-6">
-              {/* row 2 */}
-              <div class="row">
-                <div className="col-md-3">
-                  <div className="row">
-                    <div className="col-12 bg-warning">
-                      <h3>19may, 2021</h3>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-9 lates_new_post">
-                  <h6> The Times of India</h6>
-                  <h5>Food, ration, O2: NGO reaches out to Poor</h5>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolorem quam quod illum!
-                  </p>
-                </div>
-              </div>
-              <hr />
-
-              {/* row -end  */}
-              <div class="row">
-                <div className="col-md-3">
-                  <div className="row">
-                    <div className="col-12 bg-warning">
-                      <h3>19may, 2021</h3>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-9 lates_new_post">
-                  <h6> The Times of India</h6>
-                  <h5>Food, ration, O2: NGO reaches out to Poor</h5>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolorem quam quod illum!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 text-center">
-              <img
-                src="https://www.nationalngo.net/assets/images/NCT_Award.png"
-                alt=""
               />
             </div>
           </div>
@@ -324,78 +186,33 @@ export default function Home() {
       {/* impact section   */}
       <section class="impact mt-0">
         <div className="heading my-4">
-          <h1>Our Impact to Society</h1>
+          <h1>OUR ACHIEVEMENTS</h1>
         </div>
         <div class="imapct_banner">
           <div class="impact_content">
             <i class="fa-solid fa-face-smile"></i>
-            <p>Dry snacks packets provided to migrant labourers</p>
-            <h2>7000+</h2>
+            <h2>1,779</h2>
+            <p>Children Educated</p>
           </div>
           <div class="impact_content">
             <i class="fa-solid fa-face-smile"></i>
-            <p>Families provided with Ration kits (during Covid19)</p>
-            <h2>3000++</h2>
+            <h2>3000</h2>
+            <p>Women Counselled</p>
           </div>
           <div class="impact_content">
             <i class="fa-solid fa-face-smile"></i>
-            <p>Patients treated</p>
-            <h2>250+</h2>
+            <h2>1,250+</h2>
+            <p>Women Registered</p>
           </div>
           <div class="impact_content">
             <i class="fa-solid fa-face-smile"></i>
-            <p>People Fed</p>
-            <h2>1250000+</h2>
-          </div>
-          <div class="impact_content">
-            <i class="fa-solid fa-face-smile"></i>
-            <p>480+ underprivileged children had been provided education</p>
-            <h2>7000+</h2>
+            <h2>75</h2>
+            <p>Women Financially Independent <br/> After Our Programs</p>
           </div>
         </div>
       </section>
 
-      {/* trust section  */}
-      <section className="trust">
-        <div className="container">
-          <div className="heading">
-            <h3>GIVING YOU CAN TRUST</h3>
-          </div>
-          <div className="row mt-4">
-            <div className="col-md-6 pt-3 trust_content">
-              <p>
-                National OrganisationFor Social Empowerment was established in
-                2012, we have been continually working for social integration of
-                underprivileged children & people, persons with special ability
-                and women & girls of our community. We are a group of positive
-                thinkers with a mutual vision. We believe that a world without
-                barriers is a right not luxury.
-              </p>
-            </div>
-
-            <div className="col-md-6 p-4 trust_people">
-              <div className="row">
-                <div className="col-md-6 ">
-                  <h2>70M+</h2>
-                  <p>Raised for nonprofits</p>
-                </div>
-                <div className="col-md-6">
-                  <h2>2.3M+</h2>
-                  <p>Donors have contributed to causes</p>
-                </div>
-                <div className="col-md-6">
-                  <h2>10M+</h2>
-                  <p>Live impacted</p>
-                </div>
-                <div className="col-md-6">
-                  <h2>Trusted</h2>
-                  <p>by 150+ corporates and brands</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  
 
       {/* banner section  */}
       <section class="banner">
@@ -511,11 +328,9 @@ export default function Home() {
       {/* testimonial  end  */}
 
       {/* our partner section  */}
-      <section className="Our_partner">
+      <section className="Our_partner my-0">
         <div className="container-fluid">
-          <div className="heading">
-            <h3>Our Partners</h3>
-          </div>
+        <Heading title="Our Partners"  />
           <div className="row my-3">
             <div className="col-md-2 partner_img ">
               <figure>
@@ -576,7 +391,7 @@ export default function Home() {
       </section>
 
       {/* ------------ marq --------- */}
-      <div class="main">
+      {/* <div class="main">
         <marquee class="marq" bgcolor="Green" direction="left" loop="">
           <div class="dsfdfsdf">
             <div class="rwetewte">
@@ -599,14 +414,13 @@ export default function Home() {
             </div>
           </div>
         </marquee>
-      </div>
+      </div> */}
 
       {/* our award section  */}
       <section className="Our_partner arard_partner">
         <div className="container-fluid">
-          <div className="heading">
-            <h3>Our Award</h3>
-          </div>
+        <Heading title="Our Award"  />
+
           <div className="row my-3">
             <div className="col-md-2 partner_img ">
               <figure>
@@ -666,89 +480,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* event section  */}
-      <section className="event">
-        <div className="">
-          <div className="headeer">
-            <h3>Our Events</h3>
-            <button>View All Events</button>
-          </div>
-          <div className="row">
-            <div className="col-md-3 ">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/807361_IMG_0103_6fe53f5264_1476e383db.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-3 ">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/38288153146106_2371957943034568_6104911268093624320_n_0014bf7161_8b7ca277ad.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-3 ">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/32722155793542_2391366957760333_5528121289367093248_n_82d7fd641c_9406a6a2e4.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-3 ">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/60556148372436_2325324877697875_68205278956355584_n_08da8ba648_ea00b572e9.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-3 m-0 p-0">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-3 ">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/96870145576509_2296943713869325_2741727819766693888_n_58300448bf_e3748b8ca6.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-3 ">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/nationalngopic1_907b9a30a3_71ffd46b7f.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div className="col-md-3 ">
-              <figure>
-                <img
-                  src="https://api.nationalngo.net/uploads/45419143952177_2282887211941642_6293387429613142016_n_6438fa69a6_c5200ea47c.jpg"
-                  className="w-100"
-                  alt=""
-                />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
+    
+
+
+
     </>
   );
 }

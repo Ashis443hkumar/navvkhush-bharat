@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "../../common/heading/Heading";
 
 
 export default function Founder() {
@@ -7,9 +8,10 @@ export default function Founder() {
 
      <section class="founder_about_sectin py-4">
        <div className="container">
-         <div className="heading">
+         {/* <div className="heading">
            <h1>Abouts</h1>
-         </div>
+         </div> */}
+         <Heading title="About us" />
          <div className="row">
            <div className="col-12">
              <p>Since my childhood, I have been drawn towards  community development and serving those in need. Witnessing the struggles and hardships that many individuals and families face on a daily basis, I developed a deep sense of empathy and a strong desire to help make a.</p>
