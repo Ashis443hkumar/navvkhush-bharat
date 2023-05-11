@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "./header.css";
 
 export default function Header() {
@@ -20,9 +20,11 @@ export default function Header() {
             <li>
               <NavLink to="/about">About <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="/about/founder">Founder </NavLink></li>
-                <li><NavLink to="">Our Approach</NavLink></li>
-                <li><NavLink to="">Bank Details</NavLink></li>
+                <li><NavLink to="/about/founder">Founder’s Message</NavLink></li>
+                <li><NavLink to="volunteer">Volunteer </NavLink></li>
+                <li><NavLink to="about/Donate">Donate Now </NavLink></li>
+              <Outlet/>
+
               </ul>
             </li>
             <li><NavLink to="/programs">Programs <i class="fa-solid fa-caret-down"></i></NavLink>

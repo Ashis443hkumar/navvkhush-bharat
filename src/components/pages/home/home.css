@@ -8,7 +8,12 @@
   margin: 10px 0;
 }
 
+/* sdg_section---------- */
 
+.sdg_section{
+  padding: 20px 5%;
+  background-color: #eee;
+}
 /* --------------Our_partner ----- */
 .Our_partner{
   padding: 30px 5%;
