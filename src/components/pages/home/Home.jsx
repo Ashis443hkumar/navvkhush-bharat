@@ -4,6 +4,8 @@ import './home.css';
 
 import ReactPlayer from 'react-player';
 import Heading from '../../common/heading/Heading';
+import Banner from './banner/Banner';
+import Testimonial from './testimonial/Testimonial';
 // import Volunteer from '../abouts/valunter/Volunteer';
 
 export default function Home() {
@@ -16,7 +18,7 @@ export default function Home() {
          <div className="row">
            <div className="col-12">
            <input id="ch" type="checkbox" />
-             <p>At the Crime Control & Social Development Organisation (CCSDO), we believe that every woman has the right to live a life of dignity and self-respect. Our registered NGO envisions working towards bringing significant changes in the lives of women across society by providing economic and social support, empowering them with financial independence...</p>
+             <p>At NavvKhush Bharat-CCSDO, we empower women for a dignified life, providing economic and social support, reducing violence, and fostering equality, with notable achievements in education, counseling, and financial independence for women and children...</p>
              <span class="content">
                <p>CCSDO is committed to contributing to society as equal partners in the development of families and communities, with a focus on reducing violence, harassment, and discrimination against women. We believe that by empowering women, we can create a brighter, more equal future for all.</p>
 
@@ -216,120 +218,9 @@ export default function Home() {
         </div>
       </section>
 
-  
+      <Banner/>
+      <Testimonial/>
 
-      {/* banner section  */}
-      <section class="banner">
-        <div class="banner_text">
-          <h3>
-            Start with helping one poor person and pave way for the bigger
-            changes!
-          </h3>
-        </div>
-        <div class="banner_form">
-          <button class="hero_button">Become a Volunteer</button>
-        </div>
-      </section>
-
-      {/* testimonial section  */}
-
-      <section class="home-testimonial">
-        <div class="container-fluid">
-          <div class="row d-flex justify-content-center testimonial-pos">
-            <div class="col-md-12 pt-4 d-flex justify-content-center">
-              <h3>Testimonials</h3>
-            </div>
-            <div class="col-md-12 d-flex justify-content-center">
-              <h2>Explore the students experience</h2>
-            </div>
-          </div>
-          <section class="home-testimonial-bottom">
-            <div class="container testimonial-inner">
-              <div class="row d-flex justify-content-center">
-                <div class="col-md-4 style-3">
-                  <div class="tour-item ">
-                    <div class="tour-desc bg-white">
-                      <div class="tour-text color-grey-3 text-center">
-                        &ldquo; I am so grateful for the work that this NGO does
-                        to empower women and educate children. Their commitment
-                        to creating a better future for vulnerable communities
-                        is truly inspiring.&rdquo;
-                      </div>
-                      <div class="d-flex justify-content-center pt-2 pb-2">
-                        {/* <img
-                          class="tm-people"
-                          src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg"
-                          alt=""
-                        /> */}
-                      </div>
-                      <div class="link-name d-flex justify-content-center">
-                        Seema Yadav
-                      </div>
-                      <div class="link-position d-flex justify-content-center">
-                        Hr
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 style-3">
-                  <div class="tour-item ">
-                    <div class="tour-desc bg-white">
-                      <div class="tour-text color-grey-3 text-center">
-                        &ldquo;I have seen firsthand the impact that this NGO
-                        has on the lives of women and children. Their dedication
-                        to providing education and resources has transformed
-                        communities and given hope.&rdquo;
-                      </div>
-                      <div class="d-flex justify-content-center pt-2 pb-2">
-                        {/* <img
-                          class="tm-people"
-                          src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                          alt=""
-                        /> */}
-                      </div>
-                      <div class="link-name d-flex justify-content-center">
-                        Balbir Kaur
-                      </div>
-                      <div class="link-position d-flex justify-content-center">
-                        Student
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 style-3">
-                  <div class="tour-item ">
-                    <div class="tour-desc bg-white">
-                      <div class="tour-text color-grey-3 text-center">
-                        &ldquo;As a mother, I cannot express enough how
-                        important it is for children to have access to quality
-                        education. This NGO is doing incredible work to ensure
-                        that all children have the opportunity to learn and
-                        succeed..&rdquo;
-                      </div>
-                      <div class="d-flex justify-content-center pt-2 pb-2">
-                        {/* <img
-                          class="tm-people"
-                          src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                          alt=""
-                        /> */}
-                      </div>
-                      <div class="link-name d-flex justify-content-center">
-                        Balbir Kaur
-                      </div>
-                      <div class="link-position d-flex justify-content-center">
-                        Student
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-      {/* testimonial  end  */}
 
       {/* our partner section  */}
       <section className="Our_partner my-0">
@@ -393,6 +284,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
 
       {/* ------------ marq --------- */}
       {/* <div class="main">

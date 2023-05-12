@@ -1,0 +1,30 @@
+
+.founder {
+  background-color: #eee;
+  padding: 0px;
+}
+.founder_content{
+  margin-bottom: 30px;
+  padding: 0px 0%;
+}
+.founder_content .card{
+  padding: 0%;
+  margin: 0;
+}
+.founder_content img{
+  width: 100%;
+  height: 200px;
+}
+.founder .social_link i{
+  background-color: crimson;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px;
+  color: #fff;
+  font-size: 22px;
+  padding-left: 10px;
+}
+.foubderbanner{
+  margin: 0;
+}

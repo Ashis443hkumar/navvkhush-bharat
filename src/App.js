@@ -9,7 +9,7 @@ import Programs from "./components/pages/programs/Programs"
 import About from "./components/pages/abouts/About"
 import Contact from "./components/pages/contacts/Contact"
 
-import Founder from  "./components/pages/abouts/Founder"
+import Founder from  "./components/pages/abouts/founders/Founder"
 import WhoWeAre from  "./components/pages/abouts/WhoWeAre"
 // import Volunteer from "../../../components/pages/about/valunter/Volunteer"
 

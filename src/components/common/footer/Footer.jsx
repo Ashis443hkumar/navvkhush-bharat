@@ -7,7 +7,7 @@ export default function Footer() {
      <footer class="footer">
         <div class="footer_logo">
         <h3>ABOUT US</h3>
-          <p>Nearly 1.73 million children die in India every year due to lack of treatment. We work with communities to ensure that everyone receives adequate nutrition and healthcare services.</p>
+          <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.</p>
           <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
         </div>
         
