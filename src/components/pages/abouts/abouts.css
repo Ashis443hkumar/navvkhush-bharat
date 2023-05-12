@@ -1,6 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+.addfewfwf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ch{
+  display: none;
+}
+.content{
+  display: none;
+}
+#ch:checked ~ .content{
+  display: block;
+}
+#ch:checked ~ label{
+  display: none;
+}
+.label_read{
+  display: inline;
+  color: #fff;
+  background-color: #d35400;
+  padding: 8px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
 .founder {
   background-color: #eee;
-  margin: 10px 0;
   padding: 0px;
 }
 .founder_content{
@@ -23,8 +53,14 @@
   margin: 10px;
   color: #fff;
   font-size: 22px;
+  padding-left: 10px;
 }
-
+.foubderbanner{
+  margin: 0;
+}
+.banner{
+  margin: 0%;
+}
 /* advisior section */
 .advisior .dfgergetr{
   background-color: #eee;

@@ -10,7 +10,8 @@ export default function Header() {
     <div>
       <header className="header">
         <div className="logo">
-          <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt=""  />
+          {/* <img src="https://lh3.googleusercontent.com/Tblz76UwKYGyEoqc4F_imHk5ORBTJK6nlZqU39D8dVKUtDNOkv-uwvuRmSTgElqWUj6GCCFQCGc2Pxsw7luEIOMO6DrHP6ZxdWrxQHb2ng" alt=""  /> */}
+          <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
           <h3>Navv khush Bharat</h3>
         </div>
 
@@ -21,9 +22,6 @@ export default function Header() {
               <NavLink to="/about">About <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
                 <li><NavLink to="/about/founder">Founder’s Message</NavLink></li>
-                <li><NavLink to="volunteer">Volunteer </NavLink></li>
-                <li><NavLink to="about/Donate">Donate Now </NavLink></li>
-              <Outlet/>
 
               </ul>
             </li>
@@ -31,7 +29,6 @@ export default function Header() {
               <ul class="dropdown_menu">
                 <li><NavLink to="/about/founder">WOMEN EMPOWERMENT </NavLink></li>
                 <li><NavLink to="">DIGITAL LITERACY</NavLink></li>
-                <li><NavLink to="">Bank Details</NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/programs">Media <i class="fa-solid fa-caret-down"></i></NavLink>

@@ -108,7 +108,7 @@ export default function Home() {
       {/* Our Contribution to SDG’s */}
       <section class="sdg_section">
         <div className="container">
-         <Heading title="Mission & Goals" />
+         <Heading title="CONTRIBUTION TO SDG’s" />
 
           <div className="row py-4">
             <div className="col-2">

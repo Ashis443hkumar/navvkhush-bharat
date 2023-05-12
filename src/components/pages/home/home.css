@@ -100,13 +100,18 @@
    background-color: #1289A7;
    color: #fff;
    padding: 10px 5%;
+   margin: 0;
 }
 .banner h3{
   font-size: 21px;
 }
 
 /* ------ testimonial section -------- */
-.home-testimonial{background-color: #231834;height: 580px}
+.home-testimonial{
+    background-color: #231834;
+    /* height: 580px; */
+    height: 480px
+  }
 .home-testimonial-bottom{background-color: ;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 130px;top: 190px}
 
 .home-testimonial h3{
