@@ -1,3 +1,31 @@
+
+
+.addfewfwf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ch{
+  display: none;
+}
+.content{
+  display: none;
+}
+#ch:checked ~ .content{
+  display: block;
+}
+#ch:checked ~ label{
+  display: none;
+}
+.label_read{
+  display: inline;
+  color: #fff;
+  background-color: #d35400;
+  padding: 8px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
 .mission_goal {
   /* background: #ad5389; */
   /* background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%); */
