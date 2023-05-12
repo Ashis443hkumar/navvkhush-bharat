@@ -1,0 +1,41 @@
+.heroBtn{
+  padding: 8px 26px;
+  color: #fff;
+  background-color: #d35400;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 0%;
+}
+.heroBtn:hover{
+  background-color: #d33400;
+}
+
+/* ----- social icons  ------ */
+.social_link i{
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+.social_link .fa-facebook{
+  background-color: #487eb0;
+}
+.social_link .fa-twitter{
+  background-color: #706fd3;
+  margin-left: 13px;
+}
+.social_link .fa-instagram{
+  background-color: #cf6a87;
+  margin-left: 13px;
+}
+.social_link .fa-youtube{
+  background-color: #e84118;
+  margin-left: 13px;
+
+}

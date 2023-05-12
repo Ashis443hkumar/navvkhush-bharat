@@ -6,23 +6,20 @@ import WhoWeAre from "./whoWeAre";
 import {Routes, Route} from "react-router-dom"
 import Volunteer from "./valunter/Volunteer";
 import Founder from "./founders/Founder";
+import HeroButton from "../home/heroButton/HeroButton";
 
 
 export default function About() {
   return (
      <>
-    
-    <Founder/>
-    <Routes>
-      <Route path="/about/volunteer" element={<Volunteer/>} />
-    </Routes>
+     <Founder/>
+     <Routes>
+       <Route path="/about/volunteer" element={<Volunteer/>} />
+     </Routes>
 
-
-
-
-       <WhoWeAre/>
+     <WhoWeAre/>
       
-       <OurAdvisior/>
+     <OurAdvisior/>
 
      
        

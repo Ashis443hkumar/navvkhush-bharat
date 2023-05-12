@@ -1,4 +1,6 @@
 import React from "react";
+import HeroButton from "../../pages/home/heroButton/HeroButton";
+import SocialsIcons from "../../pages/home/heroButton/SocialSIcon";
 import "./footer.css"
 
 export default function Footer() {
@@ -7,7 +9,7 @@ export default function Footer() {
      <footer class="footer">
         <div class="footer_logo">
         <h3>ABOUT US</h3>
-          <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.</p>
+          <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and childre...</p>
           <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
         </div>
         
@@ -45,18 +47,16 @@ export default function Footer() {
         <div className="footer_social_links">
           <h3>CONTACT US </h3>
            <div class="">
-             <button>Donate now</button>
+               <HeroButton buttonTitle="Donate now" />             
              <ul>
                <li><a href="">Donation</a></li>
                <li><a href="">Terms and Conditions</a></li>
                <li><a href="">Privacy Policy</a></li>
                <li><a href="">Cancellation & Refund Policy</a></li>
              </ul>
-             <div className="social_link">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
+              <div>
+                <h6>Social icons</h6>
+                <SocialsIcons/>
               </div>
            </div>
         </div>

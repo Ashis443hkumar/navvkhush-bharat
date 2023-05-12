@@ -24,29 +24,8 @@
 .head_left .phone span{
   font-size: 15px;
 }
-.head_right .social_link i{
-  font-size: 14px;
-  color: #fff;
-  border-radius: 5px;
-  margin-left: 13px;
-  width: 28px;
-  height: 28px;
-  line-height: 28px;
-  text-align: center;
 
-}
-.head_right .social_link .fa-facebook{
-  background-color: #487eb0;
-}
-.head_right .social_link .fa-twitter{
-  background-color: #706fd3;
-}
-.head_right .social_link .fa-instagram{
-  background-color: #cf6a87;
-}
-.head_right .social_link .fa-youtube{
-  background-color: #e84118;
-}
+
 
 /* media query  */
 @media(max-width:768px){

@@ -1,15 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
 
-
-
-
-
 /* advisior section */
-.advisior .dfgergetr{
+.advisior {
   background-color: #eee;
-}
-.advisior img{
-  width: 160px;
-  height: 200px;
+  padding: 20px 5%;
+
 }

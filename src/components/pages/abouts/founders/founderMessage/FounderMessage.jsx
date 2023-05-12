@@ -1,4 +1,5 @@
 import React from "react";
+import SocialsIcons from "../../../home/heroButton/SocialSIcon";
 import "./style.css"
 
 export default function FounderMessage() {
@@ -16,15 +17,12 @@ export default function FounderMessage() {
                <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trustee.jpg" class="card-img-top" alt="" />
                <div className="card-body">
                   <h2>KAVITA RAWAT</h2>
-                  <p> Since my childhood, I was inclined towards Community development and helping the needy.</p>
-                  <div className="social_link">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  <h4>CEO, Navv Khush Bharat</h4>
+                 <div>
+                    <SocialsIcons/>
                  </div>
                </div>
-               </div>
+             </div>
              </div>
              <div className="col-md-8">
                <div class="founder_content">

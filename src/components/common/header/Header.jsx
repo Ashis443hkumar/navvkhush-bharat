@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import HeroButton from "../../pages/home/heroButton/HeroButton";
 import "./header.css";
 
 export default function Header() {
@@ -43,7 +44,7 @@ export default function Header() {
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="donate_btn">
-            <button class="hero_button" >Donate Now</button>
+            <HeroButton buttonTitle="Donate Now" />
           </div>
         </nav>
          <div className="bargar_menu" onClick={() =>setisMobile(!isMobile)}>

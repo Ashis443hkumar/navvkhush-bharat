@@ -1,4 +1,5 @@
 import React from "react";
+import HeroButton from "../heroButton/HeroButton";
 import "./banner.css"
 
 export default function Banner() {
@@ -13,7 +14,7 @@ export default function Banner() {
           </h3>
         </div>
         <div class="banner_form">
-          <button class="hero_button">Become a Volunteer</button>
+          <HeroButton buttonTitle="Become a Volunteer" />
         </div>
       </section>
      

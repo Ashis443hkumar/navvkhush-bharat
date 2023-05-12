@@ -92,39 +92,12 @@ footer ul li{
  .phone{
   margin-top: 10px;
 }
-
 /*footer  contact  */
 .footer_social_links button{
   padding: 10px 70px;
-  background-color: #d35400;
   margin-bottom: 10px;
-  color: #fff;
-  border-radius: 5px;
-}
-.footer_social_links .social_link i{
-  font-size: 19px;
-  color: #fff;
-  background-color: crimson;
-  padding: 10px;
-  margin-right: 10px;
-  border-radius: 5px;
-
-}
-.footer_social_links .social_link .fa-facebook{
-  background-color: #487eb0;
-}
-.footer_social_links .social_link .fa-twitter{
-  background-color: #706fd3;
-
 }
 
-.footer_social_links .social_link .fa-instagram{
-  background-color: #cf6a87;
-}
-
-.footer_social_links .social_link .fa-youtube{
-  background-color: #e84118;
-}
 
 @media (max-width:910px){
   .footer{

@@ -1,4 +1,5 @@
 import React from "react";
+import SocialsIcons from "../../pages/home/heroButton/SocialSIcon";
 import "./head.css"
 export default function head() {
   return (
@@ -16,20 +17,7 @@ export default function head() {
               </div>
           </div>
           <div className="head_right">
-              {/* <div className="social_link">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-              </div> */}
-
-              <div className="social_link">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                {/* <a href=""><img src="" alt="" /></a> */}
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-              </div>
+              <SocialsIcons/>
           </div>
 
         </div>

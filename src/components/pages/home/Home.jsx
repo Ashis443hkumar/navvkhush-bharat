@@ -2,16 +2,22 @@ import React from 'react';
 import Hero from './hero/Hero';
 import './home.css';
 
+import { Link, useNavigate } from "react-router-dom"
+
 import ReactPlayer from 'react-player';
 import Heading from '../../common/heading/Heading';
 import Banner from './banner/Banner';
 import Testimonial from './testimonial/Testimonial';
+import HeroButton from './heroButton/HeroButton';
+import SocialsIcons from './heroButton/SocialSIcon';
 // import Volunteer from '../abouts/valunter/Volunteer';
 
 export default function Home() {
+    const navigate =  useNavigate()
   return (
     <>
       <Hero />
+      
       <section class="founder_about_sectin py-4">
        <div className="container">
          <Heading title="About us" />
@@ -19,19 +25,11 @@ export default function Home() {
            <div className="col-12">
            <input id="ch" type="checkbox" />
              <p>At NavvKhush Bharat-CCSDO, we empower women for a dignified life, providing economic and social support, reducing violence, and fostering equality, with notable achievements in education, counseling, and financial independence for women and children...</p>
-             <span class="content">
-               <p>CCSDO is committed to contributing to society as equal partners in the development of families and communities, with a focus on reducing violence, harassment, and discrimination against women. We believe that by empowering women, we can create a brighter, more equal future for all.</p>
-
-               <p>Our team is made up of dedicated professionals who are passionate about making a difference. From providing education and training to children and women in underserved communities to giving stitching classes to women inmates in Tihar Jail, our programs aim to equip individuals with the knowledge and tools they need to succeed in the modern world.</p> 
-               <p>We are proud of our achievements and the impact we have made in the lives of women and children. Our achievements till date include educating 1779 children, providing counselling to over 3000 women, registering over 1250 women with us, and empowering 75 women who are now financially independent. Additionally, we were selected for the Delhi Government </p>
-
-               <p>Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi, and we have received orders from Munjal Showa and AG Industries for uniform and T-shirt stitching, providing employment opportunities to women.</p>
-
-               <p>At CCSDO, we are committed to our mission of creating a more just and equal society. Join us on this journey towards a brighter future for all.</p>
-
-             <label class="label_read" htmlFor="ch" >Read Less</label>
-            </span>
-            <label  class="label_read" htmlFor="ch" >Read More</label>
+             <div>
+               <button onClick={() =>navigate("./about")}>
+                   <HeroButton buttonTitle="ReadMore" />
+               </button>
+             </div>
            </div>
          </div>
        </div>
@@ -60,7 +58,8 @@ export default function Home() {
                 Through these years, we have assumed the role of facilitators,
                 counselors, friends and teachers amongst others
               </p>
-              <button class="hero_button">Free a Hungry Child</button>
+              {/* <button class="hero_button"></button> */}
+              <HeroButton buttonTitle="Free a Hungry Child " />
             </div>
             <div className="col-md-6">
               <figure>
@@ -196,22 +195,22 @@ export default function Home() {
         </div>
         <div class="imapct_banner">
           <div class="impact_content">
-            <i class="fa-solid fa-face-smile"></i>
+            <img src="https://img.icons8.com/?size=1x&id=9wnOgzhhVxGc&format=png" alt=""/>
             <h2>1,779</h2>
             <p>Children Educated</p>
           </div>
           <div class="impact_content">
-            <i class="fa-solid fa-face-smile"></i>
+            <img src="https://image.shutterstock.com/image-vector/man-woman-icon-flat-vector-260nw-493302271.jpg" alt="" />
             <h2>3000</h2>
             <p>Women Counselled</p>
           </div>
           <div class="impact_content">
-            <i class="fa-solid fa-face-smile"></i>
+            <img src="https://image.shutterstock.com/image-vector/vector-illustration-couple-puzzle-pieces-260nw-2172403127.jpg" alt="" />
             <h2>1,250+</h2>
             <p>Women Registered</p>
           </div>
           <div class="impact_content">
-            <i class="fa-solid fa-face-smile"></i>
+            <img src="https://img.icons8.com/?size=1x&id=wxb4Vfe6BvYh&format=png" alt=""/>
             <h2>75</h2>
             <p>Women Financially Independent <br/> After Our Programs</p>
           </div>
