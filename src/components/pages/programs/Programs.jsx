@@ -1,13 +1,16 @@
 import React from "react";
-import WhomenEmpower from "./whomenEmpower/WhomenEmpoer";
+import ChildEducation from "./ChildEducation/ChildEducation";
+import SummerCamp from "./summerCamp/SummerCamp";
+import WhomenEmpower from "./whomenEmpower/WhomenEmpower";
 
 
 export default function Programs() {
   return (
      <>
 
-        <WhomenEmpower/>
-        
+      <WhomenEmpower/>
+      <SummerCamp/>
+      <ChildEducation/>
 
      </>
   );

@@ -10,10 +10,22 @@ import About from "./components/pages/abouts/About"
 import Contact from "./components/pages/contacts/Contact"
 
 import Founder from  "./components/pages/abouts/founders/Founder"
-import WhoWeAre from  "./components/pages/abouts/WhoWeAre"
-// import Volunteer from "../../../components/pages/about/valunter/Volunteer"
 
+
+// import WhoWeAre from  "./components/pages/abouts/WhoWeAre"
+// import Volunteer from "../../../components/pages/about/valunter/Volunteer"
+// import Volunteer from "../../../components/pages/programs/whomenEmpower/WhomenEmpower"
 // import Volunteer from './../../../../abouts/valunter/Volunteer';
+
+
+// page router program   
+import Programs from "./components/pages/programs/Programs"
+import WhomenEmpower from "./components/pages/programs/whomenEmpower/WhomenEmpower"
+import ChildEducation from "./components/pages/programs/ChildEducation/ChildEducation"
+import SummerCamp from "./components/pages/programs/summerCamp/SummerCamp"
+
+
+
 import Volunteer from  "./components/pages/abouts/valunter/Volunteer"
 import Donate from  "./components/pages/abouts/donate/Donate"
 
@@ -26,17 +38,24 @@ export default function App() {
       <Routes>
         <Route path="/"  element={<Home/>}  />
         <Route path="/about"  element={<About/>} />
-        <Route path="/programs"  element={<Programs/>}  />
+            <Route path="/about/founder"  element={<Founder />}  />
+
+        <Route path="/programs"  element={<Programs/>} />
+              {/* <Route path="/programs/whomen" element={<WhomenEmpower/>} />
+              <Route path="/program/childeducation" element={<ChildEducation/>} />
+              <Route path="/program/summercamp" element={<SummerCamp/>} /> */}
+
+            {/* </Route> */}
+
         <Route path="/contact"  element={<Contact />}  />
-         {/* <Route path="/about/whomen" element={} /> */}
-        <Route path="/about/founder"  element={<Founder />}  />
+
         
         <Route path="volunteer" element={<Volunteer/>} />  
         <Route path="/about/donate" element={<Donate/>} />  
 
       </Routes>
       <Footer/>
-      {/* <WhomenEmpower /> */}
+
     </div>
   );
 }
