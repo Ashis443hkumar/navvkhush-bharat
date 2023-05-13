@@ -14,13 +14,14 @@ import Impact from './impact/Impact';
 import Header from '../../common/header/Header';
 import Heading from '../../common/heading/Heading';
 
-// import Volunteer from '../abouts/valunter/Volunteer';
+import Volunteer from '../abouts/valunter/Volunteer';
 
 export default function Home() {
     const navigate =  useNavigate()
   return (
     <>
       <Hero />
+      <Volunteer
       
       <section class="founder_about_sectin py-4">
        <div className="container">
