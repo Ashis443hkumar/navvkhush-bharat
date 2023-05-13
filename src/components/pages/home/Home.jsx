@@ -11,7 +11,9 @@ import Testimonial from './testimonial/Testimonial';
 import HeroButton from './heroButton/HeroButton';
 import SocialsIcons from './heroButton/SocialSIcon';
 import Impact from './impact/Impact';
-import FounderMessage from '../abouts/founders/founderMessage/FounderMessage';
+import Header from '../../common/header/Header';
+import Heading from '../../common/heading/Heading';
+
 // import Volunteer from '../abouts/valunter/Volunteer';
 
 export default function Home() {
@@ -354,7 +356,36 @@ export default function Home() {
         </div>
       </section>
 
-      <FounderMessage/>
+
+        {/* founder messages  */}
+        <section class="founder_home mt-4">
+         <div className="container">
+           <Heading title="FOUNDER MESSAGE" />
+           <div className="row founder_content">
+             <div className="col-md-4">
+             <div className="card">
+               <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trustee.jpg" class="card-img-top " alt="" />
+               <div className="card-body text-center">
+                  <h2>KAVITA RAWAT</h2>
+                  <h4>CEO, Navv Khush Bharat</h4>
+                 <div>
+                    <SocialsIcons/>
+                 </div>
+               </div>
+             </div>
+             </div>
+             <div className="col-md-8">
+               <div class="founder_content">
+               <p class="pt-1">Welcome to Navv Khush Bharat, also known as Crime Control & Social Development Organisation. Our mission is to bring positive change to the lives of women and children in semi-urban slums and villages. As a registered NGO, we are committed to improving the quality of education for children and empowering women to achieve financial independence. </p>
+
+               <p>Through education, we aim to instil an open mindset in children and break the cycle of poverty. For women, we provide skill development programs, along with social and economic support, to help them become self-sufficient. Our current operations are based in Delhi and Gurgaon, but we plan to expand our projects to other parts of India. Join us in our efforts to make a difference in the lives of those who need it most</p>
+
+                 
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
     
 
 

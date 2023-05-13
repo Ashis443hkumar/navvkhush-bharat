@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink,Link, Outlet } from "react-router-dom";
 import HeroButton from "../../pages/home/heroButton/HeroButton";
 import "./header.css";
 
@@ -26,11 +26,12 @@ export default function Header() {
 
               </ul>
             </li>
-            <li><NavLink to="/programs">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
+            <li><NavLink to="/programs/">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
                 <li><NavLink to="/programs/whomen/">WOMEN EMPOWERMENT </NavLink></li>
                 <li><NavLink to="/program/childeducation">Child Education</NavLink></li>
-                <li><NavLink to="/program/summercamp">Summer Camp</NavLink></li>
+                <li><NavLink to="/program/summercamp">Summer Camp</NavLink></li>                
+
               </ul>
             </li>
             <li><NavLink to="/media">Media <i class="fa-solid fa-caret-down"></i></NavLink>

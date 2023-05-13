@@ -40,12 +40,11 @@ export default function App() {
         <Route path="/about"  element={<About/>} />
             <Route path="/about/founder"  element={<Founder />}  />
 
-        <Route path="/programs"  element={<Programs/>} />
-              {/* <Route path="/programs/whomen" element={<WhomenEmpower/>} />
-              <Route path="/program/childeducation" element={<ChildEducation/>} />
-              <Route path="/program/summercamp" element={<SummerCamp/>} /> */}
-
-            {/* </Route> */}
+        <Route path="/programs/"  element={<Programs/>} >
+              <Route path="whomen" element={<WhomenEmpower/>} />
+              <Route path="childeducation" element={<ChildEducation/>} />
+              <Route path="summercamp" element={<SummerCamp/>} />
+        </Route>
 
         <Route path="/contact"  element={<Contact />}  />
 
