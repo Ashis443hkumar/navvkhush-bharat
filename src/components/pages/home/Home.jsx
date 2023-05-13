@@ -10,6 +10,8 @@ import Banner from './banner/Banner';
 import Testimonial from './testimonial/Testimonial';
 import HeroButton from './heroButton/HeroButton';
 import SocialsIcons from './heroButton/SocialSIcon';
+import Impact from './impact/Impact';
+import FounderMessage from '../abouts/founders/founderMessage/FounderMessage';
 // import Volunteer from '../abouts/valunter/Volunteer';
 
 export default function Home() {
@@ -24,7 +26,7 @@ export default function Home() {
          <div className="row">
            <div className="col-12">
            <input id="ch" type="checkbox" />
-             <p>At NavvKhush Bharat-CCSDO, we empower women for a dignified life, providing economic and social support, reducing violence, and fostering equality, with notable achievements in education, counseling, and financial independence for women and children...</p>
+             <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.</p>
              <div>
                <button onClick={() =>navigate("./about")}>
                    <HeroButton buttonTitle="ReadMore" />
@@ -80,7 +82,7 @@ export default function Home() {
         <Heading title="Mission & Goals"  />
         <div className="row">
           <div className="col-md-4 text-center ">
-            <i class="fa-solid fa-face-smile"></i>
+            <img src="https://img.icons8.com/?size=1x&id=x51rXOCxzN33&format=png" alt=""/>
             <h3>Education for All</h3>
             <p>
               To help and educate socially deprived people and children to
@@ -89,7 +91,8 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-4 text-center ">
-            <i class="fa-solid fa-face-smile"></i>
+            {/* <i class="fa-solid fa-face-smile"></i> */}
+            <img src="https://img.icons8.com/?size=1x&id=64327&format=png" alt=""/>
             <h3>Fashion Design</h3>
             <p>
               To help and educate socially deprived people and children to
@@ -98,7 +101,8 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-4 text-center ">
-            <i class="fa-solid fa-face-smile"></i>
+            {/* <i class="fa-solid fa-face-smile"></i> */}
+            <img src="https://img.icons8.com/?size=1x&id=0mcyYaZoPqem&format=png" alt=""/>
             <h3>Medical Facilities</h3>
             <p>
               To help and educate socially deprived people and children to
@@ -162,12 +166,13 @@ export default function Home() {
         </div>
       </section>
 
+
       {/* youtube thubnails section */}
       <section class="youtube_thhubanail my-5">
         <div className="container my-3">
-        <Heading title="Youtube videos"  />
+        <Heading title="Youtube videos"  class="mt-4" />
 
-          <div className="row my-3">
+          <div className="row my-3 pb-5">
             <div className="col-md-4">
               <ReactPlayer
                 url="https://youtu.be/f7_OZchjP9s"
@@ -188,34 +193,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* impact section   */}
-      <section class="impact mt-0">
-        <div className="heading my-4">
-          <h1>OUR ACHIEVEMENTS</h1>
-        </div>
-        <div class="imapct_banner">
-          <div class="impact_content">
-            <img src="https://img.icons8.com/?size=1x&id=9wnOgzhhVxGc&format=png" alt=""/>
-            <h2>1,779</h2>
-            <p>Children Educated</p>
-          </div>
-          <div class="impact_content">
-            <img src="https://image.shutterstock.com/image-vector/man-woman-icon-flat-vector-260nw-493302271.jpg" alt="" />
-            <h2>3000</h2>
-            <p>Women Counselled</p>
-          </div>
-          <div class="impact_content">
-            <img src="https://image.shutterstock.com/image-vector/vector-illustration-couple-puzzle-pieces-260nw-2172403127.jpg" alt="" />
-            <h2>1,250+</h2>
-            <p>Women Registered</p>
-          </div>
-          <div class="impact_content">
-            <img src="https://img.icons8.com/?size=1x&id=wxb4Vfe6BvYh&format=png" alt=""/>
-            <h2>75</h2>
-            <p>Women Financially Independent <br/> After Our Programs</p>
-          </div>
-        </div>
-      </section>
+     <Impact/>
+     
 
       <Banner/>
       <Testimonial/>
@@ -375,6 +354,7 @@ export default function Home() {
         </div>
       </section>
 
+      <FounderMessage/>
     
 
 

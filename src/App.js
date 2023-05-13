@@ -28,13 +28,15 @@ export default function App() {
         <Route path="/about"  element={<About/>} />
         <Route path="/programs"  element={<Programs/>}  />
         <Route path="/contact"  element={<Contact />}  />
-
+         {/* <Route path="/about/whomen" element={} /> */}
         <Route path="/about/founder"  element={<Founder />}  />
+        
         <Route path="volunteer" element={<Volunteer/>} />  
         <Route path="/about/donate" element={<Donate/>} />  
 
       </Routes>
       <Footer/>
+      {/* <WhomenEmpower /> */}
     </div>
   );
 }

@@ -28,8 +28,9 @@ export default function Header() {
             </li>
             <li><NavLink to="/programs">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="/about/founder">WOMEN EMPOWERMENT </NavLink></li>
-                <li><NavLink to="">DIGITAL LITERACY</NavLink></li>
+                <li><NavLink to="/program/whomen">WOMEN EMPOWERMENT </NavLink></li>
+                <li><NavLink to="/program/">Child Education</NavLink></li>
+                <li><NavLink to="/program/">Summer Camp</NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/programs">Media <i class="fa-solid fa-caret-down"></i></NavLink>

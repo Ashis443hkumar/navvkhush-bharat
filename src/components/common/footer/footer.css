@@ -1,13 +1,12 @@
 
 .footer{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  /* gap: 40px; */
-  column-gap: 30px;
+  /* grid-template-columns: repeat(4,1fr); */
+  grid-template-columns: 30% 15% 25% 30%;
+  column-gap: 20px;
   padding: 40px 6%;
   color: #fff;
   background-color: #34495e;
-  /* background-color: #273c75; */
 
 }
 .footer h3{

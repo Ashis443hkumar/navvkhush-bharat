@@ -6,7 +6,7 @@ export default function FounderMessage() {
   return (
      <>
          {/* founder messages  */}
-         <section class="founder mb-0">
+         <section class="founder mt-4">
          <div className="container">
            <div className="heading">
              <h1 class="founder my-4">FOUNDER MESSAGE</h1>
