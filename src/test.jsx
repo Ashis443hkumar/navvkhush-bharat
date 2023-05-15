@@ -1,4 +1,6 @@
 import React from 'react';
+
+import React from 'react';
 import Hero from './hero/Hero';
 import './home.css';
 
@@ -16,16 +18,19 @@ import Heading from '../../common/heading/Heading';
 
 import Volunteer from '../abouts/valunter/Volunteer';
 
-export default function Home() {
 
-    const navigate =  useNavigate()
+
+export default function test() {
+
+  // const navigate =  useNavigate()
 
   return (
-    <>
-      <Hero />
-      <Volunteer />
+      <>
+
+<Hero />
+      <Volunteer
       
-      <section class="founder_about_sectin py-4">
+       <section class="founder_about_sectin py-4">
        <div className="container">
          <Heading title="About us" />
          <div className="row">
@@ -41,11 +46,8 @@ export default function Home() {
          </div>
        </div>
      </section>
-
-    
-    
-      {/* WHO WE ARE */}
-      <section class="whoAeAre_section">
+     {/* section 1 */}
+     <section class="whoAeAre_section">
         <div className="container my-4 py-0">
           <div className="row">
             <div className="col-md-6">
@@ -80,8 +82,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* mission & goals  */}
-    <section className="mission_goal my-4">
+     {/* section2  */}
+     <section className="mission_goal my-4">
       <div className="container">
         <Heading title="Mission & Goals"  />
         <div className="row">
@@ -115,9 +117,10 @@ export default function Home() {
         </div>
       </div>
       </section>
+   {/* section 3  */}
 
-      {/* Our Contribution to SDG’s */}
-      <section class="sdg_section">
+    {/* Our Contribution to SDG’s */}
+    <section class="sdg_section">
         <div className="container">
          <Heading title="CONTRIBUTION TO SDG’s" />
 
@@ -167,8 +170,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* section4  */}
 
-
+      
       {/* youtube thubnails section */}
       <section class="youtube_thhubanail my-5">
         <div className="container my-3">
@@ -194,15 +198,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* section5  */}
 
+    
       <Impact/>
 
       <Banner/>
       <Testimonial/>
 
-
-      {/* our partner section  */}
-      {/* <section className="Our_partner my-0">
+      {/* section 6 */}
+        {/* our partner section  */}
+        <section className="Our_partner my-0">
         <div className="container-fluid">
         <Heading title="Our Partners"  />
           <div className="row my-3">
@@ -262,37 +268,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       
-
-      {/* ------------ marq --------- */}
-      {/* <div class="main">
-        <marquee class="marq" bgcolor="Green" direction="left" loop="">
-          <div class="dsfdfsdf">
-            <div class="rwetewte">
-              <h2>Hello Good Evening</h2>
-            </div>
-            <div class="rwetewte">
-              <h2>Hello Good Evening</h2>
-            </div>
-            <div class="rwetewte">
-              <h2>Hello Good Evening</h2>
-            </div>
-            <div class="rwetewte">
-              <h2>Hello Good Evening</h2>
-            </div>
-            <div class="rwetewte">
-              <h2>Hello Good Evening</h2>
-            </div>
-            <div class="rwetewte">
-              <h2>Hello Good Evening</h2>
-            </div>
-          </div>
-        </marquee>
-      </div> */}
-
-      {/* our award section  */}
-      <section className="Our_partner arard_partner">
+      {/* sectuion 7  */}
+        {/* our award section  */}
+        <section className="Our_partner arard_partner">
         <div className="container-fluid">
         <Heading title="Our Award"  />
 
@@ -355,9 +335,9 @@ export default function Home() {
         </div>
       </section>
 
-
-        {/* founder messages  */}
-        <section class="founder_home mt-4">
+{/* section8  */}
+      {/* founder messages  */}
+      <section class="founder_home mt-4">
          <div className="container">
            <Heading title="FOUNDER MESSAGE" />
            <div className="row founder_content">
@@ -385,10 +365,26 @@ export default function Home() {
            </div>
          </div>
        </section>
-    
-
-
-
-    </>
+      
+      
+      </>
   );
 }
+
+
+// <section class="founder_about_sectin py-4">
+// <div className="container">
+//   <Heading title="About us" />
+//   <div className="row">
+//     <div className="col-12">
+//     <input id="ch" type="checkbox" />
+//       <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.</p>
+//       <div>
+//         <button onClick={() =>navigate("./about")}>
+//             <HeroButton buttonTitle="ReadMore" />
+//         </button>
+//       </div>
+//     </div>
+//   </div>
+// </div>
+// </section>
