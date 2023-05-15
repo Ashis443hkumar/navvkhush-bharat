@@ -1,12 +1,12 @@
 import React from "react";
 import Heading from "../../../common/heading/Heading";
-
+import "./style.css"
 
 export default function WhomenEmpower() {
   return (
      <>
 
-       <section>
+       <section class="whomenEmpower">
          <Heading title="WOMEN EMPOWERMENT" />
          <div className="container">
            <div className="row">
@@ -22,7 +22,7 @@ export default function WhomenEmpower() {
        </section>
 
 
-       <section>
+       <section class="whomenEmpower">
          <div className="container">
            <div className="row">
              <div className="col-12">
@@ -41,7 +41,7 @@ export default function WhomenEmpower() {
          </div>
        </section>
 
-       <section>
+       <section class="whomenEmpower">
          <div className="container">
            <div className="row">
              <div className="col-12">

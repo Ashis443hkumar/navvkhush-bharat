@@ -29,9 +29,9 @@ export default function Header() {
             <li><NavLink to="/programs/">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
                 <li><NavLink to="/programs/whomen/">WOMEN EMPOWERMENT </NavLink></li>
-                <li><NavLink to="/program/childeducation">Child Education</NavLink></li>
-                <li><NavLink to="/program/summercamp">Summer Camp</NavLink></li>                
-
+                <li><NavLink to="/programs/childeducation">Child Education</NavLink></li>
+                <li><NavLink to="/programs/summercamp">Summer Camp</NavLink></li>   
+                      
               </ul>
             </li>
             <li><NavLink to="/media">Media <i class="fa-solid fa-caret-down"></i></NavLink>

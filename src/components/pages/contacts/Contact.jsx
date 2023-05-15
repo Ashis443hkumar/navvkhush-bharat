@@ -1,4 +1,5 @@
 import React from "react";
+import HeroButton from "../home/heroButton/HeroButton";
 import "./contact.css"
 
 export default function Contact() {
@@ -24,7 +25,8 @@ export default function Contact() {
                   <input type="text" placeholder="256 565 665 44" />
                 </div>
                 <div class="submit_btn">
-                   <button type="submit" class="hero_button">Submit</button>
+                   {/* <button type="submit" class="hero_button">Submit</button> */}
+                   <HeroButton buttonTitle="Submit" />
                 </div>
                </form>
              </div>
