@@ -1,7 +1,7 @@
-
+/* linear-gradient(rgba(211,211,211,0.91),rgba(231,191,311,0.71)), */
 /* ---------imapct --------------- */
 .impact{
-  background-image: linear-gradient(rgba(211,211,211,0.91),rgba(231,191,311,0.71)), url(https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg);
+  background-image: linear-gradient(rgba(211,211,211,0.91),rgba(71,91,311,0.71)), url(https://api.nationalngo.net/uploads/50927141215879_2262072324023131_1571373760164921344_n_0ac60f76ba_0ea17fac79.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -29,6 +29,16 @@
   text-align: center;
   padding: 30px;
   color: #ffff;
+}
+.impact_content h1{
+  color: #fff;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.impact_content p{
+  font-size: 19px;
+  color: #111;
 }
 .impact_content img{
   width: 90px;

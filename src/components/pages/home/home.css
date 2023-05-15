@@ -31,6 +31,9 @@
   padding: 30px 5%;
   /* background-color: chartreuse; */
 }
+.mission_goal h3{
+  color: #ffb142;
+}
 .mission_goal i{
   font-size: 52px;
   margin: 10px 0;

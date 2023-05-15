@@ -25,7 +25,6 @@
   height: 30px;
   line-height: 30px;
   color: #fff;
-  
 }
 .founder_content h2{
   font-size: 19px;
@@ -42,10 +41,9 @@
 .advisor_row{
   background-color: #eee;
   padding: 10px 6%;
-
 }
 .advisor_row h3{
   font-size: 21px;
-  margin-top: 30px;
+  margin-top: 10px;
   color:sandybrown;
 }
