@@ -1,12 +1,14 @@
 import React from "react";
 import Heading from "../../../common/heading/Heading";
+import AboutHeroBack from "../../home/hero/AboutHeroback";
 import "./style.css"
 
 export default function ChildEducation() {
   return (
      <>
+     <AboutHeroBack AboutTitle="Child Education" />
        
-       <Heading title="CHILD EDUCATION" />
+       {/* <Heading title="CHILD EDUCATION" /> */}
 
        <section class="CHILD_EDUCATION">
          <div className="container">

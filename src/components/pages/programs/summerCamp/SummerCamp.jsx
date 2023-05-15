@@ -1,12 +1,14 @@
 import React from "react";
 import Heading from "../../../common/heading/Heading";
+import AboutHeroBack from "../../home/hero/AboutHeroback";
 
 
 export default function SummerCamp() {
   return (
      <>
        
-       <Heading title="Summer Camp" style={{padding:"30px"}} />
+       {/* <Heading title="Summer Camp" style={{padding:"30px"}} /> */}
+       <AboutHeroBack AboutTitle="Summer Camp" />
        <section>
          <div className="container">
            <div className="row">

@@ -1,13 +1,14 @@
 import React from "react";
 import Heading from "../../../common/heading/Heading";
+import AboutHeroBack from "../../home/hero/AboutHeroback";
 import "./style.css"
 
 export default function WhomenEmpower() {
   return (
      <>
+     <AboutHeroBack AboutTitle="WOMEN EMPOWERMENT"/>
 
        <section class="whomenEmpower">
-         <Heading title="WOMEN EMPOWERMENT" />
          <div className="container">
            <div className="row">
              <div className="col-12">

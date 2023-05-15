@@ -1,12 +1,14 @@
 import React from "react";
-
+import "./hero.css"
 
 export default function Hero() {
   return (
      <>
-       <figure>
-         <img class="w-100" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQXASZnddXgGjNSkPvJjbLpNxFiXlJDQ55ARXq_WWfCGb60_rAS" alt="" />
+      <div className="hero_section">
+      <figure>
+         <img class="" src="https://vakilsearch.com/blog/wp-content/uploads/2021/05/VS_Blog-Images_3-05.png" alt="" />
        </figure>
+      </div>
      </>
   );
 }
