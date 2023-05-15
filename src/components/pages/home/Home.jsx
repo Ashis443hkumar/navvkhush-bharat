@@ -11,7 +11,6 @@ import Testimonial from './testimonial/Testimonial';
 import HeroButton from './heroButton/HeroButton';
 import SocialsIcons from './heroButton/SocialSIcon';
 import Impact from './impact/Impact';
-import Header from '../../common/header/Header';
 import Heading from '../../common/heading/Heading';
 
 import Volunteer from '../abouts/valunter/Volunteer';
@@ -23,7 +22,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Volunteer />
+      <Volunteer/>
       
       <section class="founder_about_sectin py-4">
        <div className="container">
@@ -170,7 +169,7 @@ export default function Home() {
 
 
       {/* youtube thubnails section */}
-      <section class="youtube_thhubanail my-5">
+      {/* <section class="youtube_thhubanail my-5">
         <div className="container my-3">
         <Heading title="Youtube videos"  class="mt-4" />
 
@@ -193,7 +192,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Impact/>
 
@@ -202,7 +201,7 @@ export default function Home() {
 
 
       {/* our partner section  */}
-      {/* <section className="Our_partner my-0">
+      <section className="Our_partner my-0">
         <div className="container-fluid">
         <Heading title="Our Partners"  />
           <div className="row my-3">
@@ -262,7 +261,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       
 
       {/* ------------ marq --------- */}
