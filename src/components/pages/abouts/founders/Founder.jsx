@@ -3,6 +3,7 @@ import Heading from "../../../common/heading/Heading";
 import Banner from "../../home/banner/Banner";
 import AboutHeroBack from "../../home/hero/AboutHeroback";
 import Impact from "../../home/impact/Impact";
+import WhoWeAre from "../whoWeAre";
 import FounderMessage from "./founderMessage/FounderMessage";
 
 export default function Founder() {
@@ -30,8 +31,64 @@ export default function Founder() {
      </section>
 
      <FounderMessage/>
-      <Banner/>
+      {/* <Banner/> */}
      <Impact/>
+
+     
+   
+
+     <section class="advisor">
+       <div className="container-fluid">
+       <Heading title="Advisory Board Members" />
+         <div className="row advisor_row">
+           <div className="col-md-3">
+             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/advisor-1.jpg" class="card-img-top w-100" alt=""/>
+           </div>
+           <div className="col-md-9">
+             <h3>Mr. Prahlad Godara</h3>
+             <p>Mr. Godara did his B.com, LLB & Diploma in Labour Law from University of Rajasthan, Jaipur. His corporate work experience spans across 3 decades , working with world ‘s number one two-wheeler automobile company M/S Hero MotoCorp Ltd (earlier Hero Honda Motors Ltd). Currently he is associated with Government of Haryana and working as Advisor to Chairman, Hon’ble by Chief Minister, Haryana.</p>
+           </div>
+         </div>
+         <div className="row mt-3 advisor_row">
+           <div className="col-md-9">
+             <h3>Mr. Vijay Sharma</h3>
+             <p>Mr. Godara did his B.com, LLB & Diploma in Labour Law from University of Rajasthan, Jaipur. His corporate work experience spans across 3 decades , working with world ‘s number one two-wheeler automobile company M/S Hero MotoCorp Ltd (earlier Hero Honda Motors Ltd). Currently he is associated with Government of Haryana and working as Advisor to Chairman, Hon’ble by Chief Minister, Haryana.</p>
+           </div>
+           <div className="col-md-3">
+             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-11.50.52-AM.jpeg" class="card-img-top w-100" alt=""/>
+           </div>
+         </div>
+         <div className="row mt-3 advisor_row">
+           <div className="col-md-3">
+             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2023/01/Sandeep_2022_Pic-1024x889.jpg" class="card-img-top w-100" alt=""/>
+           </div>
+           <div className="col-md-9">
+             <h3>Sandeep Bhargava</h3>
+             <p>Mr. Godara did his B.com, LLB & Diploma in Labour Law from University of Rajasthan, Jaipur. His corporate work experience spans across 3 decades , working with world ‘s number one two-wheeler automobile company M/S Hero MotoCorp Ltd (earlier Hero Honda Motors Ltd). Currently he is associated with Government of Haryana and working as Advisor to Chairman, Hon’ble by Chief Minister, Haryana.</p>
+           </div>
+         </div>
+         <div className="row mt-3 advisor_row">
+           <div className="col-md-9">
+             <h3>PARUL KUMAR</h3>
+             <p>Mr. Godara did his B.com, LLB & Diploma in Labour Law from University of Rajasthan, Jaipur. His corporate work experience spans across 3 decades , working with world ‘s number one two-wheeler automobile company M/S Hero MotoCorp Ltd (earlier Hero Honda Motors Ltd). Currently he is associated with Government of Haryana and working as Advisor to Chairman, Hon’ble by Chief Minister, Haryana.</p>
+           </div>
+           <div className="col-md-3">
+             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2023/01/Image-2022-09-19-at-15.26.56.jpg" class="card-img-top w-100" alt=""/>
+           </div>
+         </div>
+         <div className="row mt-3 advisor_row">
+           <div className="col-md-3">
+             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-11.50.52-AM.jpeg" class="card-img-top w-100" alt=""/>
+           </div>
+           <div className="col-md-9">
+             <h3>Ravi Sinha</h3>
+             <p>Mr. Godara did his B.com, LLB & Diploma in Labour Law from University of Rajasthan, Jaipur. His corporate work experience spans across 3 decades , working with world ‘s number one two-wheeler automobile company M/S Hero MotoCorp Ltd (earlier Hero Honda Motors Ltd). Currently he is associated with Government of Haryana and working as Advisor to Chairman, Hon’ble by Chief Minister, Haryana.</p>
+           </div>
+         </div>
+
+       </div>
+     </section>
+     <WhoWeAre/>
 
   
      </>

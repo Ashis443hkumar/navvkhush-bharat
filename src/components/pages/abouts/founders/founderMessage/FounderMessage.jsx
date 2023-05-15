@@ -17,7 +17,7 @@ export default function FounderMessage() {
                <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trustee.jpg" class="card-img-top" alt="" />
                <div className="card-body">
                   <h2>KAVITA RAWAT</h2>
-                  <h4>CEO, Navv Khush Bharat</h4>
+                  <h4>Founder, Navv Khush Bharat</h4>
                  <div>
                     <SocialsIcons/>
                  </div>

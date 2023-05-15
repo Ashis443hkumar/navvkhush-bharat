@@ -20,7 +20,6 @@ export default function About() {
        <Route path="/about/volunteer" element={<Volunteer/>} />
      </Routes>
 
-     <WhoWeAre/>
       
      {/* <OurAdvisior/> */}
 

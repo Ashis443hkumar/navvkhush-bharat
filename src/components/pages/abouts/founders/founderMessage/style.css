@@ -2,6 +2,7 @@
 .founder {
   background-color: #eee;
   padding: 0px;
+  margin-bottom: -30px;
 }
 .founder_content{
   margin-bottom: 30px;
@@ -17,14 +18,34 @@
 }
 .founder .social_link{
   text-align: center;
+  margin: 10px;
 }
 .founder .social_link i{
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   color: #fff;
+  
+}
+.founder_content h2{
+  font-size: 19px;
+  font-weight: bold;
 }
 .founder_content h4{
-  font-size: 16px;
+  font-size: 14px;
   padding-bottom: 10px;
+}
+/* advisor   */
+.advisor{
+  padding: 40px 0;
+}
+.advisor_row{
+  background-color: #eee;
+  padding: 10px 6%;
+
+}
+.advisor_row h3{
+  font-size: 21px;
+  margin-top: 30px;
+  color:sandybrown;
 }

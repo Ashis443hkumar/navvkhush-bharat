@@ -1,38 +1,39 @@
- {/* mission & goals  */}
- <section className="mission_goal my-4">
- <div className="container">
-   <Heading title="Mission & Goals"  />
+ {/* WHO WE ARE */}
+ <section class="whoAeAre_section">
+ <div className="container my-4 py-0">
    <div className="row">
-     <div className="col-md-4 text-center ">
-       <img src="https://img.icons8.com/?size=1x&id=x51rXOCxzN33&format=png" alt=""/>
-       <h3>Education for All</h3>
+     <div className="col-md-6">
+       <h3>What we do</h3>
        <p>
-         To help and educate socially deprived people and children to
-         achieve their fullest potential. Our aim is to provide education
-         and training to persons with disabilities.
+         National Organisation for Social Empowerment (NOFSE) is a
+         registered NGO working for the differently abled and
+         underprivileged of our community. We are a group of dreamers
+         with a collective vision; ‘Inclusiveness’. We believe that a
+         world without barriers should not be a luxury but a right. We
+         are doing our bit to ensure that disability does not entail
+         disadvantage. At National NGO we are working to advance the
+         rights of persons with disabilities (PWDs) in our society has
+         been continually working for social integration of persons with
+         disability. Although we work with a small set of people, we go
+         all the way in supporting them to become self-sufficient.
+         Through these years, we have assumed the role of facilitators,
+         counselors, friends and teachers amongst others
        </p>
+       <HeroButton buttonTitle="Free a Hungry Child " />
      </div>
-     <div className="col-md-4 text-center ">
-       <img src="https://img.icons8.com/?size=1x&id=64327&format=png" alt=""/>
-       <h3>Fashion Design</h3>
-       <p>
-         To help and educate socially deprived people and children to
-         achieve their fullest potential. Our aim is to provide education
-         and training to persons with disabilities.
-       </p>
-     </div>
-     <div className="col-md-4 text-center ">
-       <img src="https://img.icons8.com/?size=1x&id=0mcyYaZoPqem&format=png" alt=""/>
-       <h3>Medical Facilities</h3>
-       <p>
-         To help and educate socially deprived people and children to
-         achieve their fullest potential. Our aim is to provide education
-         and training to persons with disabilities.
-       </p>
+     <div className="col-md-6">
+       <figure>
+         <img
+           src="https://nationalngo.org/assets/images/who-we-are-main.png"
+           alt=""
+           className="w-100"
+         />
+       </figure>
      </div>
    </div>
  </div>
- </section>
+</section>
+
 
 // section 2 
 
