@@ -1,5 +1,7 @@
 import React from 'react';
 import Heading from '../../../common/heading/Heading';
+import HeroButton from '../../home/heroButton/HeroButton';
+import "./donate.css"
 
 export default function Donate() {
   return (
@@ -18,8 +20,109 @@ export default function Donate() {
             </div>
           </div>
         </div>
+    </section>
 
-   </section>
+      <section class="tabs_donate">
+        <div class="rwerer">
+          <HeroButton buttonTitle="Donate Now" />
+          <HeroButton buttonTitle="Donate Now    " />
+        </div>
+        <div className="container-fluid">
+          <div className="row rretry">
+            <div className="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sponsara  A child</button>
+
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SUPPORT WOMEN EMPOWERMENT</button>
+
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">TOY LIBRARY</button>
+
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">SUPPORT NavvKhush </button>
+
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PAY WHAT YOU WANT</button>
+
+                
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div className="row ">
+                  <div className="col-md-6 pt-5">
+                    <ul>
+                      <li>2000 INR (Support a child for 2 months)</li>
+                      <li>12000 INR (Support a child for a year)</li>
+                      <li>24000 INR (Support a child for 2 years)</li>
+                      <li>48000 INR (Support a child for 4 years)</li>
+                    </ul>
+                    <div class="eewrewr mt-5 pt-5">
+                      <p>Choose from above options</p>
+                      <p class="paragraph_or">or</p>
+                      <p>Pay what you want</p>
+                      <div class="donate_peple">
+                        <input type="nubmer" placeholder="47,000" />
+                        <div>
+                          <HeroButton buttonTitle="Donate" />
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div className="col-md-6">
+                    <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/IMG-20220927-WA0021-1.jpg" alt="" class="w-100 "  />
+                    
+                  </div>
+                </div>
+                
+            
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div className="row">
+                  <div className="col-md-6">
+                    <div class="">
+                    <ul>
+                      <p> 15000 INR (For menstrual hygiene requirements of 50 females for a year)</p>
+                      <p> 3000 INR (For menstrual hygiene requirements of 10 females for a year)</p>
+                      <p>1500 INR (Support a woman for 2 months)</p>
+                      <p> 4000 INR (For a skill training session)</p>
+                    </ul>
+                    <div class="eewrewr">
+                        <p>Choose from above options</p>
+                        <p class="paragraph_or">or</p>
+                        <p>Pay what you want</p>
+                        <div class="donate_peple">
+                          <input type="nubmer" placeholder="47,000" />
+                          <div>
+                            <HeroButton buttonTitle="Donate" />
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div className="col-md-6">
+                    <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/IMG-20220816-WA0011-2.jpg" class="w-100" alt=""/>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/9_7_2022-3_07_47-PM.jpg" alt="" class="w-100" />
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        
+
+
+
+
+ 
+
 
       {/* banner section  */}
       <section class="banner">

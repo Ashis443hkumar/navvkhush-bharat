@@ -82,8 +82,9 @@ ul li:hover ul.dropdown_menu{
   display: block;
 } 
 /* button  */
-.donate_btn button{
+ button{
   margin-left: 30px;
+  background: none;
 }
 .bargar_menu{
   display: none;

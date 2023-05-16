@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { NavLink,Link, Outlet } from "react-router-dom";
+import { NavLink,Link, useNavigate, Outlet } from "react-router-dom";
 import HeroButton from "../../pages/home/heroButton/HeroButton";
 import "./header.css";
 
@@ -7,23 +7,25 @@ export default function Header() {
   
   const[isMobile, setisMobile] = useState(false)
 
+  const navigate = useNavigate()
+
   return (
     <div>
       <header className="header">
         <div className="logo">
           {/* <img src="https://lh3.googleusercontent.com/Tblz76UwKYGyEoqc4F_imHk5ORBTJK6nlZqU39D8dVKUtDNOkv-uwvuRmSTgElqWUj6GCCFQCGc2Pxsw7luEIOMO6DrHP6ZxdWrxQHb2ng" alt=""  /> */}
           <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
-          <h3>Navv khush Bharat</h3>
+          <h3>Navvkhush Bharat</h3>
         </div>
 
         <nav className= {isMobile ? 'mobile-menu-link' : "navigation" } onClick={() => setisMobile(false)} >
           <ul>
             <li><NavLink to="/">Home</NavLink></li>
             <li>
-              <NavLink to="/about">About <i class="fa-solid fa-caret-down"></i></NavLink>
+              <NavLink to="/about/">About <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="/about/founder">Founder’s Message</NavLink></li>
-
+                <li><NavLink to="/about/founder/">Founder’s Message</NavLink></li>
+                <li><NavLink to="/about/donate">Donate</NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/programs/">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
@@ -46,7 +48,10 @@ export default function Header() {
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="donate_btn">
-            <HeroButton buttonTitle="Donate Now" />
+          <button onClick={() =>navigate("./about/donate")}>
+                   <HeroButton buttonTitle="Donate Now" />
+          </button>
+
           </div>
         </nav>
          <div className="bargar_menu" onClick={() =>setisMobile(!isMobile)}>

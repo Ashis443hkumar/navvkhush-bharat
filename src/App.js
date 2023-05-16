@@ -3,7 +3,9 @@ import "./style.css";
 import Head from "./components/common/head/Head"
 import Header from "./components/common/header/Header"
 import Footer from "./components/common/footer/Footer"
+
 import {Routes, Route} from "react-router-dom"
+
 import Home from "./components/pages/home/Home"
 import Programs from "./components/pages/programs/Programs"
 import About from "./components/pages/abouts/About"
