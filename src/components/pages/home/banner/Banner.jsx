@@ -13,11 +13,12 @@ export default function Banner() {
             changes!
           </h3>
         </div>
-        <div class="banner_form">
+        <div class="banner_button">
           <HeroButton buttonTitle="Become a Volunteer" />
         </div>
       </section>
      
+
      </>
   );
 }

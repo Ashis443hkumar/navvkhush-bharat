@@ -11,3 +11,20 @@
 .banner h3{
  font-size: 21px;
 }
+
+@media(max-width:768px){
+.banner{
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 4%;
+    
+ }
+ .banner .banner_text h3{
+  font-size: 18px;
+ 
+ }
+ .banner_button .heroBtn{
+   font-size: 16px;
+
+}
+}

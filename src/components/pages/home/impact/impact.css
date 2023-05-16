@@ -11,19 +11,21 @@
 }
 .impact .heading h1{
   color: #111;
-  margin-top: 20px;
+  margin-top: 15px;
   font-weight: 900;
 }
 .imapct_banner{
   background-color: #f39c12;
-  padding: 10px 5%;
   position: absolute;
-  top: 25%;
+  padding: 10px 5%;
+  top: 20%;
   left: 0%;
   right: 0%;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  height: 60vh;
+  width: 100%;
+  
 }
 .impact_content{
   text-align: center;
@@ -45,6 +47,32 @@
   height: 90px;
   margin-bottom: 15px;
 }
-.impact_content i{
-  font-size: 52px;
+
+
+@media (max-width:768px){
+   .impact{
+     height: 100vh;
+  }
+  .imapct_banner{
+    height: 70vh;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 40px;
+    row-gap: -5px;
+  }
+  .impact_content h1{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .impact_content p{
+    font-size: 14px;
+    color: #111;
+  }
+  .impact_content img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
 }
