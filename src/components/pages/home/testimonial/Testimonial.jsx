@@ -18,7 +18,7 @@ export default function Testimonial() {
           <section class="home-testimonial-bottom">
             <div class="container testimonial-inner">
               <div class="row d-flex justify-content-center">
-                <div class="col-md-4 style-3">
+                <div class="col-md-4 style-3 trtrt">
                   <div class="tour-item ">
                     <div class="tour-desc bg-white">
                       <div class="tour-text color-grey-3 text-center">
@@ -45,7 +45,7 @@ export default function Testimonial() {
                   </div>
                 </div>
 
-                <div class="col-md-4 style-3">
+                <div class="col-md-4 style-3 trtrt">
                   <div class="tour-item ">
                     <div class="tour-desc bg-white">
                       <div class="tour-text color-grey-3 text-center">
@@ -70,7 +70,7 @@ export default function Testimonial() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 style-3">
+                <div class="col-md-4 style-3 trtrt">
                   <div class="tour-item ">
                     <div class="tour-desc bg-white">
                       <div class="tour-text color-grey-3 text-center">

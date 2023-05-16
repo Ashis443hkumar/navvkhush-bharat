@@ -39,7 +39,7 @@ export default function Contact() {
                     </p>
                     <p>Just A Little Help Can Make Their Hearts Happier!</p>
  
-                  <button class="hero_button">Donate Now</button>
+                  <HeroButton buttonTitle="Donate Now" />
   
                 </div>
              </div>

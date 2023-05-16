@@ -14,6 +14,7 @@ import Impact from './impact/Impact';
 import Heading from '../../common/heading/Heading';
 
 import Volunteer from '../abouts/valunter/Volunteer';
+import Tests from './testimonial/Tests';
 
 export default function Home() {
 
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Tests/>
       
       <section class="founder_about_sectin py-4">
        <div className="container">
@@ -121,42 +123,42 @@ export default function Home() {
          <Heading title="CONTRIBUTION TO SDG’s" />
 
           <div className="row py-4">
-            <div className="col-2">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
                 src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-1.png"
                 alt=""
                 class="w-100"
               />
             </div>
-            <div className="col-2">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
                 src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-2.png"
                 alt=""
                 class="w-100"
               />
             </div>
-            <div className="col-2">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
                 src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-3.png"
                 alt=""
                 class="w-100"
               />
             </div>
-            <div className="col-2">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
                 src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-4.png"
                 alt=""
                 class="w-100"
               />
             </div>
-            <div className="col-2">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
                 src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-5.png"
                 alt=""
                 class="w-100"
               />
             </div>
-            <div className="col-2">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
                 src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-6.png"
                 alt=""
@@ -202,7 +204,7 @@ export default function Home() {
         <div className="container-fluid">
         <Heading title="Our Partners"  />
           <div className="row my-3">
-            <div className="col-md-2 partner_img ">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img  ">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/corpet.jpg"
@@ -211,7 +213,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2 partner_img">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/honda.jpg"
@@ -220,7 +222,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2 partner_img">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/hsl.jpg"
@@ -229,7 +231,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2 partner_img">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/munjal.jpg"
@@ -238,7 +240,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2 partner_img">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/shivam.jpg"
@@ -247,7 +249,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <div className="col-md-2 partner_img">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
                   src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg"
