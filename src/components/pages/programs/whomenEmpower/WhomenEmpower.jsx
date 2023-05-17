@@ -9,6 +9,7 @@ export default function WhomenEmpower() {
      <AboutHeroBack AboutTitle="WOMEN EMPOWERMENT"/>
 
        <section class="whomenEmpower">
+         <Heading title="Fashion Desginer" />
          <div className="container">
            <div className="row">
              <div className="col-12">
@@ -24,6 +25,7 @@ export default function WhomenEmpower() {
 
 
        <section class="whomenEmpower">
+         <Heading title="Counselling" />
          <div className="container">
            <div className="row">
              <div className="col-12">
@@ -43,6 +45,7 @@ export default function WhomenEmpower() {
        </section>
 
        <section class="whomenEmpower">
+         <Heading title="Self Help Groups" />
          <div className="container">
            <div className="row">
              <div className="col-12">

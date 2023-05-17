@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
           <div class="address_bar">
             <span><i class="fa-solid fa-location-dot"></i></span>
-            <address>Corporate Office : C-314 3th Floor, Nirvana Courtyard, Sector-50, Gurugram -  122018.</address>
+            <address>Corporate Office : C-314 3rd Floor, Nirvana Courtyard, Sector-50, Gurugram -  122018.</address>
           </div>
           <div class="email">
             <strong><i class="fa-solid fa-envelope"></i></strong>

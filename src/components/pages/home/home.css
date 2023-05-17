@@ -102,7 +102,6 @@
 }
 
 /* accodin  */
-
 .accordion{
   background-color: #182C61;
   padding: 30px 5%;
@@ -111,7 +110,6 @@
   margin-bottom: 20px;
 }
 .accordion-header{
-  background-color: blue;
 }
 .faq_readMore{
   background: none;

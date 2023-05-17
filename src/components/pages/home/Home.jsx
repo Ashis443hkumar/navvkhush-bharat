@@ -170,6 +170,7 @@ export default function Home() {
       </section>
 
       <Banner/>
+      
        {/* youtube thubnails section */}
        <section class="youtube_thhubanail my-5">
         <div className="container my-3">

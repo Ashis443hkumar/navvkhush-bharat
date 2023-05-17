@@ -1,10 +1,11 @@
 .tabs_donate{
   padding: 20px 5%;
-  /* background-color: blueviolet; */
-  color: #fff;
+  background: #a2a2a2;
+
+  /* background: #f6f6f6f6; */
+  color: #ffffff;
 }
 .rretry{
-  background: #009432;
   padding: 30px 10px;
   padding-bottom: 10px;
 }
@@ -22,7 +23,6 @@
 .tabs_donate a{
   display: block;
   text-decoration: none;
-  color: #fff;
 }
 .eewrewr{
   margin-left: 30px;
@@ -45,4 +45,8 @@
 }
 .donate_peple button{
   padding: 10px 50px;
+}
+.nav-link{
+  color:#000;
+
 }
