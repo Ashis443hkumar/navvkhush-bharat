@@ -1,11 +1,13 @@
 import React from 'react';
 import Heading from '../../../common/heading/Heading';
+import AboutHeroBack from '../../home/hero/AboutHeroback';
 import HeroButton from '../../home/heroButton/HeroButton';
 import "./donate.css"
 
 export default function Donate() {
   return (
    <>
+   <AboutHeroBack AboutTitle="Donate Now" cover={"https://img.freepik.com/premium-photo/customer-relationship-management-system-modish-computer-crm-business_31965-42573.jpg?w=826"} />
   <section class="volunteer">
         <div className="conatiner">
           {/* <div className="heading">

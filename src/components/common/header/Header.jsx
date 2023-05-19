@@ -32,7 +32,7 @@ export default function Header() {
               <ul class="dropdown_menu">
                 <li><NavLink to="/programs/whomen/">WOMEN EMPOWERMENT </NavLink></li>
                 <li><NavLink to="/programs/childeducation">Child Education</NavLink></li>
-                <li><NavLink to="/programs/summercamp">Summer Camp</NavLink></li>   
+                {/* <li><NavLink to="/programs/summercamp">Summer Camp</NavLink></li>    */}
                       
               </ul>
             </li>
