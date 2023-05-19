@@ -6,7 +6,7 @@ import "./style.css"
 export default function WhomenEmpower() {
   return (
      <>
-     <AboutHeroBack AboutTitle="WOMEN EMPOWERMENT"/>
+     <AboutHeroBack AboutTitle="WOMEN EMPOWERMENT" cover={"http://localhost:3000/image/hero/homepagebanner.png"} />
 
        <section class="whomenEmpower">
          <Heading title="Fashion Desginer" />

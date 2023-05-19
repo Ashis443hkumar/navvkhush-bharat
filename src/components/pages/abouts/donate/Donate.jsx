@@ -104,7 +104,7 @@ export default function Donate() {
                     <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/9_7_2022-3_07_45-PM.jpg" class="w-100" alt=""/>
                   </div>
                 </div>
-              
+
               </div>
 
               <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">

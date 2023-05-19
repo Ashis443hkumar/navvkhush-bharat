@@ -1,10 +1,10 @@
 import React from "react";
 import "./hero.css"
 
-export default function AboutHeroBack({AboutTitle}) {
+export default function AboutHeroBack({AboutTitle, cover}) {
   return (
      <>
-       <section class="about_hero">
+       <section class="about_hero_back">
          <div className="container">
            <div className="row">
              <div className="col-12">
@@ -12,6 +12,9 @@ export default function AboutHeroBack({AboutTitle}) {
              </div>
            </div>
          </div>
+         <img src={cover} alt=""/>
+
+
 
        </section>
      </>

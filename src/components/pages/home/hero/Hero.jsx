@@ -6,7 +6,7 @@ export default function Hero() {
      <>
       <div className="hero_section">
       <figure>
-         <img class="" src="https://vakilsearch.com/blog/wp-content/uploads/2021/05/VS_Blog-Images_3-05.png" alt="" />
+         <img class="" src="http://localhost:3000/image/hero/homepagebanner.png" alt="" />
        </figure>
       </div>
      </>
