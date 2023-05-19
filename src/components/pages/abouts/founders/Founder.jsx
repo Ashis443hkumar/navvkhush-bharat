@@ -10,7 +10,7 @@ export default function Founder() {
 
   return (
      <>
-     <AboutHeroBack AboutTitle="Abouts Section" />
+     <AboutHeroBack AboutTitle="Abouts Section" cover={"https://as1.ftcdn.net/v2/jpg/02/01/78/84/1000_F_201788493_CEDqb3ZT2MKFfDJ9EhvcZpX2QcXfhplk.jpg"} />
      <section class="founder_about_sectin py-4">
        <div className="container">
          <Heading title="About us" />
@@ -74,8 +74,7 @@ export default function Founder() {
            </div>
            <div className="col-md-9">
              <h3>Sandeep Bhargava</h3>
-             <p>Sandeep Bhargava - BE, MBA, With more than 40 years of National and International Experience in Corporate Affairs and Public Policy, Government Affairs, Enterprise Sales and Program Management. Major Companies worked in India and Europe:  Vodafone Idea Limited  Microsoft Corp  Nokia India  Nokia Siemens Networks  Hughes India Currently Senior Advisor at Telecom and Digital Health Companies and Investor & Mentor at Startups. Social Sector: Member Advisory Board of Sarthak since its inception and Vice President-National Abylimpics Association of India Advisory Board Member, Aambra Foundation Member Advisory Board at Samaagra Foundation.
-</p>
+             <p>Sandeep Bhargava - BE, MBA, With more than 40 years of National and International Experience in Corporate Affairs and Public Policy, Government Affairs, Enterprise Sales and Program Management. Major Companies worked in India and Europe:  Vodafone Idea Limited  Microsoft Corp  Nokia India  Nokia Siemens Networks  Hughes India Currently Senior Advisor at Telecom and Digital Health Companies and Investor & Mentor at Startups. Social Sector: Member Advisory Board of Sarthak since its inception and Vice President-National Abylimpics Association of India Advisory Board Member, Aambra Foundation Member Advisory Board at Samaagra Foundation.</p>
            </div>
          </div>
          <div className="row mt-3 advisor_row">
@@ -97,17 +96,24 @@ export default function Founder() {
          </div>
          <div className="row mt-3 advisor_row">
            <div className="col-md-3">
-             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-11.50.52-AM.jpeg" class="card-img-top w-100" alt=""/>
+             <img src="http://localhost:3000/image/Advriosry/Ravi%20singa.jpeg" class="card-img-top w-100" alt=""/>
            </div>
            <div className="col-md-9">
              <h3>Ravi Sinha</h3>
-             <p>Mr. Godara did his B.com, LLB & Diploma in Labour Law from University of Rajasthan, Jaipur. His corporate work experience spans across 3 decades , working with world ‘s number one two-wheeler automobile company M/S Hero MotoCorp Ltd (earlier Hero Honda Motors Ltd). Currently he is associated with Government of Haryana and working as Advisor to Chairman, Hon’ble by Chief Minister, Haryana.</p>
+             <p>A result-driven HR-professional with over 30 years of Industry experience, having expertise in creating and implementing programs to enhance global business operations</p>
+             <p>With over 30 years of industry work experience  as General Manager, HR, at Hero MotoCorp India, have played an extremely pivotal in guiding the organization to reach and maintain position of leadership</p>
+             <p>Analyzed existing talent recruiting, sourcing and selection processes and developed , over the years, more efficient processes to improve quality of candidate selection and produce retention strategies that improve overall business efficiencies and acquisition costs</p>
+             <p>Strategized global organizational policies and implemented change-management in line with organizational needs and overall business climate, including company-wide restructuring and reduction initiatives; implemented outplacement plans and focused on increasing employee morale after downsizing</p>
+             <p>Planned, developed, implemented and institutionalized HR/Personnel Development policies, OD interventions, and industry best-practices</p>
+             <p>Devised manpower training policies, implemented educational training programs, and educated management and business line leaders about legal compliance and employee best practices</p>
+             <p>Provided consultancy services in the field of labor training and development, competency mapping, and L&D initiatives to the leading industry clients like Suzuki Motor Gujarat, Hero MotoCorp, etc</p>
+
+
            </div>
          </div>
 
        </div>
      </section>
-     <WhoWeAre/>
 
   
      </>

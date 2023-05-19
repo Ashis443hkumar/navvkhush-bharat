@@ -6,7 +6,7 @@ import "./style.css"
 export default function ChildEducation() {
   return (
      <>
-     <AboutHeroBack AboutTitle="Child Education" />
+     <AboutHeroBack AboutTitle="Child Education" cover={"https://img.freepik.com/free-photo/group-children-lying-reading-grass-field_1150-3900.jpg?w=740&t=st=1684492921~exp=1684493521~hmac=a0cfb27ad6094473d5e4af3ce5fd4ff0384ccef882c827ae270da234512d12d6"} />
        
        {/* <Heading title="CHILD EDUCATION" /> */}
 

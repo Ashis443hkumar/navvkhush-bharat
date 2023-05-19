@@ -90,6 +90,7 @@
 }
 .founder_home img{
   width: 100%;
+  height: 500px;
 }
 .founder_home h2{
   font-weight: bold;
@@ -100,6 +101,9 @@
 .founder_home h4{
   font-size: 16px;
 }
+.founder_content button{
+  margin-left: 0%;
+}
 
 /* accodin  */
 .accordion{
@@ -108,8 +112,6 @@
 }
 .accordion-item{
   margin-bottom: 20px;
-}
-.accordion-header{
 }
 .faq_readMore{
   background: none;

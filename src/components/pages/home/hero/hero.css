@@ -22,7 +22,7 @@
   z-index: -1;
   object-fit: cover;
 }
-.about_hero_back::after{
+/* .about_hero_back::after{
   content:  "";
   position: absolute;
   top: 0;
@@ -31,7 +31,7 @@
   height: 49vh;
   background: rgba(17,40,72,0.62);
   z-index: -1;
-}
+} */
 .about_hero_back {
   color: #ffff;
   padding: 120px 0;

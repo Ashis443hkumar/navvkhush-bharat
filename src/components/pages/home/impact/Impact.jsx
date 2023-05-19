@@ -5,6 +5,7 @@ export default function Impact() {
   return (
      <>
 
+
      {/* impact section   */}
      <section class="impact mt-0">
         <div className="heading my-4">
