@@ -21,9 +21,15 @@
   margin-left: 5px;
   background: none;
 }
-.social_link .youtube-icons{
+.social_link .youtube-icons {
   width: 30px;
   height: 28px;
+}
+.social_link .facebook {
+  color: #fff;
+  width: 30px;
+  height: 27px;
+  background-color: #fff;
 }
 
 /* .social_link .fa-facebook{

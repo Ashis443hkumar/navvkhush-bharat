@@ -17,6 +17,7 @@ export default function SocialsIcons() {
 
                 <img src="http://localhost:3000/image/social-media-icons/icons8-facebook.svg" alt=""/>
                 <img src="http://localhost:3000/image/social-media-icons/icons8-instagram.svg" alt=""/>
+                {/* <img src="http://localhost:3000/image/social-media-icons/facebook.png" class="facebook" alt="" /> */}
 
 
                 
