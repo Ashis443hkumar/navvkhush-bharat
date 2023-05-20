@@ -25,7 +25,7 @@ export default function Home() {
       <Hero />
       <Tests/>
 
-      <img src="file:///C:/Users/seema/OneDrive/Desktop/html4434/image/instagram.svg" alt="" />
+
       
       <section class="founder_about_sectin py-4">
        <div className="container">
