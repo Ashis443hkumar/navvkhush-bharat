@@ -48,33 +48,34 @@ export default function Home() {
 
   {/* founder messages  */}
   <section class="founder_home mt-4">
-         <div className="container">
-           <Heading title="FOUNDER MESSAGE" />
-           <div className="row founder_content">
-             <div className="col-md-4">
-             <div className="card">
-               <img src="http://localhost:3000/image/kavita-rawart.jpeg" class="card-img-top " alt="" />
-               <div className="card-body text-center">
-                  <h2>KAVITA RAWAT</h2>
-                  <h4>FOUNDER, Navv Khush Bharat</h4>
-                 <div>
-                    <SocialsIcons/>
-                 </div>
-               </div>
-             </div>
-             </div>
-             <div className="col-md-8">
-               <div class="founder_content">
-               <p class="pt-1">Welcome to Navv Khush Bharat, also known as Crime Control & Social Development Organisation. Our mission is to bring positive change to the lives of women and children in semi-urban slums and villages. As a registered NGO, we are committed to improving the quality of education for children and empowering women to achieve financial independence. </p>
+      <div className="container">
+        <Heading title="FOUNDER MESSAGE" />
+        <div className="row founder_content">
+          <div className="col-md-4">
+          <div className="card">
+            <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top " alt="" />
+            
+            <div className="card-body text-center">
+              <h2>KAVITA RAWAT</h2>
+              <h4>FOUNDER, Navv Khush Bharat</h4>
+              <div>
+                <SocialsIcons/>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div className="col-md-8">
+            <div class="founder_content">
+            <p class="pt-1">Welcome to Navv Khush Bharat, also known as Crime Control & Social Development Organisation. Our mission is to bring positive change to the lives of women and children in semi-urban slums and villages. As a registered NGO, we are committed to improving the quality of education for children and empowering women to achieve financial independence. </p>
 
-               <p>Through education, we aim to instil an open mindset in children and break the cycle of poverty. For women, we provide skill development programs, along with social and economic support, to help them become self-sufficient. Our current operations are based in Delhi and Gurgaon, but we plan to expand our projects to other parts of India. Join us in our efforts to make a difference in the lives of those who need it most</p>
-               <button onClick={() =>navigate("./about")}>
-                   <HeroButton buttonTitle="ReadMore" />
-               </button>
-               </div>
-             </div>
-           </div>
-         </div>
+            <p>Through education, we aim to instil an open mindset in children and break the cycle of poverty. For women, we provide skill development programs, along with social and economic support, to help them become self-sufficient. Our current operations are based in Delhi and Gurgaon, but we plan to expand our projects to other parts of India. Join us in our efforts to make a difference in the lives of those who need it most</p>
+            <button onClick={() =>navigate("./about")}>
+                <HeroButton buttonTitle="ReadMore" />
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
        </section>
 
     
@@ -85,7 +86,7 @@ export default function Home() {
         <div className="row">
           <div className="col-md-4 text-center ">
             <img src="https://img.icons8.com/?size=1x&id=x51rXOCxzN33&format=png" alt=""/>
-            <h3>Education for All</h3>
+            <h3>Child education</h3>
             <p>
               To help and educate socially deprived people and children to
               achieve their fullest potential. Our aim is to provide education
@@ -103,7 +104,7 @@ export default function Home() {
           </div>
           <div className="col-md-4 text-center ">
             <img src="https://img.icons8.com/?size=1x&id=0mcyYaZoPqem&format=png" alt=""/>
-            <h3>Medical Facilities</h3>
+            <h3>Counselling</h3>
             <p>
               To help and educate socially deprived people and children to
               achieve their fullest potential. Our aim is to provide education

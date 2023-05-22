@@ -1,21 +1,25 @@
 /* linear-gradient(rgba(211,211,211,0.91),rgba(231,191,311,0.71)), */
 /* ---------imapct --------------- */
 .impact{
-  background-image: url("https://img.freepik.com/free-photo/diverse-team-stacking-their-hands_53876-146170.jpg?size=626&ext=jpg&ga=GA1.1.1754756187.1684492128&semt=ais");
+  /* background-image: url("https://img.freepik.com/free-photo/diverse-team-stacking-their-hands_53876-146170.jpg?size=626&ext=jpg&ga=GA1.1.1754756187.1684492128&semt=ais"); */
+  background-image: url("https://i.pinimg.com/564x/2c/a9/59/2ca959189dbff135cfd9ad04424a7383.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  object-fit: cover;
   width: 100%;
   height: 100vh;
   position: relative;
 }
 .impact .heading h1{
+  /* color: #ffb142; */
   color: #fff;
   margin-top: 15px;
   font-weight: 900;
 }
 .imapct_banner{
-  background-color: #eb4d4b;
+  /* background-color: #eb4d4b; */
+  background-color: #182C61;;
   position: absolute;
   padding: 10px 5%;
   top: 50%;

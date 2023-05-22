@@ -1,4 +1,30 @@
 
+.rtyty{
+   border: 10px 20px;
+   padding-top: 8px;
+   width: 100%;
+   height: 40px;
+   text-align: center;
+   color: #fff;
+}
+.rtyty h3{
+  font-size: 19px;
+}
+.wergewr4{
+  background-color: slateblue;
+}
+.eertretre{
+  background-color: salmon;
+}
+.weretret{
+  background-color: crimson;
+  margin: 10px  0;
+}
+.ertertrfte{
+  background-color: violet;
+  margin-top: 12px;
+}
+/* founder message  */
 .founder {
   background-color: #eee;
   padding: 0px;

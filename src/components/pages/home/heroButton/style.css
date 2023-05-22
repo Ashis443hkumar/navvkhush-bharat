@@ -14,36 +14,36 @@
 }
 
 /* ----- social icons  ------ */
-.social_link img {
-  width: 35px;
-  height: 35px;
-  object-fit: cover;
-  background: none;
-}
-.social_link .youtube-icons {
-  width: 30px;
-  height: 28px;
-}
-.social_link .facebook {
+.social_link a {
+  text-decoration: none;
   color: #fff;
-  width: 30px;
-  height: 27px;
-  background-color: #fff;
 }
-
-/* .social_link .fa-facebook{
+.social_link i {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 18px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.social_link .fa-facebook {
   background-color: #487eb0;
 }
-.social_link .fa-twitter{
+.social_link .fa-twitter {
   background-color: #706fd3;
   margin-left: 13px;
 }
-.social_link .fa-instagram{
+.social_link .fa-instagram {
   background-color: #cf6a87;
   margin-left: 13px;
 }
-.social_link .fa-youtube{
+.social_link .fa-youtube {
   background-color: #e84118;
   margin-left: 13px;
-
-} */
+}
+.fa-linkedin {
+  background-color: #706fd3;
+  margin-left: 13px;
+}
