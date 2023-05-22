@@ -28,11 +28,11 @@ export default function Testimonial() {
                         is truly inspiring.&rdquo;
                       </div>
                       <div class="d-flex justify-content-center pt-2 pb-2">
-                        <img
+                        {/* <img
                           class="tm-people"
                           src="https://media.licdn.com/dms/image/D4D03AQFVJqqvyVLKBQ/profile-displayphoto-shrink_100_100/0/1676700756681?e=1689206400&v=beta&t=9I8hk6ENH7riDKV6dofg3AkUvnFGgwzR30Lqe63anjM"
                           alt=""
-                        />
+                        /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
                         Ashish Sharma
@@ -55,11 +55,11 @@ export default function Testimonial() {
                         communities and given hope.&rdquo;
                       </div>
                       <div class="d-flex justify-content-center pt-2 pb-2">
-                        <img
+                        {/* <img
                           class="tm-people"
                           src="https://media.licdn.com/dms/image/D4D03AQFVJqqvyVLKBQ/profile-displayphoto-shrink_100_100/0/1676700756681?e=1689206400&v=beta&t=9I8hk6ENH7riDKV6dofg3AkUvnFGgwzR30Lqe63anjM"
                           alt=""
-                        />
+                        /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
                         Balbir Kaur
@@ -81,11 +81,11 @@ export default function Testimonial() {
                         succeed..&rdquo;
                       </div>
                       <div class="d-flex justify-content-center pt-2 pb-2">
-                        <img
+                        {/* <img
                           class="tm-people"
                           src="https://media.licdn.com/dms/image/D4D03AQFVJqqvyVLKBQ/profile-displayphoto-shrink_100_100/0/1676700756681?e=1689206400&v=beta&t=9I8hk6ENH7riDKV6dofg3AkUvnFGgwzR30Lqe63anjM"
                           alt=""
-                        />
+                        /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
                         Balbir Kaur

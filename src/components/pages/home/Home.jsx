@@ -85,7 +85,8 @@ export default function Home() {
         <Heading title="What we do"  />
         <div className="row">
           <div className="col-md-4 text-center ">
-            <img src="https://img.icons8.com/?size=1x&id=x51rXOCxzN33&format=png" alt=""/>
+            {/* <img src="https://img.icons8.com/?size=1x&id=x51rXOCxzN33&format=png" alt=""/> */}
+            <img src="https://cdn-icons-png.flaticon.com/128/769/769600.png" alt=""/>
             <h3>Child education</h3>
             <p>
               To help and educate socially deprived people and children to
@@ -94,7 +95,8 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-4 text-center ">
-            <img src="https://img.icons8.com/?size=1x&id=64327&format=png" alt=""/>
+            {/* <img src="https://img.icons8.com/?size=1x&id=64327&format=png" alt=""/> */}
+            <img src="https://cdn-icons-png.flaticon.com/128/2558/2558284.png" alt=""/>
             <h3>Fashion Design</h3>
             <p>
               To help and educate socially deprived people and children to
@@ -103,7 +105,8 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-4 text-center ">
-            <img src="https://img.icons8.com/?size=1x&id=0mcyYaZoPqem&format=png" alt=""/>
+            {/* <img src="https://img.icons8.com/?size=1x&id=0mcyYaZoPqem&format=png" alt=""/> */}
+            <img src="https://cdn-icons-png.flaticon.com/128/952/952228.png" alt="" />
             <h3>Counselling</h3>
             <p>
               To help and educate socially deprived people and children to

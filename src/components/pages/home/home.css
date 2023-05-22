@@ -29,14 +29,16 @@
 /* .mission_goal */
 .mission_goal {
   padding: 30px 5%;
-  /* background-color: chartreuse; */
 }
 .mission_goal h3{
   color: #ffb142;
+  font-size: 23px;
+  margin-top: 20px;
 }
-.mission_goal i{
-  font-size: 52px;
-  margin: 10px 0;
+.mission_goal img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
 }
 
 /* ------------sdg_section---------- */

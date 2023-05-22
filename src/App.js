@@ -9,6 +9,7 @@ import {Routes, Route} from "react-router-dom"
 import Home from "./components/pages/home/Home"
 import Programs from "./components/pages/programs/Programs"
 import About from "./components/pages/abouts/About"
+import Blog from "./components/pages/blog/Blog"
 import Contact from "./components/pages/contacts/Contact"
 
 import Founder from  "./components/pages/abouts/founders/Founder"
@@ -48,7 +49,11 @@ export default function App() {
               <Route path="summercamp" element={<SummerCamp/>} />
         </Route>
 
+        <Route path="/blog"  element={<Blog />}  />
+
+
         <Route path="/contact"  element={<Contact />}  />
+
 
         
         <Route path="volunteer" element={<Volunteer/>} />  

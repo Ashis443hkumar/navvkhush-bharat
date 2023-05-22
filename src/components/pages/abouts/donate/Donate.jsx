@@ -24,7 +24,7 @@ export default function Donate() {
         </div>
     </section>
 
-     {/* donate section  */}
+     {/* ------------------- donate section ---------------- */}
       <section class="tabs_donate">
         {/* <div class="rwerer">
           <HeroButton buttonTitle="Donate Now" />
@@ -119,6 +119,28 @@ export default function Donate() {
       </section>
 
         
+        <section class="bank_details">
+          <div className="container">
+            <div className="heading">
+                 <h3>Our Bank details to make donation from net-banking / Internet Banking.</h3>
+                 <h2>RBL Bank Limited</h2>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+              <div className="bank_details_content">
+                 <p>Beneficiary/Name:  Crime Control & Social Development Organisation </p>
+                 <p>Type of Account: Current</p>
+                 <p>Account Number: 408287372178 </p>
+                 <p>Branch: Noida, sector - 18</p>
+                 <p>Branch Code: 001706</p>
+                 <p>IFSC Code: RATN000114</p>
+                 <p>MICR Code: 110002054</p>
+              </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
 
 
 
@@ -135,7 +157,7 @@ export default function Donate() {
           </h3>
         </div>
         <div class="banner_form">
-          <button class="hero_button">Become a Volunteer</button>
+          <HeroButton buttonTitle="Become a Volunteer" />
         </div>
       </section>
       

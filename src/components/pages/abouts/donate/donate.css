@@ -50,3 +50,16 @@
   color:#000;
 
 }
+/* bank_details  */
+.bank_details{
+  background-color: skyblue;
+  padding: 40px;
+  text-align: center;
+}
+.bank_details_content{
+  text-align: start;
+}
+.bank_details_content p{
+  font-size: 21px;
+
+}

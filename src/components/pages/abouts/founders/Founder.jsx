@@ -16,28 +16,6 @@ export default function Founder() {
         }
       />
 
-      <section class="">
-        <div className="container">
-          <h1 class="text-center py-5">Our Achievements till Date (since 2020)</h1>
-          <div className="row">
-            <div className="col-md-6">
-              <div class="rtyty  wergewr4">
-                <h3>Number of Children Educated 1779</h3>
-              </div>
-              <div className="rtyty weretret">
-                <h3>Women Counseling 3000 +</h3>
-              </div>
-              <div className="rtyty eertretre">
-                <h3>Women Registered with us 1250+</h3>
-              </div>
-              <div class="rtyty ertertrfte">
-                <h3>Women Employed & financially independent 75+</h3>
-              </div>
-            </div>
-            <div className="col-md-6"></div>
-          </div>
-        </div>
-      </section>
 
       <section class="founder_about_sectin py-4">
         <div className="container">
@@ -89,6 +67,35 @@ export default function Founder() {
                 just and equal society. Join us on this journey towards a
                 brighter future for all.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="achiment_still_date">
+        <div className="container">
+          <div className="heading_stil">
+             <h1 class="text-center py-5 ">Our Achievements till Date (since 2020)</h1>
+          </div>
+
+          <div className="row">
+            <div className="col-md-6">
+              <div class="rtyty  wergewr4">
+                <h3>Number of Children Educated 1779</h3>
+              </div>
+              <div className="rtyty weretret">
+                <h3>Women Counseling 3000 +</h3>
+              </div>
+              <div className="rtyty eertretre">
+                <h3>Women Registered with us 1250+</h3>
+              </div>
+              <div class="rtyty ertertrfte">
+                <h3>Women Employed & financially independent 75+</h3>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <img src="https://i.pinimg.com/736x/2c/4f/f7/2c4ff7e2fdeb5511a21e00489b38610f.jpg" class="w-100" alt=""/>
             </div>
           </div>
         </div>

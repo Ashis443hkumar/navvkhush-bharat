@@ -44,7 +44,7 @@ export default function Header() {
                 <li><NavLink to="">Upcoming Events</NavLink></li>
               </ul>
             </li>
-            <li><NavLink to="/">Blog</NavLink></li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="donate_btn">

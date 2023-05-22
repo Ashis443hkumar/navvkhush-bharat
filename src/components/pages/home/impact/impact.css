@@ -18,8 +18,10 @@
   font-weight: 900;
 }
 .imapct_banner{
-  /* background-color: #eb4d4b; */
-  background-color: #182C61;;
+  /* background-color: slateblue; */
+  /* background-color: #182C61; */
+  background-color: #25CCF7;
+
   position: absolute;
   padding: 10px 5%;
   top: 50%;
@@ -34,11 +36,11 @@
 .impact_content{
   text-align: center;
   padding: 30px;
-  color: #ffff;
+  /* color: #ffff; */
 }
-.impact_content h1{
-  color: #fff;
-  font-size: 26px;
+.impact_content h2{
+  color: #d35400;
+  font-size: 36px;
   font-weight: 100;
   line-height: 25px;
 }
