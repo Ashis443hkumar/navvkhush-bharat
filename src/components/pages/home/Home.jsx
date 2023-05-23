@@ -87,21 +87,17 @@ export default function Home() {
           <div className="col-md-4 text-center ">
             {/* <img src="https://img.icons8.com/?size=1x&id=x51rXOCxzN33&format=png" alt=""/> */}
             <img src="https://cdn-icons-png.flaticon.com/128/769/769600.png" alt=""/>
-            <h3>Child education</h3>
+            <h3>Child Education</h3>
             <p>
-              To help and educate socially deprived people and children to
-              achieve their fullest potential. Our aim is to provide education
-              and training to persons with disabilities.
+            Every child deserves the opportunity to learn and thrive, and together with our NGO, we are committed to providing quality education and empowering children for a brighter future.
             </p>
           </div>
           <div className="col-md-4 text-center ">
             {/* <img src="https://img.icons8.com/?size=1x&id=64327&format=png" alt=""/> */}
             <img src="https://cdn-icons-png.flaticon.com/128/2558/2558284.png" alt=""/>
-            <h3>Fashion Design</h3>
+            <h3>Fashion Designing Course</h3>
             <p>
-              To help and educate socially deprived people and children to
-              achieve their fullest potential. Our aim is to provide education
-              and training to persons with disabilities.
+            Unleash your creativity and passion for fashion with our Fashion Designing course, empowering aspiring designers to transform their dreams into reality while supporting our NGO's mission.
             </p>
           </div>
           <div className="col-md-4 text-center ">
@@ -109,9 +105,7 @@ export default function Home() {
             <img src="https://cdn-icons-png.flaticon.com/128/952/952228.png" alt="" />
             <h3>Counselling</h3>
             <p>
-              To help and educate socially deprived people and children to
-              achieve their fullest potential. Our aim is to provide education
-              and training to persons with disabilities.
+            Counselling by us, through our NGO, provides a supportive space for individuals to heal, grow, and find resilience in the face of life's challenges.
             </p>
           </div>
         </div>

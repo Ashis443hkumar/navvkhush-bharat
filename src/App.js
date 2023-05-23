@@ -20,13 +20,15 @@ import Founder from  "./components/pages/abouts/founders/Founder"
 // import Volunteer from "../../../components/pages/programs/whomenEmpower/WhomenEmpower"
 // import Volunteer from './../../../../abouts/valunter/Volunteer';
 
+import Intership from "./components/pages/contacts/intership/Intership"
+import Volunteer from "./components/pages/contacts/volunteer/Volunteer"
+import Contact from "./components/pages/contacts/contact/Contact"
+
 
 // page router program   
 import Programs from "./components/pages/programs/Programs"
 import WhomenEmpower from "./components/pages/programs/whomenEmpower/WhomenEmpower"
 import ChildEducation from "./components/pages/programs/ChildEducation/ChildEducation"
-import SummerCamp from "./components/pages/programs/summerCamp/SummerCamp"
-
 
 
 import Volunteer from  "./components/pages/abouts/valunter/Volunteer"
@@ -46,14 +48,17 @@ export default function App() {
         <Route path="/programs/"  element={<Programs/>} >
               <Route path="whomen" element={<WhomenEmpower/>} />
               <Route path="childeducation" element={<ChildEducation/>} />
-              <Route path="summercamp" element={<SummerCamp/>} />
+              {/* <Route path="summercamp" element={<SummerCamp/>} /> */}
         </Route>
 
         <Route path="/blog"  element={<Blog />}  />
 
+        <Route path="/contact/"  element={<Contact />}>
+          <Route path="intership" element={<Intership/>} />
+          <Route path="volunteer" element={<Volunteer/>} />
+          <Route path="contact1" element={<Contact/>} />
 
-        <Route path="/contact"  element={<Contact />}  />
-
+        </Route>
 
         
         <Route path="volunteer" element={<Volunteer/>} />  
