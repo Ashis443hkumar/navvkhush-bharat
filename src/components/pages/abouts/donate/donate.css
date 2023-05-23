@@ -51,7 +51,7 @@
 
 }
 /* bank_details  */
-.bank_details{
+/* .bank_details{
   background-color: skyblue;
   padding: 40px;
   text-align: center;
@@ -62,4 +62,8 @@
 .bank_details_content p{
   font-size: 21px;
 
+} */
+/* 23may 2023  */
+.modal{
+  
 }

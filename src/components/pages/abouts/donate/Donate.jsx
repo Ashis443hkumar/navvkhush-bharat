@@ -119,37 +119,55 @@ export default function Donate() {
       </section>
 
         
-        <section class="bank_details">
-          <div className="container">
-            <div className="heading">
-                 <h3>Our Bank details to make donation from net-banking / Internet Banking.</h3>
-                 <h2>RBL Bank Limited</h2>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-              <div className="bank_details_content">
-                 <p>Beneficiary/Name:  Crime Control & Social Development Organisation </p>
-                 <p>Type of Account: Current</p>
-                 <p>Account Number: 408287372178 </p>
-                 <p>Branch: Noida, sector - 18</p>
-                 <p>Branch Code: 001706</p>
-                 <p>IFSC Code: RATN000114</p>
-                 <p>MICR Code: 110002054</p>
+      {/*--------------- bank deatsls  model---------- */}
+        
+       <section class="my-4">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Click here to banks Details
+        </button>
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"       aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-                
+              <div class="modal-body">
+              <section class="bank_details">
+                <div className="container">
+                  <div className="heading">
+                      <h3>Our Bank details to make donation from net-banking / Internet Banking.</h3>
+                      <h2>RBL Bank Limited</h2>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-12">
+                    <div className="bank_details_content">
+                      <p>Beneficiary/Name:  Crime Control & Social Development Organisation </p>
+                      <p>Type of Account: Current</p>
+                      <p>Account Number: 408287372178 </p>
+                      <p>Branch: Noida, sector - 18</p>
+                      <p>Branch Code: 001706</p>
+                      <p>IFSC Code: RATN000114</p>
+                      <p>MICR Code: 110002054</p>
+                    </div>
+                      
+                    </div>
+                  </div>
+                </div>
+             </section>
               </div>
+      
             </div>
           </div>
-        </section>
+        </div>
+                
+      </section> 
 
 
 
-
- 
-
-
-      {/* banner section  */}
-      <section class="banner">
+ {/* banner section  */}
+ <section class="banner">
         <div class="banner_text">
           <h3>
             Start with helping one poor person and pave way for the bigger
@@ -160,7 +178,8 @@ export default function Donate() {
           <HeroButton buttonTitle="Become a Volunteer" />
         </div>
       </section>
-      
+
+
    </>
   );
 }

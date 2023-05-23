@@ -1,60 +1,60 @@
-import React from "react";
+import React,{useState} from "react";
 import Heading from "../../common/heading/Heading";
 import AboutHeroBack from "../home/hero/AboutHeroback";
 
+import BlogData from "./BlogData"
 import "./blog.css"
+// import Model from "./Model"
+
+import ModelBox from "./ModelBox"
 
 export default function Blog() {
+
+  const [Model, setModel] = useState(false)
+  const [tempdata, settempdata] = useState([])
+
+  
+  const getData = (imgData, blogTitle, subtitle, dateTime) =>{
+
+    let tempData = [imgData, blogTitle, subtitle, dateTime];
+
+    settempdata(item => [1, ...tempData])
+
+    return setModel(true)
+
+  }
   return (
      <>
       <AboutHeroBack AboutTitle="Blog"  cover={"https://i.pinimg.com/564x/af/2b/75/af2b758bac3d3b7ca0b228d2e782ba71.jpg"} />
+
       <section class="blog my-4 py-4">
         <div className="container">
           <Heading  title="Blog" />
+          {/*------ Row  ----- */}
           <div className="row mt-4">
-            <div className="col-md-4">
-              <div className="card">
-                <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/skill.jpg" class="card-img-top" alt=""/>
-                <div className="card-body">
-                  <h3 class="text-center">Charity</h3>
-                  <p>Skill Development Program</p>
-                  <div class="date_time">
-                  <p>Date: 12April 2023 </p>
-                  <p>time: 20:38 Pm</p>
+            {
+              BlogData.map((item, index) =>{
+                return(
+                  <div class="col-md-4" key={index}>
+                    <div className="card">
+                      <img src={item.imgData} alt="" class="card-img-top " />
+                      <div className="card-body">
+                         <h1>{item.blogTitle}</h1>
+                         <p>{item.subtitle}</p>
+                         <span>{item.dateTime}</span>
+                         <button class="btn btn-primary mt-2 ml-0 " onClick={() => getData(item.imgData, item.blogTitle, item.subtitle,item.dateTime)}>Read More</button>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/skill.jpg" class="card-img-top" alt=""/>
-                <div className="card-body">
-                  <h3 class="text-center">Charity</h3>
-                  <p>Skill Development Program</p>
-                  <div class="date_time">
-                  <p>Date: 12April 2023 </p>
-                  <p>time: 20:38 Pm</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/skill.jpg" class="card-img-top" alt=""/>
-                <div className="card-body">
-                  <h3 class="text-center">Charity</h3>
-                  <p>Skill Development Program</p>
-                  <div class="date_time">
-                  <p>Date: 12April 2023 </p>
-                  <p>time: 20:38 Pm</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+                )
+              })
+            }
           </div>
         </div>
       </section>
+      {
+         Model === true ?  <ModelBox img={tempdata[1]} title={tempdata[2]} desc={tempdata[3]} hide={() => setModel(false)} />: ""
+      }
 
 
      </>
