@@ -1,10 +1,10 @@
 import React from "react";
+import HeroButton from "../../home/heroButton/HeroButton";
 
-export default function Contact() {
+export default function Contact1() {
   return (
      <>
-        <h2 class="heading">contact  pages</h2>
-       <section class="user_info">
+       <section class="user_info my-5 py-3">
          <div className="container">
            <div className="row my-4">
              <div className="col-md-6">
@@ -22,8 +22,12 @@ export default function Contact() {
                   <label htmlFor="">Contact Number</label>
                   <input type="text" placeholder="256 565 665 44" />
                 </div>
+                <div class="user_form">
+                  <label htmlFor="">Subject</label>
+                  <input type="text" placeholder="Subjects" />
+                </div>
+
                 <div class="submit_btn">
-                   {/* <button type="submit" class="hero_button">Submit</button> */}
                    <HeroButton buttonTitle="Submit" />
                 </div>
                </form>

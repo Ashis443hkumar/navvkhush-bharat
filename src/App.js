@@ -22,7 +22,7 @@ import Founder from  "./components/pages/abouts/founders/Founder"
 
 import Intership from "./components/pages/contacts/intership/Intership"
 import Volunteer from "./components/pages/contacts/volunteer/Volunteer"
-import Contact from "./components/pages/contacts/contact/Contact"
+import Contact1 from "./components/pages/contacts/contact/Contact1"
 
 
 // page router program   
@@ -56,7 +56,7 @@ export default function App() {
         <Route path="/contact/"  element={<Contact />}>
           <Route path="intership" element={<Intership/>} />
           <Route path="volunteer" element={<Volunteer/>} />
-          <Route path="contact1" element={<Contact/>} />
+          <Route path="contact1" element={<Contact1/>} />
 
         </Route>
 
