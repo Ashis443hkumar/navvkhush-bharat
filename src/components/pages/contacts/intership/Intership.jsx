@@ -157,29 +157,41 @@ export default function Intership() {
                  </div>
                 </div>
 
-                <div className="row d-flex align-items-center mt-5">
+                <div className="row d-flex align-items-center mt-4">
+                   <div className="col-md-4">
+                     <label htmlFor="" class="dfre">School Name:</label>
+                   </div>
+                 <div className="col-md-8 input_form">
+                  <div class="">
+                    <input type="text" placeholder="school name" />
+                  </div>
+                 </div>
+                </div>
+
+
+                <div className="row d-flex align-items-center mt-4">
                    <div className="col-md-4">
                      <label htmlFor="" class="dfre">Phone Number:</label>
                    </div>
                  <div className="col-md-8 input_form">
                   <div class="">
-                    <input type="text" placeholder="" />
+                    <input type="text" placeholder="2323 344 4451" />
                   </div>
                  </div>
                 </div>
 
-                <div className="row d-flex align-items-center mt-5 ">
+                <div className="row d-flex align-items-center mt-4 ">
                    <div className="col-md-4">
                      <label htmlFor="" class="dfre">E-mail Address:</label>
                    </div>
                  <div className="col-md-8 input_form">
                   <div class="">
-                    <input type="text" placeholder="" />
+                    <input type="text" placeholder="name:example@gmail.com" />
                   </div>
                  </div>
                 </div>
 
-                <div className="row d-flex align-items-center mt-5 mb-5 pb-2">
+                <div className="row d-flex align-items-center mt-4 mb-5 pb-1">
                    <div className="col-md-4">
                      <label htmlFor="" class="dfre">Address:</label>
                    </div>

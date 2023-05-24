@@ -34,10 +34,13 @@
 }
 .inter_suser_form input{
   width: 173px;
+ 
   margin-right: 17px;
 }
 .input_form input{
   width: 100%;
+  height: 40px;
+  padding: 10px;
 }
 .date_of_birth{
   display: flex;

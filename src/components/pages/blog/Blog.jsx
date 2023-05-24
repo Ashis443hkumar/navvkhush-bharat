@@ -7,6 +7,7 @@ import "./blog.css"
 // import Model from "./Model"
 
 import ModelBox from "./ModelBox"
+import Banner from "../home/banner/Banner";
 
 export default function Blog() {
 
@@ -56,6 +57,8 @@ export default function Blog() {
          Model === true ?  <ModelBox img={tempdata[1]} title={tempdata[2]} desc={tempdata[3]} hide={() => setModel(false)} />: ""
       }
 
+
+      <Banner/>
 
      </>
   );
