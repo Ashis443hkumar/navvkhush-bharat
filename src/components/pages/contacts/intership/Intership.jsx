@@ -6,7 +6,7 @@ import "./style.css"
 export default function Intership() {
   return (
      <>
-     <AboutHeroBack  cover={"https://sukarya.org/wp-content/uploads/2020/07/Internship-aa-1536x480.jpg"} />
+     <AboutHeroBack  AboutTitle="Internship"  cover={"https://sukarya.org/wp-content/uploads/2020/07/Internship-aa-1536x480.jpg"} />
      <section class="Internship">
      <Heading title="Apply for Internship" />
        <div className="container mt-5">
