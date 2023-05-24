@@ -1,6 +1,7 @@
 import React from "react";
 import AboutHeroBack from "../../home/hero/AboutHeroback";
 import HeroButton from "../../home/heroButton/HeroButton";
+import "./style.css"
 
 export default function Contact1() {
   return (
@@ -8,8 +9,8 @@ export default function Contact1() {
      <AboutHeroBack AboutTitle="Contat Us " cover={"https://media.istockphoto.com/id/1312566254/photo/contact-us-concept-icon-telephone-address-and-email-on-blue-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=ibxUaAea878l9MU53W-3RB0Tkj9i-MIbCOu0LwIHz9c="} />
        <section class="user_info my-5 py-3">
          <div className="container">
-           <div className="row my-4">
-             <div className="col-md-6">
+           <div className="row my-4 gx-5">
+             <div className="col-md-6 contact_form_details">
                <h3>We'd love to hear from you</h3>
                <form action="">
                 <div class="user_form">
@@ -27,6 +28,10 @@ export default function Contact1() {
                 <div class="user_form">
                   <label htmlFor="">Subject</label>
                   <input type="text" placeholder="Subjects" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                 </div>
 
                 <div class="submit_btn">
