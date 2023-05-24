@@ -1,9 +1,11 @@
 import React from "react";
+import AboutHeroBack from "../../home/hero/AboutHeroback";
 import HeroButton from "../../home/heroButton/HeroButton";
 
 export default function Contact1() {
   return (
      <>
+     <AboutHeroBack AboutTitle="Contat Us " cover={"https://media.istockphoto.com/id/1312566254/photo/contact-us-concept-icon-telephone-address-and-email-on-blue-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=ibxUaAea878l9MU53W-3RB0Tkj9i-MIbCOu0LwIHz9c="} />
        <section class="user_info my-5 py-3">
          <div className="container">
            <div className="row my-4">

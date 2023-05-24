@@ -4,10 +4,24 @@
   background-color: #eeee;
 
 }
+.volunteer_content{
+  padding-right: 30px;
+}
+.volunteer_content h3{
+  font-size: 34px;
+  color: #e67e22;
+}
+/* .volunteer_info  */
 .volunteer_info{
   background-color: #ffff;
   box-shadow: 0px 0px 12px -6px;
-  padding: 40px 40px;
+  padding: 20px 25px;
+}
+.volunteer_info h1{
+  font-size: 34px;
+  color: #e67e22;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .volunteer_button{
@@ -28,4 +42,5 @@
   box-shadow: 10px 0px -6px 6px;
   padding: 30px 40px;
   margin-left: 34px;
+  padding-top: 0%;
 }

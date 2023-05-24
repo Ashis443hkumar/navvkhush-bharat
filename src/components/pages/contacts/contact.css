@@ -5,10 +5,10 @@
 .user_form{
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .user_form label{
-  padding-bottom: 10px;
+  padding-bottom: -10px;
 }
 .user_form input{
   padding: 10px 10px;
