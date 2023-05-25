@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "../../../common/heading/Heading";
 import AboutHeroBack from "../../home/hero/AboutHeroback";
 import HeroButton from "../../home/heroButton/HeroButton";
 import "./style.css"
@@ -25,10 +26,7 @@ export default function Contact1() {
                   <label htmlFor="">Contact Number</label>
                   <input type="text" placeholder="256 565 665 44" />
                 </div>
-                <div class="user_form">
-                  <label htmlFor="">Subject</label>
-                  <input type="text" placeholder="Subjects" />
-                </div>
+                
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
@@ -56,8 +54,18 @@ export default function Contact1() {
          </div>
        </section>
 
-        <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14013.81444330601!2d77.37862263197052!3d28.58616566897591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef7a49645dab%3A0x47ce831dfafdb6f1!2sSarfabad%2C%20Sector%2073%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1683368252773!5m2!1sen!2sin" width="100%" height="400" style={{}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="contact_map">
+          <Heading title="map" />
+          <div className="container-fluid">
+            <div className="row px-0 rhytyuy">
+              <div className="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.59171498198!2d77.29533437556813!3d28.61783353718104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4c6ac4a5c47%3A0x636c03e915bd97eb!2sKalyan%20Puri%2C%20Delhi%2C%20110091!5e0!3m2!1sen!2sin!4v1685006232496!5m2!1sen!2sin" width="655" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div className="col-md-6 gtrr">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.1701501933894!2d77.06121787379954!3d28.414122290467642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d227acdfa680b%3A0xb5956ee1a1df36f!2sNirvana%20Courtyard%2C%20Nirvana%20Country%2C%20Sector%2050%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1685006093966!5m2!1sen!2sin" width="655" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
 
         </section>
      

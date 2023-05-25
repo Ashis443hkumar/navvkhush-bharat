@@ -127,10 +127,10 @@ export default function Donate() {
         </button>
 
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"       aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-dialog modal-dialog-centered modal-dialog modal-xl">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Bank Details </h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -140,16 +140,16 @@ export default function Donate() {
                       <h3>Our Bank details to make donation from net-banking / Internet Banking.</h3>
                       <h2>RBL Bank Limited</h2>
                   </div>
-                  <div className="row">
-                    <div className="col-md-12">
-                    <div className="bank_details_content">
-                      <p>Beneficiary/Name:  Crime Control & Social Development Organisation </p>
-                      <p>Type of Account: Current</p>
-                      <p>Account Number: 408287372178 </p>
-                      <p>Branch: Noida, sector - 18</p>
-                      <p>Branch Code: 001706</p>
-                      <p>IFSC Code: RATN000114</p>
-                      <p>MICR Code: 110002054</p>
+                  <div className="row text-center">
+                    <div className="col-md-12 text-start d-flex justify-content-center ">
+                    <div className="bank_details_content ">
+                      <p>  <strong>Beneficiary/Name: </strong> Crime Control & Social Development Organisation </p>
+                      <p> <strong>Type of Account: </strong> Current</p>
+                      <p><strong>Account Number: </strong> 408287372178 </p>
+                      <p> <strong> Branch Name: </strong> Noida, sector - 18</p>
+                      <p> <strong>Branch Code: </strong> 001706</p>
+                      <p><strong>IFSC Code: </strong> RATN000114</p>
+                      <p><strong>MICR Code: </strong> 110002054</p>
                     </div>
                       
                     </div>
@@ -161,13 +161,18 @@ export default function Donate() {
             </div>
           </div>
         </div>
+
+    
+        
                 
       </section> 
 
 
 
- {/* banner section  */}
- <section class="banner">
+
+
+      {/* banner section  */}
+     <section class="banner">
         <div class="banner_text">
           <h3>
             Start with helping one poor person and pave way for the bigger
