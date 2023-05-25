@@ -12,7 +12,7 @@ export default function Founder() {
       <AboutHeroBack
         AboutTitle="Abouts Section"
         cover={
-          'https://i.pinimg.com/564x/30/0a/eb/300aebaac879a7346dfdfc571b54ca49.jpg'
+          'https://media.licdn.com/dms/image/D4D22AQGjzFI8AmM08Q/feedshare-shrink_2048_1536/0/1685000870912?e=1687996800&v=beta&t=BLYbYuU7lkPOjXuGbJjYdnP1ETLS5WzwO8V3-fvHZVc'
         }
       />
 
@@ -72,8 +72,9 @@ export default function Founder() {
         </div>
       </section>
 
-      
-      <section class="achiment_still_date">
+      {/* nisha yadav   */}
+
+      {/* <section class="achiment_still_date">
         <div className="container">
           <div className="heading_stil">
              <h1 class="text-center py-5 ">Our Achievements till Date (since 2020)</h1>
@@ -99,7 +100,7 @@ export default function Founder() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <FounderMessage />
       {/* <Banner/> */}
@@ -257,7 +258,7 @@ export default function Founder() {
           <div className="row mt-3 advisor_row">
             <div className="col-md-3">
               <img
-                src="http://localhost:3000/image/Advriosry/Ravi%20singa.jpeg"
+                src="https://media.licdn.com/dms/image/D4D22AQENIy-UORHqAw/feedshare-shrink_800/0/1685000870580?e=1687996800&v=beta&t=VtimxBu8lnsNHUvJdSEwA2bxMf0FhtWld_9fiYUF7H4"
                 class="card-img-top w-100"
                 alt=""
               />

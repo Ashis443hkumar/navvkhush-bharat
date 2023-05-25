@@ -6,7 +6,7 @@ import "./style.css"
 export default function Contact1() {
   return (
      <>
-     <AboutHeroBack AboutTitle="Contat Us " cover={"https://media.istockphoto.com/id/1312566254/photo/contact-us-concept-icon-telephone-address-and-email-on-blue-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=ibxUaAea878l9MU53W-3RB0Tkj9i-MIbCOu0LwIHz9c="} />
+     <AboutHeroBack AboutTitle="Contat Us " cover={"https://media.licdn.com/dms/image/D4D22AQFIYLlEwqkTtg/feedshare-shrink_2048_1536/0/1685000870680?e=1687996800&v=beta&t=jYwgW5UKvHqa1PcY5_f0gNvk7RFYnSOVa2ZNZyhkRUM"} />
        <section class="user_info my-5 py-3">
          <div className="container">
            <div className="row my-4 gx-5">

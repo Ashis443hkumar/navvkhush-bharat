@@ -14,7 +14,7 @@ export default function FounderMessage() {
            <div className="row founder_content">
              <div className="col-md-4">
                <div className="card">
-               <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top" alt="" />
+               <img src="https://media.licdn.com/dms/image/D4D22AQFuyNvq2KJ0ZA/feedshare-shrink_1280/0/1685000870596?e=1687996800&v=beta&t=bgAMJXKAUOx3hlWvLgGvwQWhPCr2m-3amsai7Qu8KPk" class="card-img-top" alt="" />
                <div className="card-body">
                   <h2>KAVITA RAWAT</h2>
                   <h4>Founder, Navv Khush Bharat</h4>

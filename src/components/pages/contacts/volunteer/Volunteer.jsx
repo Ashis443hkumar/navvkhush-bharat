@@ -45,14 +45,7 @@ export default function Volunteer() {
                   <label htmlFor="">City</label>
                   <input type="text" placeholder="city " />
                 </div>
-                <div class="user_form">
-                  <label htmlFor="">Occupation</label>
-                  <input type="text" placeholder=" Occupation" />
-                </div>
-                <div class="user_form">
-                  <label htmlFor="">Address</label>
-                  <input type="text" placeholder="Address " />
-                </div>
+              
                 <div class="user_form">
                   <label htmlFor="">Remraks</label>
                   <input type="text" placeholder=" Remraks" />

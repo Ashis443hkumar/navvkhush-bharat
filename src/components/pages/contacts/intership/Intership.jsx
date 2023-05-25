@@ -26,7 +26,7 @@ export default function Intership() {
          </div>
 
          <div className="col-md-6 intership_form">
-               <h4>Please fill up Online Application Form providing all the relevant information, as required</h4>
+               <h4>Apply for Internship</h4>
                <form action="">
                  <div className="row d-flex align-items-center">
                    <div className="col-md-3">
@@ -191,7 +191,7 @@ export default function Intership() {
                  </div>
                 </div>
 
-                <div className="row d-flex align-items-center mt-4 mb-5 pb-1">
+                <div className="row d-flex align-items-flex-start mt-4 mb-5 pb-1">
                    <div className="col-md-4">
                      <label htmlFor="" class="dfre">Address:</label>
                    </div>
@@ -200,24 +200,19 @@ export default function Intership() {
                       <div className="col-md-12">
                       <div class="">
                         <label htmlFor="">City</label>
-                        <input type="text" placeholder="" />
+                        <input type="text" placeholder="city" />
                       </div>
                       </div>
                       <div className="col-md-12 mt-4">
                       <div class="">
                         <label htmlFor="">Postal / Zip Code</label>
-                        <input type="text" placeholder="" />
+                        <input type="text" placeholder="Postal / Zip Code" />
                       </div>
                       </div>
 
                     </div>
                  </div>
                 </div>
-
-
-
-
-               
 
                 <div class="submit_btn" >
                    {/* <button type="submit" class="hero_button">Submit</button> */}

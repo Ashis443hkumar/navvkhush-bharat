@@ -7,7 +7,7 @@ import "./donate.css"
 export default function Donate() {
   return (
    <>
-   <AboutHeroBack AboutTitle="Donate Now" cover={"https://img.freepik.com/premium-photo/customer-relationship-management-system-modish-computer-crm-business_31965-42573.jpg?w=826"} />
+   <AboutHeroBack AboutTitle="Donate Now" cover={"https://media.licdn.com/dms/image/D4D22AQGjv1v5YsGbBg/feedshare-shrink_2048_1536/0/1685000871153?e=1687996800&v=beta&t=zcAyo2w4XNU5kTWGUwd9WcjOJ93rNukMrkWscgbKyXE"} />
   <section class="volunteer">
         <div className="conatiner">
           {/* <div className="heading">
