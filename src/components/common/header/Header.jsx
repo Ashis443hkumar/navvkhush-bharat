@@ -36,12 +36,15 @@ export default function Header() {
               </ul>
             </li>
             <li><NavLink to="/blog">Blog</NavLink></li>
-            <li><NavLink to="/contact/">Contacts <i class="fa-solid fa-caret-down"></i> </NavLink>
-            <ul class="dropdown_menu">
+            <li><NavLink to="/careers/">Careers <i class="fa-solid fa-caret-down"></i></NavLink>
+             <ul class="dropdown_menu">
                 <li><NavLink to="/contact/intership">Internship</NavLink></li>
                 <li><NavLink to="/contact/volunteer">Volunteer</NavLink></li>
                 <li><NavLink to="/contact/contact1">Contact</NavLink></li>
               </ul>
+            </li>
+            <li><NavLink to="/contact/">Contacts  </NavLink>
+           
             </li>
           </ul>
           <div className="donate_btn">
