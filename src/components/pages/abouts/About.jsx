@@ -152,32 +152,6 @@ export default function About() {
                 <li>We also stitch T-shirts for AG Industries.</li>
               </ul>
             </div>
-            <div className="col-md-6 content_achiment gfgfg mt-3">
-              <h3>Women Registered with us 1250+</h3>
-              <ul>
-                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
-                <li>
-                  We also got Delhi Government Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi.
-                </li>
-                <li>
-                We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
-                </li>
-                <li>We also stitch T-shirts for AG Industries.</li>
-              </ul>
-            </div>
-            <div className="col-md-6 content_achiment gfffgf mt-3">
-              <h3>Women Employed & financially independent 75+</h3>
-              <ul>
-                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
-                <li>
-                  We also got Delhi Government Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi.
-                </li>
-                <li>
-                We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
-                </li>
-                <li>We also stitch T-shirts for AG Industries.</li>
-              </ul>
-            </div>
 
             <div className="col-md-6"></div>
           </div>
@@ -187,7 +161,7 @@ export default function About() {
 
 
 
-{/* ----------- advisor  --------- */}
+      {/* ----------- advisor  --------- */}
       <section class="advisor">
         <div className="container-fluid">
           <Heading title="Advisory Board Members" />

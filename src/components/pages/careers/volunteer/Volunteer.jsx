@@ -9,16 +9,7 @@ export default function Volunteer() {
   return (
      <>
 
-import React from "react";
-import Heading from "../../../common/heading/Heading";
-import AboutHeroBack from "../../home/hero/AboutHeroback";
-import HeroButton from "../../home/heroButton/HeroButton";
 
-import "./style.css"
-
-export default function Volunteer() {
-  return (
-     <>
 
      <AboutHeroBack AboutTitle="Volunteer with Us" cover={"https://thumbs.dreamstime.com/b/volunteer-black-blackboard-highlighted-45867177.jpg"} />
 
@@ -80,16 +71,6 @@ export default function Volunteer() {
      
  
      </>
-
-
-
-  );
-}
-
- 
-     </>
-
-
 
   );
 }

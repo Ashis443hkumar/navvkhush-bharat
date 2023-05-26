@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
+// common commponents 
 import Head from "./components/common/head/Head"
 import Header from "./components/common/header/Header"
 import Footer from "./components/common/footer/Footer"
 
 import {Routes, Route} from "react-router-dom";
-
+// page menu  
 import Home from "./components/pages/home/Home"
 import Programs from "./components/pages/programs/Programs"
 import About from "./components/pages/abouts/About"
@@ -13,6 +14,8 @@ import Blog from "./components/pages/blog/Blog"
 import Careers from "./components/pages/careers/Careers"
 import Contact from "./components/pages/contacts/Contact"
 
+
+// dropdown_menu 
 import Intership from "./components/pages/careers/intership/Intership"
 import Volunteer from "./components/pages/careers/volunteer/Volunteer"
 
@@ -29,7 +32,6 @@ export default function App() {
     <div>
       <Head/>
       <Header/>
-      <Careers/>
 
       <Routes>
         <Route path="/"  element={<Home/>}  />
@@ -43,7 +45,8 @@ export default function App() {
 
         <Route path="/blog"  element={<Blog />}  />
         <Route path="/careers/" element={<Careers/>}>
-           <Route path="" element="" />
+           <Route path="Intership" element={<Intership/>} />
+           <Route path="volunteer" element={<Volunteer/>} />
         </Route>
         <Route path="/contact"  element={<Contact />}/>
         <Route path="/about/donate" element={<Donate/>} />  

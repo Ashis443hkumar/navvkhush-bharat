@@ -57,7 +57,6 @@ export default function Blog() {
          Model === true ?  <ModelBox img={tempdata[1]} title={tempdata[2]} desc={tempdata[3]} hide={() => setModel(false)} />: ""
       }
 
-
       <Banner/>
 
      </>
