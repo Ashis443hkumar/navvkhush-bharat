@@ -209,3 +209,108 @@
 .gfffgf h3{
   background-color: #B53471;
 }
+
+
+
+/* free .about_hero */
+
+.achiment_still_date {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.achiment_still_date .heading_stil{
+  width: 600px;
+  height: 70px;
+  margin: 20px auto;
+  margin-bottom: 60px;
+  background-color: #353b48;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.achiment_still_date .heading_stil h1{
+  font-size: 26px;
+  color: #fff;
+}
+
+.rtyty{
+   border: 10px 20px;
+   padding-top: 8px;
+   width: 100%;
+   height: 76px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: #fff;
+   border-radius: 10px;
+}
+.rtyty h3{
+  font-size: 23px;
+}
+.wergewr4{
+  background-color: slateblue;
+}
+.eertretre{
+  background-color: salmon;
+}
+.weretret{
+  background-color: crimson;
+  margin: 20px  0;
+}
+.ertertrfte{
+  background-color: violet;
+  margin-top: 20px;
+}
+/* founder message  */
+.founder {
+  background-color: #eee;
+  padding: 0px;
+  margin-bottom: -30px;
+}
+.founder_content{
+  margin-bottom: 30px;
+  padding: 0px 0%;
+}
+.founder_content .card{
+  padding: 0%;
+  margin: 0;
+  text-align: center;
+}
+.founder_content img{
+  width: 100%;
+}
+.founder .social_link{
+  text-align: center;
+  margin: 10px;
+}
+.founder .social_link i{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+.founder_content h2{
+  font-size: 19px;
+  font-weight: bold;
+}
+.founder_content h4{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+/* advisor   */
+.advisor{
+  padding: 40px 0;
+  padding-bottom: 0;
+}
+.advisor_row{
+  background-color: #eee;
+  padding: 10px 6%;
+}
+.advisor_row h3{
+  font-size: 21px;
+  margin-top: 10px;
+  color:sandybrown;
+}

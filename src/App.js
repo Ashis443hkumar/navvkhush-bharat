@@ -11,7 +11,6 @@ import Programs from "./components/pages/programs/Programs"
 import About from "./components/pages/abouts/About"
 import Blog from "./components/pages/blog/Blog"
 import Contact from "./components/pages/contacts/Contact"
-import Founder from  "./components/pages/abouts/founders/Founder"
 
 
 // import WhoWeAre from  "./components/pages/abouts/WhoWeAre"
@@ -41,12 +40,10 @@ export default function App() {
       <Routes>
         <Route path="/"  element={<Home/>}  />
         <Route path="/about"  element={<About/>} />
-            <Route path="/about/founder"  element={<Founder />}  />
 
         <Route path="/programs/"  element={<Programs/>} >
               <Route path="whomen" element={<WhomenEmpower/>} />
               <Route path="childeducation" element={<ChildEducation/>} />
-              {/* <Route path="summercamp" element={<SummerCamp/>} /> */}
         </Route>
 
         <Route path="/blog"  element={<Blog />}  />
