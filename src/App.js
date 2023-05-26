@@ -22,6 +22,7 @@ import Intership from "./components/pages/contacts/intership/Intership"
 import Volunteer from "./components/pages/contacts/volunteer/Volunteer"
 
 
+
 // page router program   
 import Programs from "./components/pages/programs/Programs"
 import WhomenEmpower from "./components/pages/programs/whomenEmpower/WhomenEmpower"
@@ -48,7 +49,6 @@ export default function App() {
         <Route path="/blog"  element={<Blog />}  />
 
         <Route path="/contact/"  element={<Contact />}>
-          <Route path="intership" element={<Intership/>} />
           <Route path="volunteer" element={<Volunteer/>} />
         </Route>
 
