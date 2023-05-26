@@ -119,12 +119,15 @@ export default function About() {
 
 
 
-      <section class="achiment_tell_date">
-        <div className="container">
-          <Heading title="OUR ACHIEVEMENTS" />
+     
+       {/* achiment_tell_date */}
+
+       <section class="achiment_tell_date">
+        <Heading title="Our Achievements till Date (since 2020)" />
+        <div className="container-fluid mt-3">
           <div className="row">
-            <div className="col-md-6">
-              <h3><h3>Number of Children Educated 1779</h3></h3>
+            <div className="col-md-6 content_achiment gdfg">
+              <h3>Number of Children Educated 1779</h3>
               <ul>
                 <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
                 <li>
@@ -135,14 +138,56 @@ export default function About() {
                 </li>
                 <li>We also stitch T-shirts for AG Industries.</li>
               </ul>
-             
             </div>
+            <div className="col-md-6 content_achiment gfgfdg">
+              <h3>Women Counseling 3000 +</h3>
+              <ul>
+                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
+                <li>
+                  We also got Delhi Government Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi.
+                </li>
+                <li>
+                We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
+                </li>
+                <li>We also stitch T-shirts for AG Industries.</li>
+              </ul>
+            </div>
+            <div className="col-md-6 content_achiment gfgfg mt-3">
+              <h3>Women Registered with us 1250+</h3>
+              <ul>
+                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
+                <li>
+                  We also got Delhi Government Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi.
+                </li>
+                <li>
+                We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
+                </li>
+                <li>We also stitch T-shirts for AG Industries.</li>
+              </ul>
+            </div>
+            <div className="col-md-6 content_achiment gfffgf mt-3">
+              <h3>Women Employed & financially independent 75+</h3>
+              <ul>
+                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
+                <li>
+                  We also got Delhi Government Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi.
+                </li>
+                <li>
+                We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
+                </li>
+                <li>We also stitch T-shirts for AG Industries.</li>
+              </ul>
+            </div>
+
             <div className="col-md-6"></div>
           </div>
         </div>
       </section>
 
 
+
+
+{/* ----------- advisor  --------- */}
       <section class="advisor">
         <div className="container-fluid">
           <Heading title="Advisory Board Members" />
