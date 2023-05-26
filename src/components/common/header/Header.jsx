@@ -13,7 +13,6 @@ export default function Header() {
     <div>
       <header className="header">
         <div className="logo">
-          {/* <img src="https://lh3.googleusercontent.com/Tblz76UwKYGyEoqc4F_imHk5ORBTJK6nlZqU39D8dVKUtDNOkv-uwvuRmSTgElqWUj6GCCFQCGc2Pxsw7luEIOMO6DrHP6ZxdWrxQHb2ng" alt=""  /> */}
           <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
           <h3>Navvkhush Bharat</h3>
         </div>
@@ -21,27 +20,19 @@ export default function Header() {
         <nav className= {isMobile ? 'mobile-menu-link' : "navigation" } onClick={() => setisMobile(false)} >
           <ul>
             <li><NavLink to="/">Home</NavLink></li>
-            <li>
-              <NavLink to="/about/">About <i class="fa-solid fa-caret-down"></i></NavLink>
-              <ul class="dropdown_menu">
-                <li><NavLink to="/about/founder/">Founder’s Message</NavLink></li>
-                <li><NavLink to="/about/donate">Donate</NavLink></li>
-              </ul>
-            </li>
+            <li><NavLink to="/about/">About </NavLink> </li>
+
             <li><NavLink to="/programs/">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
                 <li><NavLink to="/programs/whomen/">WOMEN EMPOWERMENT </NavLink></li>
-                <li><NavLink to="/programs/childeducation">Child Education</NavLink></li>
-                {/* <li><NavLink to="/programs/summercamp">Summer Camp</NavLink></li>    */}
-                      
+                <li><NavLink to="/programs/childeducation">Child Education</NavLink></li>                      
               </ul>
             </li>
             <li><NavLink to="/media">Media <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="/">Annual report</NavLink></li>
                 <li><NavLink to="">NewsLetter</NavLink></li>
                 <li><NavLink to="">Gallery</NavLink></li>
-                <li><NavLink to="">Upcoming Events</NavLink></li>
+                <li><NavLink to="">Events</NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/blog">Blog</NavLink></li>
@@ -52,7 +43,6 @@ export default function Header() {
                 <li><NavLink to="/contact/contact1">Contact</NavLink></li>
               </ul>
             </li>
-
           </ul>
           <div className="donate_btn">
           <button onClick={() =>navigate("./about/donate")}>

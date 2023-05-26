@@ -55,7 +55,7 @@ export default function Contact1() {
        </section>
 
         <section class="contact_map">
-          <Heading title="map" />
+          <Heading title="Google Maps" />
           <div className="container-fluid">
             <div className="row px-0 rhytyuy">
               <div className="col-md-6">
