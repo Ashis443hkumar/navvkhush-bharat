@@ -7,105 +7,105 @@ import "./careers.css"
 export default function Careers(){
   return(
     <>
-      <AboutHeroBack AboutTitle="Careers"  />
+      <AboutHeroBack AboutTitle="Careers" cover="https://www.gpb.org/sites/default/files/styles/flexheight/public/blogs/images/2017/10/23/in_demand_jobs.jpg?itok=ziUuhVyp" />
       
       <section class="careers">
-        <Heading title="Jobs opeaning" />
+        <Heading title="Jobs Opeaning" />
         <div className="container">
-          <div className="row">
+          <div className="row mt-4 ">
           <div className="col-md-3 career_job_details">
             <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
             <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
+               <span> <strong>Date:</strong> - 12-05-2023</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
           </div>
           <div className="col-md-3 career_job_details">
             <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
             <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
+               <span> <strong>Date:</strong> - 12-05-2023</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
           </div>
           <div className="col-md-3 career_job_details">
             <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
             <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
+               <span> <strong>Date:</strong> - 12-05-2023</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
-          </div>
-          <div className="col-md-3 career_job_details">
-            <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
-            <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
-          </div>
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
           </div>
 
-          <div className="row">
           <div className="col-md-3 career_job_details">
             <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
             <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
+               <span> <strong>Date:</strong> - 12-05-2023</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
+          </div>
+
+          </div>
+
+          <div className="row mt-5">
+          <div className="col-md-3 career_job_details">
+            <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
+            <div className="job_date_time">
+               <span> <strong>Date:</strong> - 12-05-2023</span>
+            </div>
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
+          </div>
+
+          <div className="col-md-3 career_job_details">
+            <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p ><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
+            <div className="job_date_time">
+               <span> <strong>Date:</strong> - 12-05-2023</span>
+            </div>
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
           </div>
           <div className="col-md-3 career_job_details">
             <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
             <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
+               <span> <strong>Date:</strong> - 12-05-2023</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
           </div>
+
           <div className="col-md-3 career_job_details">
             <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
+            <h5> <strong>Expericence: </strong>2 years  </h5>
+            <p><strong>Job Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias   harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
             <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
+               <span> <strong>Date:</strong> - 12-05-2023</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
+            <span><strong>Location: </strong> kalyan Puri, delhi ncr</span>
           </div>
-          <div className="col-md-3 career_job_details">
-            <h3 class="jobsrole"><strong class="profile">Profile:-</strong> Web Developer</h3>
-            <h5> <strong>Expericence: </strong>2years  </h5>
-            <div className="job_date_time">
-               <span>Date:- 12-05-2023</span>
-               <span>Time:- 12:30 Am</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium ex molestias harum explicabo in quisquam. Minus eius consequatur aspernatur temporibus! </p>
-          
+
           </div>
-         </div>
+
+          
       </div>
     </section>
 
 
    
-          <section class="mt-5 user_jobs">
-            <Heading title="jobs Details" />
+   {/* ------------ job form  --------- */}
+       <section class="mt-5 user_jobs">
+            <Heading title="Jobs Details" />
             <div className="container my-5">
-            <form class="row g-3">
+            <form class="row ">
                 <div className="row">
                 <div class="col-md-4">
                   <label for="validationDefault01" class="form-label">First name</label>
@@ -113,19 +113,20 @@ export default function Careers(){
                 </div>
                 <div class="col-md-4">
                   <label for="validationDefault02" class="form-label">Last name</label>
-                  <input type="text" class="form-control" id="validationDefault02" placeholder="Enter first Name" required />
+                  <input type="text" class="form-control" id="validationDefault02" placeholder="Enter last Name" required />
                 </div>
                 <div class="col-md-4">
                   <label for="validationDefault02" class="form-label">Phone Nubmer</label>
-                  <input type="text" class="form-control" id="validationDefault02" placeholder="Enter your number" required />
+                  <input type="number" class="form-control" id="validationDefault02" placeholder="Enter your number" required />
                 </div>
                 </div>
 
-               <div className="row mt-5">
+               <div className="row mt-4">
                <div class="mb-3 col-md-4">
                   <label for="exampleFormControlInput1" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                 </div>
+
                 <div class="col-md-4">
                   <label for="validationDefault04" class="form-label">Desiganation</label>
                   <select class="form-select" id="validationDefault04" required>
@@ -137,23 +138,25 @@ export default function Careers(){
                     <option>web Desigining</option>
                   </select>
                 </div>
+
                 <div class="col-md-4">
                   <label for="validationDefault04" class="form-label">experience</label>
                   <select class="form-select" id="validationDefault04" required>
                     <option selected disabled value="">Choose...</option>
-                    <option selected disabled value="">Fresher</option>
+                    <option>Fresher</option>
                     <option>Expericence:1 to 2Years</option>
                     <option>Expericence:2 to 3Years</option>
                     <option>Expericence:3 to 5Years</option>
                   </select>
                 </div>
-                <div class="mb-3 col-md-12">
+
+                <div class="mb-3 col-md-12 mt-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Job description*</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
               </div>
 
-               <div className="row mt-5">
+               <div className="row mt-3">
                 <div class="col-md-4">
                   <label for="validationDefault04" class="form-label">Current Organazition</label>
                   <select class="form-select" id="validationDefault04" required>
@@ -179,15 +182,15 @@ export default function Careers(){
 
                 <div class="col-md-4">
                   <label for="validationDefault02" class="form-label">Current Ctc</label>
-                  <input type="text" class="form-control" id="validationDefault02" placeholder="Enter first Name" required />
+                  <input type="number" class="form-control" id="validationDefault02" placeholder="1,60,000 lakh" required />
                 </div>
                </div>
                
               
-              <div className="row mt-5">
+              <div className="row mt-4">
                 <div class="col-md-4">
                   <label for="validationDefault02" class="form-label">Expectec Ctc</label>
-                  <input type="text" class="form-control" id="validationDefault02" placeholder="Enter first Name" required />
+                  <input type="number" class="form-control" id="validationDefault02" placeholder="1,60,000 lakh" required />
                 </div>
 
                 <div class="col-md-4">
@@ -208,13 +211,14 @@ export default function Careers(){
                 </div>
               </div>
 
-              <div className="row mt-5">
+              <div className="row mt-4">
                 <div class="col-md-4">
                   <label for="validationDefault05" class="form-label">Zip</label>
                   <input type="text" class="form-control" id="validationDefault05" required />
                 </div>
-                <div class="mb-3 col-md-4 mt-5">
-                  <input type="file" class="form-control" aria-label="file example" required />
+                <div class="mb-3 col-md-4 ">
+                  <label for="validationDefault06" class="form-label">Share your Cv</label>
+                  <input type="file" class="form-control" aria-label="file example" id="validationDefault06" required />
                   <div class="invalid-feedback">Example invalid form file feedback</div>
                 </div>
               </div>
