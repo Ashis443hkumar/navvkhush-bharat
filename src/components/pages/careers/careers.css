@@ -1,0 +1,34 @@
+.career_job_details{
+  background-color: #fff;
+  padding: 20px;
+  text-align: start;
+}
+.jobsrole{
+  margin-bottom: 3px;
+  color: red;
+}
+.profile{
+  color: #000;
+}
+.career_job_details h3{
+  font-size: 16px;
+}
+.career_job_details h5{
+  font-size: 16px;
+}
+
+.job_date_time{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.career_job_details span{
+  font-size: 14px;
+}
+
+/* job form  */
+.user_jobs{
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 0px;
+  padding: 20px 0;
+}
