@@ -41,6 +41,7 @@ export default function Header() {
              <ul class="dropdown_menu">
                 <li><NavLink to="/careers/intership">Internship</NavLink></li>
                 <li><NavLink to="/careers/volunteer">Volunteer</NavLink></li>
+                <li><NavLink to="/careers/career">Career</NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/contact/">Contacts  </NavLink>  </li>

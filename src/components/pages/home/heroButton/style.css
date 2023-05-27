@@ -47,3 +47,11 @@
   background-color: #706fd3;
   margin-left: 13px;
 }
+
+.SocialsIcons img{
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  object-fit: cover;
+  margin-left: 10px;
+}

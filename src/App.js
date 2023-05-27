@@ -19,6 +19,7 @@ import Contact from "./components/pages/contacts/Contact"
 // dropdown_menu 
 import Intership from "./components/pages/careers/intership/Intership"
 import Volunteer from "./components/pages/careers/volunteer/Volunteer"
+import Career from "./components/pages/careers/career/Career"
 
 
 // page router program   
@@ -48,6 +49,7 @@ export default function App() {
         <Route path="/careers/" element={<Careers/>}>
            <Route path="Intership" element={<Intership/>} />
            <Route path="volunteer" element={<Volunteer/>} />
+           <Route path="career" element={<Career/>} />
         </Route>
         <Route path="/contact"  element={<Contact />}/>
         <Route path="/about/donate" element={<Donate/>} />  
