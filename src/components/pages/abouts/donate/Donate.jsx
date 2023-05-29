@@ -7,7 +7,7 @@ import "./donate.css"
 export default function Donate() {
   return (
    <>
-   <AboutHeroBack AboutTitle="Donate Now" cover={"https://media.licdn.com/dms/image/D4D22AQGjv1v5YsGbBg/feedshare-shrink_2048_1536/0/1685000871153?e=1687996800&v=beta&t=zcAyo2w4XNU5kTWGUwd9WcjOJ93rNukMrkWscgbKyXE"} />
+   <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQHhw-g9geTIJw/feedshare-shrink_2048_1536/0/1685345817009?e=1687996800&v=beta&t=qkgTtuHwrmhDWwr7BvqSpeEhIUV09R5bB4dShv9sJM8"} />
   <section class="volunteer">
         <div className="conatiner">
           {/* <div className="heading">
