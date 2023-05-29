@@ -1,4 +1,7 @@
 
+.home_founder{
+  margin-top: -150px;
+}
 
 .addfewfwf{
   display: flex;
@@ -67,14 +70,13 @@
   transform: rotate(90deg);
 }
 /* arard_partner */
-
 .arard_partner{
   background-color: #f2f2f2;
   margin-bottom: 0px;
   margin-top: 20px;
 }
 /* who ae are  section  */
-.whoAeAre_section{
+/* .whoAeAre_section{
   background-color: #f9f9f9f9;
   padding: 30px 0;
   margin-bottom: -26px;
@@ -82,29 +84,40 @@
 .whoAeAre_section img{
   width: 100%;
   height: 400px;
-}
+} */
 
 /* home founder meassgae  */
-
 .founder_home{
   padding: 20px 5%;
   background-color: #eeee;
+  padding-bottom: 10px;
 }
 .founder_home img{
   width: 100%;
-  height: 450px;
+  height: 300px;
 }
-.founder_home h2{
-  font-weight: bold;
+.founder_content h2{
   font-size: 18px;
-  padding: -5px 0;
-
 }
-.founder_home h4{
+.founder_content h4{
   font-size: 16px;
 }
 .founder_content button{
   margin-left: 0%;
+}
+.home_icons{
+  margin-top: -10px;
+}
+.home_icons img{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.youtube{
+  display: none;
+}
+.what_apps{
+  display: none;
 }
 
 /* accodin  */

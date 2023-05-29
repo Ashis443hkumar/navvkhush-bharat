@@ -24,10 +24,8 @@ export default function Home() {
     <>
       <Hero />
       <Tests/>
-
-
       
-      <section class="founder_about_sectin py-4">
+      <section class="home_founder py-4">
        <div className="container">
          <Heading title="About us" />
          <div className="row">
@@ -57,8 +55,8 @@ export default function Home() {
             
             <div className="card-body text-center">
               <h2>KAVITA RAWAT</h2>
-              <h4>FOUNDER, Navv Khush Bharat</h4>
-              <div>
+              <h4>FOUNDER, NavvKhush Bharat</h4>
+              <div class="home_icons">
                 <SocialsIcons/>
               </div>
             </div>
