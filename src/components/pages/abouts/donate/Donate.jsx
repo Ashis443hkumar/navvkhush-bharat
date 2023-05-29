@@ -83,18 +83,14 @@ export default function Donate() {
 
                 <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SUPPORT WOMEN EMPOWERMENT</button>
 
-                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">TOY LIBRARY</button>
-
-                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">NAVVKHUSH BHARAT </button>
-
                 <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PAY WHAT YOU WANT</button>
-                
+
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <div className="row ">
-                  <div className="col-md-6 pt-5">
+                  <div className="col-md-6 pt-2">
                     <ul>
                       <li>2,500 INR (Support a child for 1 months)</li>
                       <li>7,500 INR (Support a child for 3 months)</li>

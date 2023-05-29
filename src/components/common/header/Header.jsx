@@ -24,7 +24,7 @@ export default function Header() {
 
             <li><NavLink to="/programs/">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="/programs/whomen/">WOMEN EMPOWERMENT </NavLink></li>
+                <li><NavLink to="/programs/whomen/">Women Empowerment </NavLink></li>
                 <li><NavLink to="/programs/childeducation">Child Education</NavLink></li>                      
               </ul>
             </li>
@@ -42,7 +42,7 @@ export default function Header() {
              <ul class="dropdown_menu">
                 <li><NavLink to="/careers/intership">Internship</NavLink></li>
                 <li><NavLink to="/careers/volunteer">Volunteer</NavLink></li>
-                <li><NavLink to="/careers/career">Career</NavLink></li>
+                <li><NavLink to="/careers/career">Work With Us </NavLink></li>
               </ul>
             </li>
             <li><NavLink to="/contact/">Contacts  </NavLink>  </li>

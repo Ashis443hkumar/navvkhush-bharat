@@ -8,8 +8,8 @@ export default function Events() {
   return (
      <>
 
-      <section>
-         <Heading title="meida " />
+      <section class="mt-4">
+         <Heading title="Events" />
          <div className="container mt-3">
            <div className="row media_content">
              <div className="col-md-6">

@@ -7,7 +7,7 @@ export default function Gallery() {
 
   return (
      <>
-      <section class="gallery">
+      <section class="gallery mt-4">
         <Heading title="Gallery" />
         <div className="container mt-4">
           <div className="row">
