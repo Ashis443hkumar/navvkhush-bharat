@@ -98,9 +98,11 @@
   margin-top: -10px;
 }
 .about_cart_content .about_icons img{
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  background: none;
+  object-fit: cover;
 }
 .about_cart_content .about_icons .youtube{
   display: none;

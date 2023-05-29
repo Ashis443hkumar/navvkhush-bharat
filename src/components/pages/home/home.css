@@ -110,9 +110,11 @@
   margin-top: -10px;
 }
 .card_content .home_icons img{
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  object-fit: cover;
+  background: none;
 }
 .card_content .youtube{
   display: none;
