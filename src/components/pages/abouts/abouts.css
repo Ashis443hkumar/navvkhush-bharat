@@ -15,8 +15,6 @@
 }
 
 /* about section css   */
-
-
 .achiment_still_date {
   margin-top: 0;
   margin-bottom: 40px;
@@ -85,17 +83,7 @@
   text-align: center;
 }
 .founder_content img{
-  width: 100%;
-}
-.founder .social_link{
-  text-align: center;
-  margin: 10px;
-}
-.founder .social_link i{
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  color: #fff;
+  height: 350px;
 }
 .founder_content h2{
   font-size: 19px;
@@ -106,8 +94,22 @@
   padding-bottom: 10px;
 }
 
+.about_cart_content .about_icons{
+  margin-top: -10px;
+}
+.about_cart_content .about_icons img{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.about_cart_content .about_icons .youtube{
+  display: none;
+}
+.about_cart_content .about_icons .what_apps{
+  display: none;
+}
 
-/* advisor   */
+/*------------------ advisor   --------------*/
 .advisor{
   padding: 40px 0;
   padding-bottom: 0;

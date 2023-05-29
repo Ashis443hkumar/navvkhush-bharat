@@ -105,18 +105,19 @@
 .founder_content button{
   margin-left: 0%;
 }
-.home_icons{
+
+.card_content .home_icons{
   margin-top: -10px;
 }
-.home_icons img{
+.card_content .home_icons img{
   width: 30px;
   height: 30px;
   line-height: 30px;
 }
-.youtube{
+.card_content .youtube{
   display: none;
 }
-.what_apps{
+.card_content .what_apps{
   display: none;
 }
 
