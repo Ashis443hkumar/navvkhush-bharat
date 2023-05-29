@@ -2,8 +2,12 @@ import React from "react";
 import HeroButton from "../../pages/home/heroButton/HeroButton";
 import SocialsIcons from "../../pages/home/heroButton/SocialSIcon";
 import "./footer.css"
+import { Link, useNavigate } from "react-router-dom"
 
 export default function Footer() {
+  const navigate =  useNavigate()
+
+
   return (
     <>
      <footer class="footer">
@@ -50,7 +54,11 @@ export default function Footer() {
         <div className="footer_social_links">
           <h3>CONTACT US </h3>
            <div class="">
-               <HeroButton buttonTitle="Donate now" />             
+             <div className="footer_btn">
+               <button onClick={() =>navigate("./careers/volunteer")}>
+                  <HeroButton buttonTitle="Donate now" />     
+               </button>
+             </div>
              <ul>
                <li><a href="">Donation</a></li>
                <li><a href="">Terms and Conditions</a></li>

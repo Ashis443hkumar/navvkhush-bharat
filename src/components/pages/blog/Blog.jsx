@@ -26,7 +26,7 @@ export default function Blog() {
   }
   return (
      <>
-      <AboutHeroBack AboutTitle="Blog"  cover={"https://i.pinimg.com/564x/af/2b/75/af2b758bac3d3b7ca0b228d2e782ba71.jpg"} />
+      <AboutHeroBack AboutTitle=""  cover={"https://media.licdn.com/dms/image/D4D22AQG7Zz-ii4mH6A/feedshare-shrink_2048_1536/0/1685345811590?e=1687996800&v=beta&t=vRrG5zytjLUo2PD2OO6J90FlVzJMleiLlJtryJ_hvU0"} />
 
       <section class="blog my-4 py-4">
         <div className="container">

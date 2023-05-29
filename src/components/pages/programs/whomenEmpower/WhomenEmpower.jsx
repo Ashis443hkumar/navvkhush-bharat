@@ -6,7 +6,7 @@ import "./style.css"
 export default function WhomenEmpower() {
   return (
      <>
-     <AboutHeroBack AboutTitle="Women Empowerment" cover={"https://media.licdn.com/dms/image/D4D22AQFnMYv49ECF-w/feedshare-shrink_2048_1536/0/1685000889976?e=1687996800&v=beta&t=JPDrmZgCoFMRdOwwJNel7sL8X1bXYgSG0r86d8LvbNQ"} />
+     <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQH6s_NsBizSGA/feedshare-shrink_2048_1536/0/1685345817040?e=1687996800&v=beta&t=iMdSIeAEgk7MUYc0Om8wQTdpMlEuHp1iaaZpWyH2IBQ"} />
 
        <section class="whomenEmpower">
          <Heading title="Fashion Desginer" />

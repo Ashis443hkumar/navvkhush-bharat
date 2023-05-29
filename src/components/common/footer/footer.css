@@ -103,10 +103,14 @@ footer ul li{
   margin-top: 10px;
 }
 /*footer  contact  */
-.footer_social_links button{
-  padding: 10px 70px;
-  margin-bottom: 10px;
+.footer_social_links .footer_btn{
+  margin-left: -85px;
 }
+.footer_social_links .footer_btn button{
+  padding: 10px 60px;
+
+}
+
 
 
 @media (max-width:910px){

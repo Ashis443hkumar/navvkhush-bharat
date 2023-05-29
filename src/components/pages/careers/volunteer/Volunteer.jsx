@@ -9,8 +9,6 @@ export default function Volunteer() {
   return (
      <>
 
-
-
      <AboutHeroBack AboutTitle="Volunteer with Us" cover={"https://thumbs.dreamstime.com/b/volunteer-black-blackboard-highlighted-45867177.jpg"} />
 
       <section class=" volunteer">

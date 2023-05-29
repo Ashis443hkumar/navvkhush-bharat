@@ -20,7 +20,7 @@ export default function Banner() {
           </h3>
         </div>
         <div class="banner_button">
-          <button onClick={() =>navigate("./contact/volunteer")}>
+          <button onClick={() =>navigate("./careers/volunteer")}>
              <HeroButton buttonTitle="Become a Volunteer" />
           </button>
         </div>

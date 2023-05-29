@@ -47,12 +47,11 @@ export default function Home() {
   {/* founder messages  */}
   <section class="founder_home mt-4">
       <div className="container">
-        <Heading title="FOUNDER MESSAGE" />
+        <Heading title="FOUNDER'S MESSAGE" />
         <div className="row founder_content">
           <div className="col-md-4 card_content">
           <div className="card">
-            <img src="https://media.licdn.com/dms/image/D4D22AQFuyNvq2KJ0ZA/feedshare-shrink_1280/0/1685000870596?e=1687996800&v=beta&t=bgAMJXKAUOx3hlWvLgGvwQWhPCr2m-3amsai7Qu8KPk" class="card-img-top " alt="" />
-            
+            <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top " alt="" />
             <div className="card-body text-center">
               <h2>KAVITA RAWAT</h2>
               <h4>FOUNDER, NavvKhush Bharat</h4>
@@ -283,8 +282,7 @@ export default function Home() {
               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
                   <p>We are looking for enthusiastic individuals who would work for the well-being of others... 
-                  <button onClick={() =>navigate("./about")} class="faq_readMore"> Read More </button>
-
+                    <button onClick={() =>navigate("./careers/volunteer/")} class="faq_readMore"> Read More </button>
                   </p>
                 </div>
               </div>
@@ -298,7 +296,7 @@ export default function Home() {
               <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
                   <p> In order for us to achieve our dream of making India a better place, we would love any monetary or goods’ donations.
-                    <button onClick={() =>navigate("./about")} class="faq_readMore"> ..Read More </button>
+                    <button onClick={() =>navigate("./about/donate")} class="faq_readMore"> ..Read More </button>
                   </p>
                 </div>
               </div>
@@ -316,7 +314,7 @@ export default function Home() {
 
                   When you sponsor a child, you’re creating lasting change in their lives and beyond. It is a great way to build on the unique, life-changing bond between you and your sponsored child. 
 
-                  <button onClick={() =>navigate("./about")} class="faq_readMore"> ..Read More </button>
+                  <button onClick={() =>navigate("/programs/childeducation")} class="faq_readMore"> ..Read More </button>
                   </p>
                 </div>
               </div>
@@ -324,7 +322,7 @@ export default function Home() {
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingThre">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThre" aria-expanded="false" aria-controls="panelsStayOpen-collapseThre">
                   Apply for Internships
                 </button>
               </h2>
@@ -337,7 +335,7 @@ export default function Home() {
 
                   Wherever you are in your internship, it’s important to stay inspired. Whether it’s your goal to learn something new or share your ideas with your managers, find inspiration that can help you stay motivated during your internship.
 
-                  <button onClick={() =>navigate("./about")} class="faq_readMore"> ..Read More </button>
+                  <button onClick={() =>navigate("./careers/intership/")} class="faq_readMore"> ..Read More </button>
                   </p>
                 </div>
               </div>

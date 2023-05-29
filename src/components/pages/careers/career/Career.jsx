@@ -8,7 +8,7 @@ export default function Career(){
   return(
     <>
     
-      <AboutHeroBack AboutTitle="Careers" cover="https://www.gpb.org/sites/default/files/styles/flexheight/public/blogs/images/2017/10/23/in_demand_jobs.jpg?itok=ziUuhVyp" />
+      <AboutHeroBack AboutTitle="Careers" cover="https://media.licdn.com/dms/image/D4D22AQG7Zz-ii4mH6A/feedshare-shrink_2048_1536/0/1685345811590?e=1687996800&v=beta&t=vRrG5zytjLUo2PD2OO6J90FlVzJMleiLlJtryJ_hvU0" />
       
       <section class="careers">
         <Heading title="Jobs Opeaning" />

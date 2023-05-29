@@ -20,9 +20,9 @@ export default function About() {
 
 
      <AboutHeroBack
-        AboutTitle="Abouts Section"
+        AboutTitle="Abouts NavvKhush Bharat"
         cover={
-          'https://media.licdn.com/dms/image/D4D22AQGjzFI8AmM08Q/feedshare-shrink_2048_1536/0/1685000870912?e=1687996800&v=beta&t=BLYbYuU7lkPOjXuGbJjYdnP1ETLS5WzwO8V3-fvHZVc'}/>
+          'https://media.licdn.com/dms/image/D4D22AQFqIab8M6DXQA/feedshare-shrink_2048_1536/0/1685345817433?e=1687996800&v=beta&t=-jpG_8YPi5GpyBGq1E9YB0uErTz8R2wsGc8kypzLz64'}/>
 
       <section class="founder_about_sectin py-4">
         <div className="container">
@@ -81,14 +81,12 @@ export default function About() {
 
      {/* founder messages  */}
      <section class="founder mt-4">
-         <div className="container">
-           <div className="heading">
-             <h1 class="founder my-4">FOUNDER MESSAGE</h1>
-           </div>
+         <div className="container pt-3">
+           <Heading title="FOUNDER'S MESSAGE" />
            <div className="row founder_content">
              <div className="col-md-4 about_cart_content">
                <div className="card">
-               <img src="https://media.licdn.com/dms/image/D4D22AQFuyNvq2KJ0ZA/feedshare-shrink_1280/0/1685000870596?e=1687996800&v=beta&t=bgAMJXKAUOx3hlWvLgGvwQWhPCr2m-3amsai7Qu8KPk" class="card-img-top" alt="" />
+               <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top" alt="" />
                <div className="card-body">
                   <h2>KAVITA RAWAT</h2>
                   <h4>Founder, NavvKhush Bharat</h4>
