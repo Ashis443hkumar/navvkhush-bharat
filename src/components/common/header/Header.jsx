@@ -30,11 +30,12 @@ export default function Header() {
             </li>
             <li><NavLink to="/media">Media <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
-                <li><NavLink to="">NewsLetter</NavLink></li>
-                <li><NavLink to="">Gallery</NavLink></li>
-                <li><NavLink to="">Events</NavLink></li>
+                <li><NavLink to="/media/newletters">NewsLetter</NavLink></li>
+                <li><NavLink to="/media/gallery">Gallery</NavLink></li>
+                <li><NavLink to="/media/events">Events</NavLink></li>
               </ul>
             </li>
+
             <li><NavLink to="/blog">Blog</NavLink></li>
 
             <li><NavLink to="/careers/">Careers <i class="fa-solid fa-caret-down"></i></NavLink>
