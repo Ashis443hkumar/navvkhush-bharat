@@ -5,7 +5,7 @@ export default function Events() {
 
   return (
      <>
-      <h1>event pages</h1>
+      <h1>event pages </h1>
    
 
      </>

@@ -23,8 +23,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Tests/>
-      
+
       <section class="home_founder py-4">
        <div className="container">
          <Heading title="About us" />
@@ -41,6 +40,8 @@ export default function Home() {
          </div>
        </div>
      </section>
+
+     {/* <a href ="https://media.licdn.com/dms/image/D4D22AQHU-Fndq-a61w/feedshare-shrink_2048_1536/0/1685345817508?e=1687996800&v=beta&t=xYf5dGh7kfaoqOE6Ly5QkzdxSk0tnPPRrfnT9vcZYc8" attributes-list> Link Text </a>   */}
 
 
 

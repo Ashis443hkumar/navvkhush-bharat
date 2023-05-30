@@ -16,7 +16,10 @@ export default function Newletters() {
                <div className="card">
                  <img src="https://www.seedsindia.org/wp-content/uploads/2023/04/Wazirabad-Lake-1536x1024.jpg" alt="" class="w-100" />
                  <div className="card-body">
+                   <h4>Heading</h4>
                   <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a>  
+
                  </div>
                </div>
              </div>
@@ -24,7 +27,9 @@ export default function Newletters() {
              <div className="card">
                  <img src="https://media.licdn.com/dms/image/D4D22AQHQd9uGBPVqfA/feedshare-shrink_800/0/1685355472628?e=1687996800&v=beta&t=HHQef6nKpubll1QV5ZHmPPguMe2WAVmWywSyya-e_VE" alt="" class="w-100" />
                  <div className="card-body">
+                 <h4>Heading</h4>
                   <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a>  
                  </div>
                </div>
              </div>
@@ -32,7 +37,9 @@ export default function Newletters() {
              <div className="card">
                  <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" class="w-100" />
                  <div className="card-body">
+                <h4>Heading</h4>
                   <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a>  
                  </div>
                </div>
              </div>
@@ -40,7 +47,9 @@ export default function Newletters() {
              <div className="card">
                  <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" alt="" class="w-100" />
                  <div className="card-body">
+                 <h4>Heading</h4>
                   <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
                  </div>
                </div>
              </div>
