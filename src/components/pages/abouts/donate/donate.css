@@ -1,8 +1,6 @@
 .tabs_donate{
   padding: 20px 5%;
   background: #ffb8b8;
-
-  /* background: #f6f6f6f6; */
   color: #000;
 }
 .rretry{
@@ -29,9 +27,10 @@
 }
 .eewrewr{
   margin-left: 30px;
+  font-size: 19px;
 }
 .paragraph_or{
-  padding: -50px 0;
+  padding: -10px 0;
 }
 .donate_peple{
   width: 400px;
@@ -51,13 +50,33 @@
 }
 .nav-link{
   color:#000;
-
 }
 .rtrtr{
   width: 1000px;
   height: 100vh;
   background-color: crimson;
 }
+.tbs_checkboxes ul li{
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+.tbs_checkboxes label{
+  margin-left: 10px;
+}
+.freerert li{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 14px;
+  font-size: 19px;
+  
+}
+.freerert li label{
+  margin-left: 10px;
+  margin-top: -4px;
+}
+
+/*----------- div3 ------- */
 /* what you want   */
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -81,7 +100,6 @@
   -ms-flex: 75%; /* IE10 */
   flex: 75%;
 }
-
 .col-25,
 .col-50,
 .col-75 {
@@ -90,14 +108,12 @@
 .col-50 h3{
   padding-bottom: 40px;
 }
-
 .ergtryrty .container {
   background-color: #f2f2f2;
   padding: 25px 30px 15px 30px;
   border: 1px solid lightgrey;
   border-radius: 3px;
 }
-
 input[type=text] {
   width: 100%;
   margin-bottom: 20px;
@@ -105,7 +121,6 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
 .ergtryrty label {
   margin-bottom: 10px;
   display: block;
@@ -116,7 +131,6 @@ input[type=text] {
   padding: 7px 0;
   font-size: 24px;
 }
-
 .btn {
   background-color: #04AA6D;
   color: white;
@@ -128,7 +142,6 @@ input[type=text] {
   cursor: pointer;
   font-size: 17px;
 }
-
 .btn:hover {
   background-color: #45a049;
 }
@@ -138,7 +151,6 @@ span.price {
   color: grey;
 }
 
-
 @media (max-width: 800px) {
   .row {
     flex-direction: column-reverse;
@@ -147,3 +159,5 @@ span.price {
     margin-bottom: 20px;
   }
 }
+
+/* trail  */

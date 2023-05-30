@@ -27,7 +27,7 @@ export default function Donate() {
 
        
       {/*--------------- bank deatsls  model---------- */}
-      <section class="my-4">
+      <section class="">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           Click here to banks Details
         </button>
@@ -67,6 +67,17 @@ export default function Donate() {
         </div>
       </section> 
 
+      <label class="cyberpunk-checkbox-label">
+        <input class="cyberpunk-checkbox" type="checkbox" />
+        Check me</label>
+
+      <label class="container">
+       <input type="checkbox" checked="checked" />
+        <div class="checkmark">
+           <p>sdfdsjf kjhou km jhh  </p>
+        </div>
+      </label>
+
 
      {/* ------------------- donate section ---------------- */}
       <section class="tabs_donate">
@@ -87,15 +98,30 @@ export default function Donate() {
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <div className="row ">
-                  <div className="col-md-6 pt-2">
+                  <div className="col-md-6 pt-2 tbs_checkboxes">
                     <ul>
-                      <li>2,500 INR (Support a child for 1 months)</li>
-                      <li>7,500 INR (Support a child for 3 months)</li>
-                      <li>15,00 INR (Support a child for 6 months)</li>
-                      <li>30,00 INR (Support a child for 1 year)</li>
-                      <li>1,50,000 INR (Support a child for 5 year)</li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1">2,500 INR (Support a child for 1 months)</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1">7,500 INR (Support a child for 3 months) </label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1">15,00 INR (Support a child for 6 months) </label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1">30,00 INR (Support a child for 1 year) </label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1"> 1,50,000 INR (Support a child for 5 year) </label>
+                    </li>
                     </ul>
-                    <div class="eewrewr mt-5 pt-5">
+                    <div class="eewrewr mt-2 pt-2">
                       <p>Choose from above options</p>
                       <p class="paragraph_or">or</p>
                       <p>Pay what you want</p>
@@ -116,15 +142,27 @@ export default function Donate() {
               {/* div 2 */}
               <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-6 fggefr">
                     <div class="">
-                    <ul>
-                      <p> 15000 INR (For menstrual hygiene requirements of 50 females for a year)</p>
-                      <p> 3000 INR (For menstrual hygiene requirements of 10 females for a year)</p>
-                      <p>1500 INR (Support a woman for 2 months)</p>
-                      <p> 4000 INR (For a skill training session)</p>
-                    </ul>
-                    <div class="eewrewr">
+                    <ul class="freerert">
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1">15000 INR (For menstrual hygiene requirements of 50 females for a year) </label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1"> 3000 INR (For menstrual hygiene requirements of 10 females for a year)</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1"> 1500 INR (Support a woman for 2 months)</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="answer-1" name="answer-1" />
+                      <label for="answer-1"> 4000 INR (For a skill training session)</label>
+                    </li>
+                  </ul>
+                    <div class="eewrewr mt-4 ">
                         <p>Choose from above options</p>
                         <p class="paragraph_or">or</p>
                         <p>Pay what you want</p>

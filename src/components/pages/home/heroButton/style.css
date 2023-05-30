@@ -13,41 +13,6 @@
   background-color: #d33400;
 }
 
-/* ----- social icons  ------ */
-.social_link a {
-  text-decoration: none;
-  color: #fff;
-}
-.social_link i {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  color: #fff;
-  font-size: 18px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-.social_link .fa-facebook {
-  background-color: #487eb0;
-}
-.social_link .fa-twitter {
-  background-color: #706fd3;
-  margin-left: 13px;
-}
-.social_link .fa-instagram {
-  background-color: #cf6a87;
-  margin-left: 13px;
-}
-.social_link .fa-youtube {
-  background-color: #e84118;
-  margin-left: 13px;
-}
-.fa-linkedin {
-  background-color: #706fd3;
-  margin-left: 13px;
-}
-
 .SocialsIcons img{
   width: 28px;
   height: 28px;
