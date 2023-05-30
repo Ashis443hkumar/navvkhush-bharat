@@ -28,7 +28,10 @@ export default function About() {
         <div className="container">
           <Heading title="About us" />
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
+              <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100" alt=""/>
+            </div>
+            <div className="col-md-6">
               <p>
                 At the Crime Control & Social Development Organisation (CCSDO),
                 we believe that every woman has the right to live a life of
