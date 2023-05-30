@@ -45,7 +45,7 @@ export default function Header() {
                 <li><NavLink to="/careers/career">Work With Us </NavLink></li>
               </ul>
             </li>
-            <li><NavLink to="/contact/">Contacts  </NavLink>  </li>
+            <li><NavLink to="/contact/">Contact </NavLink>  </li>
            </ul>
 
           <div className="donate_btn">

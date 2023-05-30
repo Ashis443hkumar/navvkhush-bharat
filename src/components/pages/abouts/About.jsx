@@ -18,11 +18,24 @@ export default function About() {
   return (
      <>
 
-
      <AboutHeroBack
         AboutTitle="Abouts NavvKhush Bharat"
         cover={
           'https://media.licdn.com/dms/image/D4D22AQFqIab8M6DXQA/feedshare-shrink_2048_1536/0/1685345817433?e=1687996800&v=beta&t=-jpG_8YPi5GpyBGq1E9YB0uErTz8R2wsGc8kypzLz64'}/>
+          
+
+          {/* <section>
+            <input type="checkbox" id="ch"  />
+            <h2>werkewjrewkr heading1</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ea error iusto......</p>
+              <div class="content">
+                <p>fgfdgdfhfhfh dfklgfogjtrh mklckfeg m kxcf rk</p>
+                <label htmlFor="ch">Show less</label>
+              </div>
+            <label htmlFor="ch">Read more</label>
+
+          </section> */}
+
 
       <section class="founder_about_sectin py-4">
         <div className="container">
@@ -31,7 +44,8 @@ export default function About() {
             <div className="col-md-6">
               <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100" alt=""/>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 about_readmore">
+             <input type="checkbox" id="ch"  />
               <p>
                 At the Crime Control & Social Development Organisation (CCSDO),
                 we believe that every woman has the right to live a life of
@@ -47,16 +61,17 @@ export default function About() {
                 We believe that by empowering women, we can create a brighter,
                 more equal future for all.
               </p>
-
-              <p>
+           <div class="content">
+               <p>
                 Our team is made up of dedicated professionals who are
                 passionate about making a difference. From providing education
                 and training to children and women in underserved communities to
                 giving stitching classes to women inmates in Tihar Jail, our
                 programs aim to equip individuals with the knowledge and tools
                 they need to succeed in the modern world.
-              </p>
-              <p>
+               </p>
+
+               <p>
                 We are proud of our achievements and the impact we have made in
                 the lives of women and children. Our achievements till date
                 include educating 1779 children, providing counselling to over
@@ -77,6 +92,11 @@ export default function About() {
                 just and equal society. Join us on this journey towards a
                 brighter future for all.
               </p>
+
+                <label htmlFor="ch" class="label_readd">Show less</label>
+              </div>
+              <label htmlFor="ch" class="label_readd">Read more</label>
+
             </div>
           </div>
         </div>
@@ -102,6 +122,8 @@ export default function About() {
              <div className="col-md-8">
                <div class="founder_content">
                  <p>Since my childhood, I have been drawn towards  community development and serving those in need. Witnessing the struggles and hardships that many individuals and families face on a daily basis, I developed a deep sense of empathy and a strong desire to help make a </p>
+
+                 
 
                  <p>positive impact in their lives. I always had a dream to start my own foundation and work towards the goal of empowering women in particular.</p>
                  <p>Women in our society face numerous challenges and obstacles, including gender-based violence, discrimination, and lack of access to education and resources. I strongly believe that empowering women is not only a fundamental human right, but also a key factor in promoting social and economic development.</p>

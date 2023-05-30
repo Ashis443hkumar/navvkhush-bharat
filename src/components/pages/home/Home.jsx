@@ -108,10 +108,6 @@ export default function Home() {
         </div>
       </div>
       </section>
-
-    
-  
-
      
       <Impact/>
 
@@ -346,14 +342,6 @@ export default function Home() {
         </div>
      
       </div>
-
-     
-
-
-
-
-      
-    
 
 
 

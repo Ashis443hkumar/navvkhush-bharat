@@ -27,6 +27,8 @@ export default function Footer() {
             <li><a href=""><i class="fa-solid fa-greater-than"></i> About Us</a></li>
             <li><a href=""><i class="fa-solid fa-greater-than"></i> Programs</a></li>
             <li><a href=""><i class="fa-solid fa-greater-than"></i> Media</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Blog</a></li>
+            <li><a href=""><i class="fa-solid fa-greater-than"></i> Careers</a></li>
             <li><a href=""><i class="fa-solid fa-greater-than"></i> Contact Us</a></li>
           </ul>
         </div>
@@ -41,13 +43,14 @@ export default function Footer() {
             <span><i class="fa-solid fa-location-dot"></i></span>
             <address>Corporate Office : C-314 3rd Floor, Nirvana Courtyard, Sector-50, Gurugram -  122018.</address>
           </div>
-          <div class="email">
+          <div class="email footer_email">
             <strong><i class="fa-solid fa-envelope"></i></strong>
             <span>info@thecrimecontrol.com</span>
           </div>
-          <div class="email phone">
+          <div class="email phone footer_phone">
             <strong><i class="fa-solid fa-phone"></i></strong>
             <span>+918287372178</span>
+            <span class="hr_number">+91 9971725342</span>
           </div>
         </div>
 

@@ -1,6 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
 
+#ch{
+  display: none;
+}
+.content{
+  display: none;
+}
+#ch:checked ~ .content{
+  display: block;
+}
+#ch:checked ~ label{
+  display: none;
+}
+.label_readd{
+  display: inline-block;
+  padding: 8px 0px;
+  margin-top: -80px;
+  cursor: pointer;
+  color: red;
+}
+
+
 /* advisior section */
 .advisior {
   background-color: #eee;
