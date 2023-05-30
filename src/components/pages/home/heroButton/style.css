@@ -8,6 +8,7 @@
   font-size: 18px;
   cursor: pointer;
   margin-left: 0%;
+  text-transform: uppercase;
 }
 .heroBtn:hover {
   background-color: #d33400;

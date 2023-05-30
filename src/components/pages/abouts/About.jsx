@@ -19,22 +19,10 @@ export default function About() {
      <>
 
      <AboutHeroBack
-        AboutTitle="Abouts NavvKhush Bharat"
+        AboutTitle="About NavvKhush Bharat ccsdo"
         cover={
           'https://media.licdn.com/dms/image/D4D22AQFqIab8M6DXQA/feedshare-shrink_2048_1536/0/1685345817433?e=1687996800&v=beta&t=-jpG_8YPi5GpyBGq1E9YB0uErTz8R2wsGc8kypzLz64'}/>
           
-
-          {/* <section>
-            <input type="checkbox" id="ch"  />
-            <h2>werkewjrewkr heading1</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ea error iusto......</p>
-              <div class="content">
-                <p>fgfdgdfhfhfh dfklgfogjtrh mklckfeg m kxcf rk</p>
-                <label htmlFor="ch">Show less</label>
-              </div>
-            <label htmlFor="ch">Read more</label>
-
-          </section> */}
 
 
       <section class="founder_about_sectin py-4">

@@ -14,7 +14,7 @@ export default function Header() {
       <header className="header">
         <div className="logo">
           <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
-          <h3>Navvkhush Bharat</h3>
+          <h3>NavvKhush Bharat ccsdo</h3>
         </div>
 
         <nav className= {isMobile ? 'mobile-menu-link' : "navigation" } onClick={() => setisMobile(false)} >

@@ -11,7 +11,7 @@ export default function Career(){
       <AboutHeroBack AboutTitle="" cover="https://media.licdn.com/dms/image/D4D22AQG7Zz-ii4mH6A/feedshare-shrink_2048_1536/0/1685345811590?e=1687996800&v=beta&t=vRrG5zytjLUo2PD2OO6J90FlVzJMleiLlJtryJ_hvU0" />
       
       <section class="careers">
-        <Heading title="Jobs Opeaning" />
+        <Heading title="Job Openings" />
         <div className="container">
           <div className="row mt-4 ">
           <div className="col-md-3 career_job_details">
@@ -104,7 +104,7 @@ export default function Career(){
    
    {/* ------------ job form  --------- */}
        <section class="mt-5 user_jobs">
-            <Heading title="Jobs Details" />
+            <Heading title="Job Details" />
             <div className="container my-5">
             <form class="row ">
                 <div className="row">

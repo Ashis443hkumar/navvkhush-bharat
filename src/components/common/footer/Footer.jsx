@@ -69,7 +69,6 @@ export default function Footer() {
                <li><a href="">Cancellation & Refund Policy</a></li>
              </ul>
               <div>
-                <h6>Social icons</h6>
                 <SocialsIcons/>
               </div>
            </div>

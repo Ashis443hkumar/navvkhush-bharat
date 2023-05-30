@@ -27,9 +27,9 @@
   --background: #2196f3;
 }
 .logo h3{
-  font-size: 19px;
-  color: #fff;
-  text-transform: capitalize;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /* navigation menu  */

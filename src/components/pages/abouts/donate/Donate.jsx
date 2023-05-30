@@ -29,7 +29,7 @@ export default function Donate() {
       {/*--------------- bank deatsls  model---------- */}
       <section class="">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          Click here to banks Details
+        CLICK HERE FOR BANK DETAILS
         </button>
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"       aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-dialog modal-xl">
