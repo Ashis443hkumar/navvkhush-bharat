@@ -44,8 +44,6 @@ export default function Home() {
         </div>
       </section>
 
-     {/* <a href ="https://media.licdn.com/dms/image/D4D22AQHU-Fndq-a61w/feedshare-shrink_2048_1536/0/1685345817508?e=1687996800&v=beta&t=xYf5dGh7kfaoqOE6Ly5QkzdxSk0tnPPRrfnT9vcZYc8" attributes-list> Link Text </a>   */}
-
 
 
   {/* founder messages  */}
@@ -78,6 +76,11 @@ export default function Home() {
         </div>
       </div>
        </section>
+          
+         <Banner title="Start with helping one poor person and pave way for the bigger
+            changes!" buttonTitle={<button onClick={() =>navigate("./careers/volunteer")}>
+            <HeroButton buttonTitle="Become a Intership" />
+         </button>} />
 
     
      {/* mission & goals  */}
@@ -167,19 +170,11 @@ export default function Home() {
         </div>
       </section>
 
-      <Banner/>
-      <section class="cta_section">
-      <form class="form">
-         <div class="cta_content">
-          <span class="title">Subscribe to our newsletter.</span>
-          <p class="description">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>
-         </div>
-        <div class="cta_form">
-          <input placeholder="Enter your email" type="email" name="email" id="email-address" />
-          <button type="submit">Subscribe</button>
-        </div>
-      </form>
-      </section>
+      <Banner title="Start with helping one poor person and pave way for the bigger
+            changes!" buttonTitle={<button onClick={() =>navigate("./careers/volunteer")}>
+            <HeroButton buttonTitle="Become a Volunteer" />
+         </button>} />
+     
       
        {/* youtube thubnails section */}
        <section class="youtube_thhubanail my-5">
@@ -359,7 +354,20 @@ export default function Home() {
      
       </div>
 
+      {/* <section class="cta_section">
+      <form class="form">
+         <div class="cta_content">
+          <span class="title">Subscribe to our newsletter.</span>
+          <p class="description">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>
+         </div>
+        <div class="cta_form">
+          <input placeholder="Enter your email" type="email" name="email" id="email-address" />
+          <button type="submit">Subscribe</button>
+        </div>
+      </form>
+      </section> */}
 
+   
 
 {/* ----home page end  --- */}
 

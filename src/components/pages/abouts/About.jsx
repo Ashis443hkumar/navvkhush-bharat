@@ -112,11 +112,6 @@ export default function About() {
          </div>
        </section>
 
-      
-
-
-
-
     
        {/* achiment_tell_date */}
        <section class="achiment_tell_date">
@@ -124,7 +119,7 @@ export default function About() {
         <div className="container-fluid mt-3">
           <div className="row">
             <div className="col-md-6 content_achiment gdfg">
-              <h3>Child Educated </h3>
+              <h3>Child Education </h3>
               <ul>
                 <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
                 <li>
@@ -139,15 +134,12 @@ export default function About() {
             <div className="col-md-6 content_achiment gfgfdg">
               <h3>Women Empowerment</h3>
               <ul>
-                <li>Women empowerment refers to making women socially and financially independent.</li>
+                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
+               
                 <li>
-                Women empowerment is a process in which women make their own independent decisions.
+                   We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities..
                 </li>
-                <li>
-                When women are entitled to decide, it gives them a sense of empowerment and more worth..
-                </li>
-                <li>Women empowerment promotes gender equality in society and adds to the country’s development.</li>
-                <li>Empowerment of women helps them to take their own decision with respect to life and family.</li>
+              
               </ul>
             </div>
 
@@ -364,6 +356,13 @@ export default function About() {
         </div>
       </section>
 
+      <section class="cta_section">
+         <div class="cta_content">
+          <span class="title">Subscribe to our newsletter.</span>
+          
+         </div>
+      
+      </section>
      
        
      </>

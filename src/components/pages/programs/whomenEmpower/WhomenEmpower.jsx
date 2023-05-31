@@ -8,13 +8,12 @@ export default function WhomenEmpower() {
      <>
      <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQH6s_NsBizSGA/feedshare-shrink_2048_1536/0/1685345817040?e=1687996800&v=beta&t=iMdSIeAEgk7MUYc0Om8wQTdpMlEuHp1iaaZpWyH2IBQ"} />
 
-
        <section class="whomenEmpower mt-3">
          <Heading title="Fashion Designing Course" />
          <div className="container">
            <div className="row">
              <div className="col-12">
-               <h3>wE PLAN TO TEACH FASHION DESIGNING TO 25+ WOMEN BY HIGHLY SKILLED TRAINERS AND PROVIDE THEM WITH EMPLOYMENT.</h3>
+               <h3>We plane to tech fashion designing to 25+ women by highly skilled trainers and provide then with employment.</h3>
                <p>Our organisation has plans to offer a comprehensive training program in fashion designing to a group of 25+ women. This program will be conducted by highly skilled trainers who are experts in the field of fashion designing. The program will cover a wide range of topics, including design concepts, fabric selection, garment construction, pattern-making, and more.
                 Our aim is to provide these women with the knowledge and skills they need to become successful fashion designers. Through this program, we hope to empower them to pursue their passion for fashion and create their own successful businesses in the industry.</p>
                 <p>Additionally, we recognize that employment opportunities are essential for these women to become financially independent and support themselves and their families. Therefore, we plan to provide them with employment opportunities in the fashion industry after completing the program. This could include internships, apprenticeships, or even job placements with established fashion brands or designers.</p>
@@ -30,7 +29,7 @@ export default function WhomenEmpower() {
          <div className="container">
            <div className="row">
              <div className="col-12">
-               <h3>THE DAILY PROBLEMS OF 200 WOMEN WILL BE ADDRESSED AND SOLUTIONS WILL BE PROVIDED.</h3>
+               <h3>The daily problems of 200 women will be addressed and solutions will be provided</h3>
                 <p>Our organisation aims to tackle the daily problems faced by a group of 200 women by providing effective solutions. We understand that women face unique challenges in their daily lives, and we want to empower them to overcome these obstacles and achieve their full potential.</p>
 
                 <p>To begin with, we will conduct a needs assessment to identify the specific issues faced by these women. This could include issues such as lack of access to basic healthcare, limited education and employment opportunities, inadequate housing, or difficulty accessing essential resources such as clean water and food.</p>
@@ -50,7 +49,9 @@ export default function WhomenEmpower() {
          <div className="container">
            <div className="row">
              <div className="col-12">
-               <h3>OUR NGO HAS BEEN GIVEN A CONTRACT FOR THE FORMATION OF 1200 SELF HELP GROUPS IN THE FARIDABAD AREA. OUR 1ST SHG WAS FORMED IN BALLABGARH</h3>
+             
+
+               <h3>Our Ngo has been given a contract for the formation of 1200 self help groups in the faridbad area. our 1st shg was formed in Ballabgarh </h3>
                 <p>Our non-governmental organisation (NGO) has been awarded a contract to form 1,200 self-help groups (SHGs) in the Faridabad area. This is a significant undertaking that will require a great deal of coordination and effort on our part, but we are committed to making it a success.</p>
 
                 <p>The formation of these SHGs is an important step towards empowering the local community and promoting sustainable development. By bringing together groups of individuals with shared interests and goals, we can help them pool their resources and work together to achieve their objectives.</p>

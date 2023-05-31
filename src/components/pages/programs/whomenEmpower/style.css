@@ -1,5 +1,9 @@
 .whomenEmpower h3{
   font-size: 18px;
   color: #F79F1F;
-  text-transform: lowercase;
+}
+.three h3{
+  text-transform: capitalize;
+  outline-offset: 0ch;
+  color: red;
 }

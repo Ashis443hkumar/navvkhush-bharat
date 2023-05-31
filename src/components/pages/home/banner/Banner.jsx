@@ -4,7 +4,7 @@ import "./banner.css"
 import { Link, useNavigate } from "react-router-dom"
 
 
-export default function Banner() {
+export default function Banner({title, buttonTitle}) {
 
   const navigate =  useNavigate()
 
@@ -14,15 +14,17 @@ export default function Banner() {
         {/* banner section  */}
         <section class="banner">
         <div class="banner_text">
-          <h3>
+        <h3>{title}</h3>
+          {/* <h3>
             Start with helping one poor person and pave way for the bigger
             changes!
-          </h3>
+          </h3> */}
         </div>
         <div class="banner_button">
-          <button onClick={() =>navigate("./careers/volunteer")}>
+          <button>{buttonTitle}</button>
+          {/* <button onClick={() =>navigate("./careers/volunteer")}>
              <HeroButton buttonTitle="Become a Volunteer" />
-          </button>
+          </button> */}
         </div>
       </section>
      
