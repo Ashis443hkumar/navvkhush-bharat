@@ -5,13 +5,14 @@
   text-align: center;
   outline: none;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   margin-left: 0%;
   text-transform: uppercase;
 }
 .heroBtn:hover {
-  background-color: #d33400;
+  /* background-color: #d33400; */
+  width: 100%;
 }
 
 .SocialsIcons img{

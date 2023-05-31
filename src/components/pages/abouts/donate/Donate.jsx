@@ -27,7 +27,7 @@ export default function Donate() {
 
        
       {/*--------------- bank deatsls  model---------- */}
-      <section class="">
+      <section class="bank_Details">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         CLICK HERE FOR BANK DETAILS
         </button>
@@ -67,17 +67,7 @@ export default function Donate() {
         </div>
       </section> 
 
-      <label class="cyberpunk-checkbox-label">
-        <input class="cyberpunk-checkbox" type="checkbox" />
-        Check me</label>
-
-      <label class="container">
-       <input type="checkbox" checked="checked" />
-        <div class="checkmark">
-           <p>sdfdsjf kjhou km jhh  </p>
-        </div>
-      </label>
-
+     
 
      {/* ------------------- donate section ---------------- */}
       <section class="tabs_donate">
@@ -102,23 +92,23 @@ export default function Donate() {
                     <ul>
                     <li>
                       <input type="checkbox" id="answer-1" name="answer-1" />
-                      <label for="answer-1">2,500 INR (Support a child for 1 months)</label>
+                      <label for="answer-1">4,825 INR (Support a child for 1 months)</label>
                     </li>
                     <li>
                       <input type="checkbox" id="answer-1" name="answer-1" />
-                      <label for="answer-1">7,500 INR (Support a child for 3 months) </label>
+                      <label for="answer-1">14,785 INR (Support a child for 3 months) </label>
                     </li>
                     <li>
                       <input type="checkbox" id="answer-1" name="answer-1" />
-                      <label for="answer-1">15,00 INR (Support a child for 6 months) </label>
+                      <label for="answer-1">28,950 INR (Support a child for 6 months) </label>
                     </li>
                     <li>
                       <input type="checkbox" id="answer-1" name="answer-1" />
-                      <label for="answer-1">30,00 INR (Support a child for 1 year) </label>
+                      <label for="answer-1">57,900 INR (Support a child for 1 year) </label>
                     </li>
                     <li>
                       <input type="checkbox" id="answer-1" name="answer-1" />
-                      <label for="answer-1"> 1,50,000 INR (Support a child for 5 year) </label>
+                      <label for="answer-1"> 2,95,000 INR (Support a child for 5 year) </label>
                     </li>
                     </ul>
                     <div class="eewrewr mt-2 pt-2">

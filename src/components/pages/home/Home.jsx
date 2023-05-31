@@ -168,6 +168,18 @@ export default function Home() {
       </section>
 
       <Banner/>
+      <section class="cta_section">
+      <form class="form">
+         <div class="cta_content">
+          <span class="title">Subscribe to our newsletter.</span>
+          <p class="description">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>
+         </div>
+        <div class="cta_form">
+          <input placeholder="Enter your email" type="email" name="email" id="email-address" />
+          <button type="submit">Subscribe</button>
+        </div>
+      </form>
+      </section>
       
        {/* youtube thubnails section */}
        <section class="youtube_thhubanail my-5">

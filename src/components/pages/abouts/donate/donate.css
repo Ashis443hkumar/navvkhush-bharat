@@ -1,3 +1,6 @@
+.bank_Details{
+  margin: -9px 0;
+}
 .tabs_donate{
   padding: 20px 5%;
   background: #ffb8b8;
@@ -9,7 +12,6 @@
 }
 .rretry nav{
   margin-top: -30px;
-
 }
 .tab-content{
   padding: 40px 0;
