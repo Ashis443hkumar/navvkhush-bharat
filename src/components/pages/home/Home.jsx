@@ -78,8 +78,7 @@ export default function Home() {
       </div>
        </section>
           
-         <Banner title="Start with helping one poor person and pave way for the bigger
-            changes!" buttonTitle={<button onClick={() =>navigate("./careers/intership")}>
+         <Banner title="It's not how much we give, but how much love we put into giving" buttonTitle={<button onClick={() =>navigate("./careers/intership")}>
             <HeroButton buttonTitle="Become a Donate Now" />
          </button>} />
 
