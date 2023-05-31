@@ -44,8 +44,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
   {/* founder messages  */}
   <section class="founder_home mt-4">
       <div className="container">
@@ -53,13 +51,16 @@ export default function Home() {
         <div className="row founder_content">
           <div className="col-md-4 card_content">
           <div className="card">
+            <div className="founder_image">
             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top " alt="" />
+            <div class="home_icons">
+                <SocialsIcons/>
+              </div>
+            </div>
             <div className="card-body text-center">
               <h2>KAVITA RAWAT</h2>
               <h4>FOUNDER, NavvKhush Bharat</h4>
-              <div class="home_icons">
-                <SocialsIcons/>
-              </div>
+             
             </div>
           </div>
           </div>
@@ -78,7 +79,7 @@ export default function Home() {
        </section>
           
          <Banner title="Start with helping one poor person and pave way for the bigger
-            changes!" buttonTitle={<button onClick={() =>navigate("./careers/volunteer")}>
+            changes!" buttonTitle={<button onClick={() =>navigate("./careers/intership")}>
             <HeroButton buttonTitle="Become a Intership" />
          </button>} />
 
