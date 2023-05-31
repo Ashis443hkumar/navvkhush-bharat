@@ -80,7 +80,7 @@ export default function Home() {
           
          <Banner title="Start with helping one poor person and pave way for the bigger
             changes!" buttonTitle={<button onClick={() =>navigate("./careers/intership")}>
-            <HeroButton buttonTitle="Become a Intership" />
+            <HeroButton buttonTitle="Become an Intern" />
          </button>} />
 
     

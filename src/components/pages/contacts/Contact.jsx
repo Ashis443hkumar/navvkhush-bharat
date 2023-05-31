@@ -9,7 +9,7 @@ export default function Contact() {
   return (
      <>
 
-      <AboutHeroBack AboutTitle=" " cover={"https://media.licdn.com/dms/image/D4D22AQGdEEjQMHqbWg/feedshare-shrink_800/0/1685533506837?e=1688601600&v=beta&t=etY_PqsZFcumpCeAVg1jvMxg9TjK1j6XZ41GG3EEdl4"} />
+      <AboutHeroBack AboutTitle=" " cover={"https://media.licdn.com/dms/image/D4D22AQHVJwJDK6f64A/feedshare-shrink_2048_1536/0/1685533738557?e=1688601600&v=beta&t=xaAe42senrg3dfGpOOLK9x4ddDVSf1mRAzpPNHowgWM"} />
       
        <section class="user_info my-5 py-3">
          <div className="container">

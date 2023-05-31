@@ -7,7 +7,7 @@ export default function ChildEducation() {
   return (
      <>
      
-     <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQErmOybw6tHNQ/feedshare-shrink_2048_1536/0/1685345817459?e=1687996800&v=beta&t=s-ymjs4IQNgYXm8JS7VP-nAiiamY8dJj34kOEVDhINI"} />
+     <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQEWndiM_gUeYQ/feedshare-shrink_2048_1536/0/1685533736414?e=1688601600&v=beta&t=dgK-8Hm-76-xQTaB3KU365DEK1X12qLaBJftpMzplIA"} />
        
        {/* <Heading title="CHILD EDUCATION" /> */}
 
