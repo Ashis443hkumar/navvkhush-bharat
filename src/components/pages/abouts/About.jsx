@@ -357,13 +357,7 @@ export default function About() {
         </div>
       </section>
 
-      <section class="cta_section">
-         <div class="cta_content">
-          <span class="title">Subscribe to our newsletter.</span>
-          
-         </div>
-      
-      </section>
+    
      
        
      </>

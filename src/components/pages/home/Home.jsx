@@ -80,7 +80,7 @@ export default function Home() {
           
          <Banner title="Start with helping one poor person and pave way for the bigger
             changes!" buttonTitle={<button onClick={() =>navigate("./careers/intership")}>
-            <HeroButton buttonTitle="Become an Intern" />
+            <HeroButton buttonTitle="Become a Donate Now" />
          </button>} />
 
     
@@ -368,7 +368,14 @@ export default function Home() {
       </form>
       </section> */}
 
-   
+<section class="cta_section">
+         <div class="cta_content">
+          <span class="title">Subscribe to our newsletter.</span>
+          
+         </div>
+      
+      </section>
+
 
 {/* ----home page end  --- */}
 
