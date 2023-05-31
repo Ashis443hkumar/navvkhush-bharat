@@ -29,6 +29,7 @@
   cursor: pointer;
 }
 
+/* home about section  */
 .home_about_sectin{
   margin-top: -140px;
 }
@@ -87,6 +88,10 @@
   background-color: #eeee;
   padding-bottom: 10px;
 }
+.founder_home .card .card-body{
+  padding: 10px;
+
+}
 .founder_home img{
   width: 100%;
   height: 300px;
@@ -95,7 +100,10 @@
   font-size: 18px;
 }
 .founder_content h4{
-  font-size: 16px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #B53471;
+  font-weight: 400;
 }
 .founder_content button{
   margin-left: 0%;
@@ -104,9 +112,9 @@
   margin-top: -10px;
 }
 .card_content .home_icons img{
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   object-fit: cover;
   background: none;
 }

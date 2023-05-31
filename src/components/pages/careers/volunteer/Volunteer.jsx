@@ -11,9 +11,9 @@ export default function Volunteer() {
 
      <AboutHeroBack AboutTitle="Volunteer with Us" cover={"https://thumbs.dreamstime.com/b/volunteer-black-blackboard-highlighted-45867177.jpg"} />
 
-      <section class=" volunteer">
+      <section class=" volunteer pt-4">
         <Heading title="Volunteer"  />
-       <div className="container mt-5">
+       <div className="container mt-3">
          <div className="row">
            <div className="col-md-7 volunteer_content">
              <h3>Volunteer with Us</h3>

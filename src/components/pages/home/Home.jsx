@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           </div>
           <div className="col-md-8">
-            <div class="founder_content">
+            <div class="founder_content pt-3">
             <p class="pt-1">Welcome to Navv Khush Bharat, also known as Crime Control & Social Development Organisation. Our mission is to bring positive change to the lives of women and children in semi-urban slums and villages. As a registered NGO, we are committed to improving the quality of education for children and empowering women to achieve financial independence. </p>
 
             <p>Through education, we aim to instil an open mindset in children and break the cycle of poverty. For women, we provide skill development programs, along with social and economic support, to help them become self-sufficient. Our current operations are based in Delhi and Gurgaon, but we plan to expand our projects to other parts of India. Join us in our efforts to make a difference in the lives of those who need it most</p>

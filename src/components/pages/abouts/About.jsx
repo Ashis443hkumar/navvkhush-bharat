@@ -98,10 +98,8 @@ export default function About() {
              </div>
              </div>
              <div className="col-md-8">
-               <div class="founder_content">
+               <div class="founder_content ">
                  <p>Since my childhood, I have been drawn towards  community development and serving those in need. Witnessing the struggles and hardships that many individuals and families face on a daily basis, I developed a deep sense of empathy and a strong desire to help make a </p>
-
-                 
 
                  <p>positive impact in their lives. I always had a dream to start my own foundation and work towards the goal of empowering women in particular.</p>
                  <p>Women in our society face numerous challenges and obstacles, including gender-based violence, discrimination, and lack of access to education and resources. I strongly believe that empowering women is not only a fundamental human right, but also a key factor in promoting social and economic development.</p>
@@ -141,14 +139,15 @@ export default function About() {
             <div className="col-md-6 content_achiment gfgfdg">
               <h3>Women Empowerment</h3>
               <ul>
-                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
+                <li>Women empowerment refers to making women socially and financially independent.</li>
                 <li>
-                  We also got Delhi Government Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi.
+                Women empowerment is a process in which women make their own independent decisions.
                 </li>
                 <li>
-                We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
+                When women are entitled to decide, it gives them a sense of empowerment and more worth..
                 </li>
-                <li>We also stitch T-shirts for AG Industries.</li>
+                <li>Women empowerment promotes gender equality in society and adds to the country’s development.</li>
+                <li>Empowerment of women helps them to take their own decision with respect to life and family.</li>
               </ul>
             </div>
 

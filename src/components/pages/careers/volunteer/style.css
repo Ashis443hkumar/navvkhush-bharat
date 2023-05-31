@@ -23,13 +23,15 @@
   text-align: center;
   padding-bottom: 20px;
 }
-
+.volunteer_info .user_form{
+   margin-bottom: -20px;
+}
 .volunteer_button{
   display: flex;
   justify-content: center;
   align-items: center;
   background: none;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .volunteer_button .cancelfr button{
   background-color: green;

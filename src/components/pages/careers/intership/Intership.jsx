@@ -8,9 +8,9 @@ export default function Intership() {
   return (
      <>
      <AboutHeroBack  AboutTitle="Internship"  cover={"https://sukarya.org/wp-content/uploads/2020/07/Internship-aa-1536x480.jpg"} />
-     <section class="Internship">
+     <section class="Internship mt-4">
      <Heading title="Apply for Internship" />
-       <div className="container mt-5">
+       <div className="container mt-4">
          <div className="row">
          <div className="col-md-6 intershop_content">
            <h1>Brief Summary of Internship Program</h1>
@@ -27,11 +27,11 @@ export default function Intership() {
          </div>
 
          <div className="col-md-6 intership_form">
-               <h4>Apply for Internship</h4>
+               <h4> Internship Form</h4>
                <form action="">
                  <div className="row d-flex align-items-center">
                    <div className="col-md-3">
-                     <label htmlFor="" class="dfre">Name</label>
+                     <label htmlFor="" class="dfre">Your Name</label>
                    </div>
                  <div className="col-md-9 inter_suser_form">
                   <div class="">
@@ -50,7 +50,7 @@ export default function Intership() {
                  class="infos" /> */}
 
                 {/* gender   */}
-                <div className="row d-flex align-items-center mt-4">
+                <div className="row d-flex align-items-center mt-2">
                    <div className="col-md-3">
                      <label htmlFor="" class="dfre">Gender</label>
                    </div>
@@ -81,7 +81,7 @@ export default function Intership() {
                </div>
               </div>
 
-                <div className="row d-flex align-items-center mt-4">
+                <div className="row d-flex align-items-center mt-3">
                    <div className="col-md-3">
                      <label htmlFor="" class="dfre">Date OF Birth</label>
                    </div>
@@ -170,7 +170,7 @@ export default function Intership() {
                 </div>
 
 
-                <div className="row d-flex align-items-center mt-4">
+                <div className="row d-flex align-items-center mt-2">
                    <div className="col-md-4">
                      <label htmlFor="" class="dfre">Phone Number:</label>
                    </div>
@@ -181,7 +181,7 @@ export default function Intership() {
                  </div>
                 </div>
 
-                <div className="row d-flex align-items-center mt-4 ">
+                <div className="row d-flex align-items-center mt-2 ">
                    <div className="col-md-4">
                      <label htmlFor="" class="dfre">E-mail Address:</label>
                    </div>
@@ -192,7 +192,7 @@ export default function Intership() {
                  </div>
                 </div>
 
-                <div className="row d-flex align-items-flex-start mt-4 mb-5 pb-1">
+                <div className="row d-flex align-items-flex-start  pb-1">
                    <div className="col-md-4">
                      <label htmlFor="" class="dfre">Address:</label>
                    </div>
@@ -204,7 +204,7 @@ export default function Intership() {
                         <input type="text" placeholder="city" />
                       </div>
                       </div>
-                      <div className="col-md-12 mt-4">
+                      <div className="col-md-12 mt-1">
                       <div class="">
                         <label htmlFor="">Postal / Zip Code</label>
                         <input type="text" placeholder="Postal / Zip Code" />
@@ -215,8 +215,7 @@ export default function Intership() {
                  </div>
                 </div>
 
-                <div class="submit_btn" >
-                   {/* <button type="submit" class="hero_button">Submit</button> */}
+                <div class="intership_submit_btn" >
                    <HeroButton buttonTitle="Submit" />
                 </div>
                </form>
