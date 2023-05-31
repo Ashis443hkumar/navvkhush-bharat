@@ -26,7 +26,7 @@ export default function Blog() {
   }
   return (
      <>
-      <AboutHeroBack AboutTitle=""  cover={"https://media.licdn.com/dms/image/D4D22AQG7Zz-ii4mH6A/feedshare-shrink_2048_1536/0/1685345811590?e=1687996800&v=beta&t=vRrG5zytjLUo2PD2OO6J90FlVzJMleiLlJtryJ_hvU0"} />
+      <AboutHeroBack AboutTitle=""  cover={"https://media.licdn.com/dms/image/D4D22AQHOXcA9CC70PQ/feedshare-shrink_2048_1536/0/1685533134361?e=1688601600&v=beta&t=x_K3BpwhatJKHcSi-SNk7lkoqVzVvQW4sMtw1femUlc"} />
 
       <section class="blog my-4 py-4">
         <div className="container">

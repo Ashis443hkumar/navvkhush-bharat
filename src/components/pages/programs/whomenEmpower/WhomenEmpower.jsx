@@ -6,7 +6,7 @@ import "./style.css"
 export default function WhomenEmpower() {
   return (
      <>
-     <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQH6s_NsBizSGA/feedshare-shrink_2048_1536/0/1685345817040?e=1687996800&v=beta&t=iMdSIeAEgk7MUYc0Om8wQTdpMlEuHp1iaaZpWyH2IBQ"} />
+     <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQGlxQ5cD_arbw/feedshare-shrink_2048_1536/0/1685533134440?e=1688601600&v=beta&t=b1wwTbtA1Ucgv4B_tttLSxDL4ib01CE3-UmCBBRZwno"} />
 
        <section class="whomenEmpower mt-3">
          <Heading title="Fashion Designing Course" />

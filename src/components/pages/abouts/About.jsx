@@ -19,9 +19,9 @@ export default function About() {
      <>
 
      <AboutHeroBack
-        AboutTitle="About NavvKhush Bharat ccsdo"
+        AboutTitle=""
         cover={
-          'https://media.licdn.com/dms/image/D4D22AQFqIab8M6DXQA/feedshare-shrink_2048_1536/0/1685345817433?e=1687996800&v=beta&t=-jpG_8YPi5GpyBGq1E9YB0uErTz8R2wsGc8kypzLz64'}/>
+          'https://media.licdn.com/dms/image/D4D22AQE3MXOL2Wk-Dw/feedshare-shrink_2048_1536/0/1685533134283?e=1688601600&v=beta&t=BgEtUut_N6GNtjDGXBot-qN7Tpq27Dwc6EujgUbbOdQ'}/>
           
        <section class="founder_about_sectin py-4">
         <div className="container">
