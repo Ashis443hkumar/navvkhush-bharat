@@ -29,4 +29,22 @@
   padding: 10px;
 }
 
+/* .contact_address  */
 
+.contact_address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.contact_address h3{
+  font-size: 23px;
+  color: #d35400;
+}
+.contact_address  strong{
+  font-size: 16px;
+}
+
+.contact_address  address{
+  font-size: 18px;
+}

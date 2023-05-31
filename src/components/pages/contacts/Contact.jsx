@@ -57,6 +57,33 @@ export default function Contact() {
          </div>
        </section>
 
+ <Heading title="Company Address" />
+<hr/>
+<section class="contact_address"> 
+  <div className="container">
+    <div className="row px-auto">
+      <div className="col-md-12">
+        <div className="row">
+          <div className="col-md-6 text-start">
+            <h3>Head Office</h3>
+            <address><strong>Address:</strong> 21/41-42 2nd Floor Kalyan Puri, Delhi -110091.</address>
+            <span><strong>Email Address:</strong> info@thecrimecontrol.com </span>
+            <address><strong>Phone Nubmer: </strong> + 91 8287372178, +91 9971725342</address>
+          </div>
+          <div className="col-md-6 text-start">
+            <h3>Corporate Office</h3>
+            <address> <strong>Address: </strong> C-314 3rd Floor, Nirvana Courtyard, Sector-50, Gurugram - 122018.</address>
+            <span><strong>Email Address:</strong> info@thecrimecontrol.com </span>
+            <address><strong>Phone Nubmer: </strong> + 91 8287372178, +91 9971725342</address>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr/>
+
         <section class="contact_map">
           <Heading title="Google Maps" />
           <div className="container-fluid">

@@ -128,7 +128,7 @@ export default function About() {
                 <li>
                 We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
                 </li>
-                <li>We also stitch T-shirts for AG Industries.</li>
+                <li>Opening  School  for underpriviledged children so they can gain quality education Summer Camp for children.</li>
               </ul>
             </div>
             <div className="col-md-6 content_achiment gfgfdg">
@@ -139,6 +139,7 @@ export default function About() {
                 <li>
                    We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities..
                 </li>
+                <li>Fashion Designing Course for women, absolutely free of cost. Stitching Course .</li>
               
               </ul>
             </div>
