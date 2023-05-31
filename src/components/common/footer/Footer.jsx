@@ -16,7 +16,7 @@ export default function Footer() {
           <p>At NavvKhush Bharat-CCSDO, we empower women for a dignified life, providing economic and social support, reducing violence, and fostering equality, with notable achievements in education, counseling, and financial independence for women and children.</p>
           <div class="footer_logo_content">
           <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" />
-          <h1>Navv khush Bharat</h1>
+          <h1>Navvkhush Bharat ccsdo</h1>
           </div>
         </div>
         

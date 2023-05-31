@@ -24,22 +24,25 @@ export default function Home() {
     <>
       <Hero />
 
-      <section class="home_founder py-4">
-       <div className="container">
-         <Heading title="About us" />
-         <div className="row">
-           <div className="col-12">
-           <input id="ch" type="checkbox" />
+     <section class="home_about_sectin">
+        <div className="container">
+          <Heading title="About us" />
+          <div className="row">
+          <div className="col-md-6">
              <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.</p>
-             <div>
+             <div class="home_about_btn">
                <button onClick={() =>navigate("./about")}>
-                   <HeroButton buttonTitle="ReadMore" />
+                   <HeroButton buttonTitle="Read More" />
                </button>
              </div>
            </div>
-         </div>
-       </div>
-     </section>
+         
+            <div className="col-md-6">
+              <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100" alt=""/>
+            </div>
+          </div>
+        </div>
+      </section>
 
      {/* <a href ="https://media.licdn.com/dms/image/D4D22AQHU-Fndq-a61w/feedshare-shrink_2048_1536/0/1685345817508?e=1687996800&v=beta&t=xYf5dGh7kfaoqOE6Ly5QkzdxSk0tnPPRrfnT9vcZYc8" attributes-list> Link Text </a>   */}
 

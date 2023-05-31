@@ -9,7 +9,7 @@ export default function Newletters() {
      <>
     
      <section class="mt-4">
-         <Heading title="New Letters" />
+         <Heading title="News Letters" />
          <div className="container mt-3">
            <div className="row media_content">
              <div className="col-md-6">
@@ -33,16 +33,7 @@ export default function Newletters() {
                  </div>
                </div>
              </div>
-             <div className="col-md-6">
-             <div className="card">
-                 <img src="https://www.navvkhushbharat.com/wp-content/uploads/elementor/thumbs/logo-pzmronjrgqdx9tci7wd8um1iysogmgenu7xx5cd57y.png" alt="" class="w-100" />
-                 <div className="card-body">
-                <h4>Heading</h4>
-                  <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a>  
-                 </div>
-               </div>
-             </div>
+          
              <div className="col-md-6">
              <div className="card">
                  <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" alt="" class="w-100" />
@@ -57,7 +48,9 @@ export default function Newletters() {
              <div className="card">
                  <img src="https://media.licdn.com/dms/image/D4D22AQHFXLl5DSwEkg/feedshare-shrink_1280/0/1685355472112?e=1687996800&v=beta&t=Z9JlTuzNoSHz7I64NA0Bu_PRXxStzzKRaZhWn1aZ8Sg" alt="" class="w-100" />
                  <div className="card-body">
-                  <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                 <h4>Heading</h4>
+                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
                  </div>
                </div>
              </div>
@@ -65,7 +58,9 @@ export default function Newletters() {
              <div className="card">
                  <img src="https://media.licdn.com/dms/image/D4D22AQE8jVpBjy8UVA/feedshare-shrink_1280/0/1685355471986?e=1687996800&v=beta&t=izNihEchxCsY-rjbbEsd-xhnszrcGA-jvBcGgX1DEY4" alt="" class="w-100" />
                  <div className="card-body">
-                  <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                 <h4>Heading</h4>
+                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
                  </div>
                </div>
              </div>
@@ -73,7 +68,9 @@ export default function Newletters() {
              <div className="card">
                  <img src="https://media.licdn.com/dms/image/D4D22AQH1xunuqkoghA/feedshare-shrink_800/0/1685355472111?e=1687996800&v=beta&t=_fUd4GL3kwkZuNOGLNugLGVSsDvrtzqNFBDNVLZNmDY" alt="" class="w-100" />
                  <div className="card-body">
-                  <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                 <h4>Heading</h4>
+                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
                  </div>
                </div>
              </div>
@@ -81,7 +78,9 @@ export default function Newletters() {
              <div className="card">
                  <img src="https://media.licdn.com/dms/image/D4D22AQEaerTyOPR2WQ/feedshare-shrink_1280/0/1685355472442?e=1687996800&v=beta&t=ZzkgnzBupNozrKxsVl7DP2f59wvqY54DdvHWKj-9-QE" alt="" class="w-100" />
                  <div className="card-body">
-                  <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                 <h4>Heading</h4>
+                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
+                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
                  </div>
                </div>
              </div>

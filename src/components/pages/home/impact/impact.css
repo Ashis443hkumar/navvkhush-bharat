@@ -1,7 +1,5 @@
-/* linear-gradient(rgba(211,211,211,0.91),rgba(231,191,311,0.71)), */
 /* ---------imapct --------------- */
 .impact{
-  /* background-image: url("https://img.freepik.com/free-photo/diverse-team-stacking-their-hands_53876-146170.jpg?size=626&ext=jpg&ga=GA1.1.1754756187.1684492128&semt=ais"); */
   background-image: url("https://i.pinimg.com/564x/2c/a9/59/2ca959189dbff135cfd9ad04424a7383.jpg");
   background-position: center;
   background-size: cover;
@@ -12,16 +10,12 @@
   position: relative;
 }
 .impact .heading h1{
-  /* color: #ffb142; */
   color: #fff;
   margin-top: 15px;
   font-weight: 900;
 }
 .imapct_banner{
-  /* background-color: slateblue; */
-  /* background-color: #182C61; */
   background-color: #25CCF7;
-
   position: absolute;
   padding: 10px 5%;
   top: 50%;
@@ -36,13 +30,14 @@
 .impact_content{
   text-align: center;
   padding: 30px;
-  /* color: #ffff; */
 }
 .impact_content h2{
-  color: #d35400;
-  font-size: 36px;
-  font-weight: 100;
+  color: #1289A7;
+  font-size: 42px;
+  font-weight: 900;
   line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 18px;
 }
 .impact_content p{
   font-size: 19px;
@@ -53,6 +48,7 @@
   height: 90px;
   margin-bottom: 15px;
 }
+/* media query  */
 @media (max-width:768px){
    .impact{
      height: 100vh;

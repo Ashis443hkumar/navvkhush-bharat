@@ -29,6 +29,17 @@
   cursor: pointer;
 }
 
+.home_about_sectin{
+  margin-top: -140px;
+}
+.home_about_btn{
+  margin-left: -30px;
+  margin-top: -10px;
+}
+.home_about_btn button{
+  text-transform: capitalize;
+  font-size: 16px;
+}
 /* .mission_goal */
 .mission_goal {
   padding: 30px 5%;

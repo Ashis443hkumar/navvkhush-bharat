@@ -23,17 +23,11 @@ export default function About() {
         cover={
           'https://media.licdn.com/dms/image/D4D22AQFqIab8M6DXQA/feedshare-shrink_2048_1536/0/1685345817433?e=1687996800&v=beta&t=-jpG_8YPi5GpyBGq1E9YB0uErTz8R2wsGc8kypzLz64'}/>
           
-
-
-      <section class="founder_about_sectin py-4">
+       <section class="founder_about_sectin py-4">
         <div className="container">
           <Heading title="About us" />
           <div className="row">
-            <div className="col-md-6">
-              <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100" alt=""/>
-            </div>
-            <div className="col-md-6 about_readmore">
-             <input type="checkbox" id="ch"  />
+            <div className="col-md-12 about_readmore">
               <p>
                 At the Crime Control & Social Development Organisation (CCSDO),
                 we believe that every woman has the right to live a life of
@@ -49,7 +43,6 @@ export default function About() {
                 We believe that by empowering women, we can create a brighter,
                 more equal future for all.
               </p>
-           <div class="content">
                <p>
                 Our team is made up of dedicated professionals who are
                 passionate about making a difference. From providing education
@@ -80,15 +73,12 @@ export default function About() {
                 just and equal society. Join us on this journey towards a
                 brighter future for all.
               </p>
-
-                <label htmlFor="ch" class="label_readd">Show less</label>
               </div>
-              <label htmlFor="ch" class="label_readd">Read more</label>
 
             </div>
           </div>
-        </div>
-      </section>
+      </section>   
+
 
      {/* founder messages  */}
      <section class="founder mt-4">
@@ -126,19 +116,17 @@ export default function About() {
 
       
 
-      {/* <Impact /> */}
 
 
 
-     
+    
        {/* achiment_tell_date */}
-
        <section class="achiment_tell_date">
         <Heading title="Our Achievements till Date (since 2020)" />
         <div className="container-fluid mt-3">
           <div className="row">
             <div className="col-md-6 content_achiment gdfg">
-              <h3>Number of Children Educated 1779</h3>
+              <h3>Child Educated </h3>
               <ul>
                 <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
                 <li>
@@ -151,7 +139,7 @@ export default function About() {
               </ul>
             </div>
             <div className="col-md-6 content_achiment gfgfdg">
-              <h3>Women Counseling 3000 +</h3>
+              <h3>Women Empowerment</h3>
               <ul>
                 <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
                 <li>
@@ -164,7 +152,6 @@ export default function About() {
               </ul>
             </div>
 
-            <div className="col-md-6"></div>
           </div>
         </div>
       </section>
