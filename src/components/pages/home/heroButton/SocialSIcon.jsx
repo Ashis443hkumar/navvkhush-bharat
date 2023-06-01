@@ -4,9 +4,7 @@ import "./style.css"
 export default function SocialsIcons() {
   return (
      <>
-         <div class="SocialsIcons">
             <div className="social_link">
-                
               <a href="https://www.youtube.com/@Navvkhushbharat" class="youtube_links">
                  <img src="https://cdn-icons-png.flaticon.com/128/4008/4008208.png" class="youtube" alt=""/>
               </a>
@@ -27,7 +25,6 @@ export default function SocialsIcons() {
                 <img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" class="twitter" alt=""/>
               </a>
 
-              </div>
 
          </div>
      </>

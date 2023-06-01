@@ -18,11 +18,12 @@ export default function Home() {
 
     const navigate =  useNavigate()
 
+
   return (
     <>
       <Hero />
 
-     <section class="home_about_sectin">
+     <section class="home_abouts">
         <div className="container">
           <Heading title="About us" />
           <div className="row">
@@ -34,7 +35,6 @@ export default function Home() {
                </button>
              </div>
            </div>
-         
             <div className="col-md-6">
               <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100" alt=""/>
             </div>

@@ -34,27 +34,29 @@
   .head{
     height: 50px;
   }
-  .head_left label{
+  .head_left .phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .head_left .phone label{
     font-size: 13px;
   }
-  .head_left label i{
-    font-size: 13px;
+  .head_left .phone label i{
+    font-size: 12px;
+    margin-left: -0px;
   }
-  .head_left span{ 
-    font-size: 13px;
+  .head_left .phone span{
+    font-size: 14px;
+    color: #ffff;
   }
-  .head_right .social_link a i{
-    margin-left: 10px;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    text-align: center;
-    background-color:  #c4302b;
-    font-size: 13px;
-    border-radius: 50%;
+  /* right_head section */
+  .head_right  .social_link img{
+    width: 20px;
+    height: 20px;
   }
 }
-@media(max-width:620px){
+@media(max-width:520px){
   .head{
     display: none;
   }

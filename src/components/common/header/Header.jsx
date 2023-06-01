@@ -48,7 +48,7 @@ export default function Header() {
             <li><NavLink to="/contact/">Contact </NavLink>  </li>
            </ul>
 
-          <div className="donate_btn">
+          <div className="Home_donate_btn">
           <button onClick={() =>navigate("./about/donate")}>
                    <HeroButton buttonTitle="Donate Now" />
           </button>
