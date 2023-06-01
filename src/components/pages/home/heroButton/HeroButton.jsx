@@ -4,11 +4,9 @@ import "./style.css"
 export default function HeroButton({buttonTitle}) {
   return (
      <>
-       <section>
-         <div class="">
+         <div class="buttonComponents">
            <button class="heroBtn">{buttonTitle}</button>
          </div>
-       </section>
      </>
   );
 }

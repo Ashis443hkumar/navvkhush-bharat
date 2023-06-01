@@ -77,9 +77,11 @@ ul li:hover ul.dropdown_menu{
   display: block;
 } 
 /* header button  */
-
 .bargar_menu{
   display: none;
+}
+.header .Home_donate_btn {
+  margin-left: 22px;
 }
 
 /* tablat sieze 768px responsive size  */

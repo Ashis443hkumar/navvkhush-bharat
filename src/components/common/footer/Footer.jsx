@@ -20,9 +20,9 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="footer_links">
+        <div className="footer_links padding_bottom_footer">
           <h3>QUICK LINKS </h3>
-          <ul>
+          <ul class="footer_menu_link">
             <li><a href=""><i class="fa-solid fa-greater-than"></i> Home</a></li>
             <li><a href=""><i class="fa-solid fa-greater-than"></i> About Us</a></li>
             <li><a href=""><i class="fa-solid fa-greater-than"></i> Programs</a></li>

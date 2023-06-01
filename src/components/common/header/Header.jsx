@@ -49,10 +49,9 @@ export default function Header() {
            </ul>
 
           <div className="Home_donate_btn">
-          <button onClick={() =>navigate("./about/donate")}>
-                   <HeroButton buttonTitle="Donate Now" />
-          </button>
-
+              <button onClick={() =>navigate("./about/donate")}>
+                      <HeroButton buttonTitle="Donate Now" />
+              </button>
           </div>
         </nav>
          <div className="bargar_menu" onClick={() =>setisMobile(!isMobile)}>

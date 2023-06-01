@@ -12,6 +12,10 @@ home_about_sectin
   margin-left: -30px;
   margin-top: -10px;
 }
+.home_about_btn{
+  margin-left: 0px;
+  
+}
 .home_about_btn button{
   text-transform: capitalize;
   font-size: 16px;
