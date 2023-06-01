@@ -1,16 +1,7 @@
 import React from "react";
 import "./abouts.css"
-// import Founder from "./Founder";
-import OurAdvisior from "./OurAdvisior";
-import WhoWeAre from "./whoWeAre";
-import {Routes, Route} from "react-router-dom"
-import Volunteer from "./valunter/Volunteer";
-import Founder from "./founders/Founder";
-import HeroButton from "../home/heroButton/HeroButton";
 import AboutHeroBack from "../home/hero/AboutHeroback";
 import Heading from "../../common/heading/Heading";
-import Impact from "../home/impact/Impact";
-import FounderMessage from "../home/aboutSection/AboutSection";
 import SocialsIcons from "../home/heroButton/SocialSIcon";
 
 
@@ -18,10 +9,12 @@ export default function About() {
   return (
      <>
 
+     <section>
      <AboutHeroBack
         AboutTitle=""
         cover={
           'https://media.licdn.com/dms/image/D4D22AQE3MXOL2Wk-Dw/feedshare-shrink_2048_1536/0/1685533134283?e=1688601600&v=beta&t=BgEtUut_N6GNtjDGXBot-qN7Tpq27Dwc6EujgUbbOdQ'}/>
+     </section>
           
        <section class="founder_about_sectin py-4">
         <div className="container">
@@ -67,36 +60,35 @@ export default function About() {
                 orders from Munjal Showa and AG Industries for uniform and
                 T-shirt stitching, providing employment opportunities to women.
               </p>
-
               <p>
                 At CCSDO, we are committed to our mission of creating a more
                 just and equal society. Join us on this journey towards a
                 brighter future for all.
               </p>
               </div>
-
             </div>
           </div>
-      </section>   
-
+         </section>   
 
      {/* founder messages  */}
      <section class="founder mt-4">
          <div className="container pt-3">
            <Heading title="FOUNDER'S MESSAGE" />
            <div className="row founder_content">
-             <div className="col-md-4 about_cart_content">
-               <div className="card">
-               <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top" alt="" />
-               <div className="card-body">
-                  <h2>KAVITA RAWAT</h2>
-                  <h4>Founder, NavvKhush Bharat</h4>
-                 <div class="about_icons">
-                    <SocialsIcons/>
-                 </div>
-               </div>
-             </div>
-             </div>
+           <div className="col-md-4 card_content">
+          <div className="card">
+            <div className="founder_image">
+            <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top " alt="" />
+            <div class="home_icons">
+                <SocialsIcons/>
+              </div>
+            </div>
+            <div className="card-body text-center">
+              <h2>KAVITA RAWAT</h2>
+              <h4>FOUNDER, NavvKhush Bharat</h4>
+            </div>
+          </div>
+          </div>
              <div className="col-md-8">
                <div class="founder_content ">
                  <p>Since my childhood, I have been drawn towards  community development and serving those in need. Witnessing the struggles and hardships that many individuals and families face on a daily basis, I developed a deep sense of empathy and a strong desire to help make a </p>
@@ -139,17 +131,12 @@ export default function About() {
                 <li>
                    We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities..
                 </li>
-                <li>Fashion Designing Course for women, absolutely free of cost. Stitching Course .</li>
-              
+                <li>Fashion Designing Course for women, absolutely free of cost. Stitching Course.</li>
               </ul>
             </div>
-
           </div>
         </div>
       </section>
-
-
-
 
       {/* ----------- advisor  --------- */}
       <section class="advisor">
@@ -356,42 +343,10 @@ export default function About() {
           </div>
         </div>
       </section>
-
-    
-     
-       
+      
      </>
   );
 }
 
 
 
-{/* nisha yadav   */}
-
-      {/* <section class="achiment_still_date">
-        <div className="container">
-          <div className="heading_stil">
-             <h1 class="text-center py-5 ">Our Achievements till Date (since 2020)</h1>
-          </div>
-
-          <div className="row">
-            <div className="col-md-6">
-              <div class="rtyty  wergewr4">
-                <h3>Number of Children Educated 1779</h3>
-              </div>
-              <div className="rtyty weretret">
-                <h3>Women Counseling 3000 +</h3>
-              </div>
-              <div className="rtyty eertretre">
-                <h3>Women Registered with us 1250+</h3>
-              </div>
-              <div class="rtyty ertertrfte">
-                <h3>Women Employed & financially independent 75+</h3>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <img src="https://i.pinimg.com/736x/2c/4f/f7/2c4ff7e2fdeb5511a21e00489b38610f.jpg" class="w-100" alt=""/>
-            </div>
-          </div>
-        </div>
-      </section> */}

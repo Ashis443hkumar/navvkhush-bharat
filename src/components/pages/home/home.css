@@ -108,16 +108,14 @@
 .founder_home .card .card-body{
   padding: 10px;
   padding-bottom: 0px;
-
 }
 .founder_image{
   position: relative;
 }
 .founder_image .home_icons{
   position: absolute;
-  left: 0;
-  bottom: 10px;
-
+  right: 10px;
+  bottom: 5px;
 }
 .founder_home img{
   width: 100%;
@@ -140,9 +138,9 @@
   margin-top: 10px;
 }
 .card_content .home_icons img{
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   object-fit: cover;
   background: none;
 }
@@ -152,6 +150,21 @@
 .card_content .what_apps{
   display: none;
 }
+.card_content .facebook{
+  display: none;
+}
+.card_content .twitter{
+  display: none;
+}
+.card_content .linkedin{
+  display: none;
+}
+
+/* home banner */
+.home_banner .banner{
+  background-color: #fd79a8;
+}
+
 
 /* accodin  */
 .accordion{

@@ -44,8 +44,8 @@ export default function Home() {
         </div>
       </section>
 
-  {/* founder messages  */}
-  <section class="founder_home mt-4">
+      {/* founder messages  */}
+     <section class="founder_home mt-4">
       <div className="container">
         <Heading title="FOUNDER'S MESSAGE" />
         <div className="row founder_content">
@@ -60,7 +60,6 @@ export default function Home() {
             <div className="card-body text-center">
               <h2>KAVITA RAWAT</h2>
               <h4>FOUNDER, NavvKhush Bharat</h4>
-             
             </div>
           </div>
           </div>
@@ -74,22 +73,24 @@ export default function Home() {
             </button>
             </div>
           </div>
+         </div>
         </div>
-      </div>
-       </section>
-          
-         <Banner title="It's not how much we give, but how much love we put into giving" buttonTitle={<button onClick={() =>navigate("./careers/intership")}>
+      </section>
+
+       {/* Home banner section */}
+       <section class="home_banner">
+            <Banner title="It's not how much we give, but how much love we put into giving" buttonTitle={<button onClick={() =>navigate("./careers/intership")}>
             <HeroButton buttonTitle="Become a Donate Now" />
          </button>} />
-
-    
+       </section>
+          
+       
      {/* mission & goals  */}
       <section className="mission_goal my-4">
       <div className="container">
         <Heading title="What we do"  />
         <div className="row">
           <div className="col-md-4 text-center ">
-            {/* <img src="https://img.icons8.com/?size=1x&id=x51rXOCxzN33&format=png" alt=""/> */}
             <img src="https://cdn-icons-png.flaticon.com/128/769/769600.png" alt=""/>
             <h3>Child Education</h3>
             <p>
@@ -97,7 +98,6 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-4 text-center ">
-            {/* <img src="https://img.icons8.com/?size=1x&id=64327&format=png" alt=""/> */}
             <img src="https://cdn-icons-png.flaticon.com/128/2558/2558284.png" alt=""/>
             <h3>Fashion Designing Course</h3>
             <p>
@@ -105,7 +105,6 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-4 text-center ">
-            {/* <img src="https://img.icons8.com/?size=1x&id=0mcyYaZoPqem&format=png" alt=""/> */}
             <img src="https://cdn-icons-png.flaticon.com/128/952/952228.png" alt="" />
             <h3>Counselling</h3>
             <p>
@@ -118,11 +117,10 @@ export default function Home() {
      
       <Impact/>
 
-        {/* Our Contribution to SDG’s */}
-        <section class="sdg_section">
+       {/* Our Contribution to SDG’s */}
+      <section class="sdg_section">
         <div className="container">
          <Heading title="CONTRIBUTION TO SDG’s" />
-
           <div className="row py-4">
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
@@ -170,7 +168,8 @@ export default function Home() {
         </div>
       </section>
 
-      <Banner title="Start with helping one poor person and pave way for the bigger
+        {/* home banner Volunteer  */}
+         <Banner title="Start with helping one poor person and pave way for the bigger
             changes!" buttonTitle={<button onClick={() =>navigate("./careers/volunteer")}>
             <HeroButton buttonTitle="Become a Volunteer" />
          </button>} />
@@ -204,8 +203,7 @@ export default function Home() {
 
       <Testimonial/>
 
-
-      {/* our partner section  */}
+       {/* our partner section  */}
       <section className="Our_partner my-0">
         <div className="container-fluid">
         <Heading title="Our Partners"  />
@@ -268,9 +266,8 @@ export default function Home() {
         </div>
       </section>
       
-
-     
      {/* accodain faq  */}
+     <section class="faa_section"> 
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div className="container">
           <div className="row">
@@ -350,33 +347,17 @@ export default function Home() {
      
             </div>
           </div>
-        </div>
-     
+        </div>     
       </div>
+   </section>
 
-      {/* <section class="cta_section">
-      <form class="form">
+     {/* cta section  */}
+      <section class="cta_section">
          <div class="cta_content">
           <span class="title">Subscribe to our newsletter.</span>
-          <p class="description">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>
          </div>
-        <div class="cta_form">
-          <input placeholder="Enter your email" type="email" name="email" id="email-address" />
-          <button type="submit">Subscribe</button>
-        </div>
-      </form>
-      </section> */}
-
-<section class="cta_section">
-         <div class="cta_content">
-          <span class="title">Subscribe to our newsletter.</span>
-          
-         </div>
-      
       </section>
 
-
-{/* ----home page end  --- */}
 
     </>
   );
