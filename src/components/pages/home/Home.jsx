@@ -13,8 +13,6 @@ import SocialsIcons from './heroButton/SocialSIcon';
 import Impact from './impact/Impact';
 import Heading from '../../common/heading/Heading';
 
-import Volunteer from '../abouts/valunter/Volunteer';
-import Tests from './testimonial/Tests';
 
 export default function Home() {
 
