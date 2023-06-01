@@ -4,7 +4,6 @@ import "./head.css"
 export default function head() {
   return (
     <>
-
       <section>
         <div className="head">
           <div className="head_left">
@@ -21,9 +20,9 @@ export default function head() {
           <div className="head_right">
               <SocialsIcons/>
           </div>
-
         </div>
       </section>
     </>
   );
 }
+ 
