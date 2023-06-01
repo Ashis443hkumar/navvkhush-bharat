@@ -133,3 +133,19 @@ ul li ul.dropdown_menu li a:hover{
 }
 
 
+@media (max-width:510px){
+  .mobile-menu-link{
+    top: 70px;
+  } 
+  .logo h3{
+    display: none;
+  }
+  .mobile-menu-link li a{
+    font-size: 18px;
+  }
+}
+@media (max-width:300px){
+  .logo h3{
+    display: none;
+  }
+}

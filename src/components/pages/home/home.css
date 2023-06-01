@@ -244,10 +244,10 @@ home_about_sectin
 }
 
 @media (max-width:300px){
-  .faa_section .container .row{
+  .founder .container .row{
     flex-direction: column;
   }
-  .faq_head h2{
+  .founder h2{
     margin-top: 30px;
     font-size: 30px;
     text-align: center;

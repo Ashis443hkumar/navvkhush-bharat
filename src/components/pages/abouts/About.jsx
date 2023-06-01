@@ -5,6 +5,7 @@ import Heading from "../../common/heading/Heading";
 import SocialsIcons from "../home/heroButton/SocialSIcon";
 
 
+
 export default function About() {
   return (
      <>
@@ -72,10 +73,11 @@ export default function About() {
 
      {/* founder messages  */}
      <section class="founder mt-4">
-         <div className="container pt-3">
+         <div className="container py-3">
            <Heading title="FOUNDER'S MESSAGE" />
-           <div className="row founder_content">
-           <div className="col-md-4 card_content">
+
+        <div className="row founder_content">
+          <div className="col-md-4 card_content">
           <div className="card">
             <div className="founder_image">
             <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top " alt="" />
@@ -83,14 +85,14 @@ export default function About() {
                 <SocialsIcons/>
               </div>
             </div>
-            <div className="card-body text-center">
+             <div className="card-body text-center">
               <h2>KAVITA RAWAT</h2>
               <h4>FOUNDER, NavvKhush Bharat</h4>
-            </div>
-          </div>
+             </div>
+           </div>
           </div>
              <div className="col-md-8">
-               <div class="founder_content ">
+               <div class="founder_content  content_desc">
                  <p>Since my childhood, I have been drawn towards  community development and serving those in need. Witnessing the struggles and hardships that many individuals and families face on a daily basis, I developed a deep sense of empathy and a strong desire to help make a </p>
 
                  <p>positive impact in their lives. I always had a dream to start my own foundation and work towards the goal of empowering women in particular.</p>
@@ -101,6 +103,7 @@ export default function About() {
                </div>
              </div>
            </div>
+
          </div>
        </section>
 
