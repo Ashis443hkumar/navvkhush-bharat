@@ -30,6 +30,34 @@
 }
 
 /* media query  */
+
+@media(max-width:1014px){
+  .head{
+    height: 50px;
+  }
+  .head_left .phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .head_left .phone label{
+    font-size: 13px;
+  }
+  .head_left .phone label i{
+    font-size: 12px;
+    margin-left: -0px;
+  }
+  .head_left .phone span{
+    font-size: 13px;
+    color: #ffff;
+  }
+  /* right_head section */
+  .head_right  .social_link img{
+    width: 20px;
+    height: 20px;
+  }
+}
+
 @media(max-width:768px){
   .head{
     height: 50px;
@@ -50,12 +78,19 @@
     font-size: 14px;
     color: #ffff;
   }
-  /* right_head section */
   .head_right  .social_link img{
     width: 20px;
     height: 20px;
   }
 }
+
+@media(max-width:768px){
+   .head_right  .social_link{
+     display: none;
+  }
+}
+
+
 @media(max-width:520px){
   .head{
     display: none;

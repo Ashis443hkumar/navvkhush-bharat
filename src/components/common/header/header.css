@@ -84,6 +84,18 @@ ul li:hover ul.dropdown_menu{
   margin-left: 22px;
 }
 
+@media (max-width:1251px){
+  .navigation{
+    display: none;
+  }
+  .bargar_menu{
+    font-size: 32px;
+    color: #fff;
+    display: block;
+  }
+
+}
+
 /* tablat sieze 768px responsive size  */
 @media (max-width:788px){
   .navigation{
