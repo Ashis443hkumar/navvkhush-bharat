@@ -35,8 +35,8 @@ export default function Home() {
                </button>
              </div>
            </div>
-            <div className="col-md-6">
-              <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100" alt=""/>
+            <div className="col-md-6 ">
+              <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100 founimage" alt=""/>
             </div>
           </div>
         </div>
@@ -167,29 +167,32 @@ export default function Home() {
       </section>
 
         {/* home banner Volunteer  */}
-         <Banner title="Start with helping one poor person and pave way for the bigger
+        <section class="home_vlounterr">
+        <Banner title="Start with helping one poor person and pave way for the bigger
             changes!" buttonTitle={<button onClick={() =>navigate("./careers/volunteer")}>
             <HeroButton buttonTitle="Become a Volunteer" />
          </button>} />
+        </section>
+       
      
       
        {/* youtube thubnails section */}
-       <section class="youtube_thhubanail my-5">
+       <section class="youtube_thhubanail my-2">
         <div className="container my-3">
         <Heading title="Youtube videos"  class="mt-4" />
 
-          <div className="row my-3 pb-5">
-            <div className="col-md-4">
+          <div className="row mb-3 pb-5">
+            <div className="col-md-4 ">
               <ReactPlayer
                 url="https://youtu.be/f7_OZchjP9s"
                 autoplay
                 class="w-100"
               />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 video_content">
               <ReactPlayer url="https://youtu.be/wnF8HLbu9VA" class="w-100" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 video_content">
               <ReactPlayer
                 url="https://www.youtube.com/embed/XKifONoiJDQ"
                 class="w-100"

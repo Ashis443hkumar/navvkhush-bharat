@@ -1,8 +1,6 @@
 home_about_sectin
 /* -----------home about section ------------- */
-.home_abouts{
-  background-color: #B53471;
-}
+
 .home_abouts_sectin{
   background-color: #182C61;
 }
@@ -189,4 +187,71 @@ home_about_sectin
   font-weight: 700;
   letter-spacing: -0.025em;
   color: #fff;
+}
+.home_abouts{
+  margin-top: -120px;
+}
+@media (max-width:300px){
+  .home_abouts{
+    margin-top: -200px;
+    background-color: #182C61;
+    padding: 20px 0;
+  }
+  .founimage{
+    margin-bottom: 20px;
+  }
+}
+
+/* founder image  */
+@media (max-width:300px){
+  .founder_home .row{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .founder_home .heading h2{
+    font-size: 21px;
+  }
+}
+
+@media (max-width:300px){
+  .home_banner .banner{
+    background-color: #fd79a8;
+    height: 200px;
+  }
+  .home_banner .banner button{
+    font-size: 15px;
+    
+  }
+}
+/* .home_vlounterr .banner  */
+
+@media (max-width:300px){
+  .home_vlounterr .banner{
+    height: 200px;
+  
+  }
+  .home_vlounterr .banner button{
+    font-size: 15px;
+  }
+}
+
+/* video_content */
+@media (max-width:300px){
+  .video_content{
+     margin-bottom: 40px;
+  }
+}
+
+@media (max-width:300px){
+  .faa_section .container .row{
+    flex-direction: column;
+  }
+  .faq_head h2{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
 }

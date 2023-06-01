@@ -77,9 +77,7 @@ ul li:hover ul.dropdown_menu{
   display: block;
 } 
 /* header button  */
- button{
-   margin-left: 30px;
-}
+
 .bargar_menu{
   display: none;
 }

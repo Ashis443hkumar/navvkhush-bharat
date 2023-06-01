@@ -32,7 +32,6 @@
   padding: 30px;
 }
 .impact_content h2{
-  /* color: #1289A7; */
   color: #111;
   font-size: 42px;
   font-weight: 900;
@@ -49,6 +48,8 @@
   height: 90px;
   margin-bottom: 15px;
 }
+
+
 /* media query  */
 @media (max-width:768px){
    .impact{
@@ -74,6 +75,34 @@
   .impact_content img{
     width: 40px;
     height: 40px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width:300px){
+  .impact{
+    width: 100%;
+    height: 190vh;
+  }
+  .imapct_banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 160vh;
+  }
+  .impact .heading h1{
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .imapct_banner{
+    margin-bottom: 10px;
+    row-gap: 0px;
+  }
+  .impact_content p{
+    font-size: 18px;
+  }
+  .impact_content h2{
+    color: #111;
     margin-bottom: 15px;
   }
 }
