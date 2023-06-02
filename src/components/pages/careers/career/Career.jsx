@@ -8,7 +8,7 @@ export default function Career(){
   return(
     <>
     
-      <AboutHeroBack AboutTitle="" cover="https://media.licdn.com/dms/image/D4D22AQHOXcA9CC70PQ/feedshare-shrink_2048_1536/0/1685533134361?e=1688601600&v=beta&t=x_K3BpwhatJKHcSi-SNk7lkoqVzVvQW4sMtw1femUlc" />
+      <AboutHeroBack AboutTitle="" cover="https://media.licdn.com/dms/image/D4D22AQHYDiUYhdUcvA/feedshare-shrink_20/0/1685703253296?e=1688601600&v=beta&t=PlBvMd8BEOx3CyOyVEiCIHzBLcwQDxjHq_I0prgqimU" />
       
       <section class="careers">
         <Heading title="Job Openings" />
