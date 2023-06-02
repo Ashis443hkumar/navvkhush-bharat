@@ -52,6 +52,9 @@
 .navigation ul li a i{
   font-size: 14px;
 }
+.navigation ul li a.active{
+    color: #00a8ff;
+}
 .navigation ul li a:hover{
   color: #00a8ff;
 }
