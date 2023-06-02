@@ -7,7 +7,7 @@ import "./style.css"
 export default function Intership() {
   return (
      <>
-     <AboutHeroBack  AboutTitle="Internship"  cover={"https://media.licdn.com/dms/image/D4D22AQG3mAJRJAUMAA/feedshare-shrink_1280/0/1685703253352?e=1688601600&v=beta&t=aTfMz_BH41I-oVE4NNiVHpr1k3r9M1qQa4oo4pGAkdo"} />
+     <AboutHeroBack  AboutTitle=""  cover={"https://media.licdn.com/dms/image/D4D22AQG3mAJRJAUMAA/feedshare-shrink_1280/0/1685703253352?e=1688601600&v=beta&t=aTfMz_BH41I-oVE4NNiVHpr1k3r9M1qQa4oo4pGAkdo"} />
      <section class="Internship mt-4">
      <Heading title="Apply for Internship" />
        <div className="container mt-4">

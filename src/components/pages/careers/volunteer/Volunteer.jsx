@@ -9,10 +9,10 @@ export default function Volunteer() {
   return (
      <>
 
-     <AboutHeroBack AboutTitle="Volunteer with Us" cover={"https://media.licdn.com/dms/image/D4D22AQFksoxdyPEoCA/feedshare-shrink_2048_1536/0/1685703253417?e=1688601600&v=beta&t=dpJNTGH96wjn6pesXs_mT1NyiI9jD3R-utMqTUc8jpc"} />
+     <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQFksoxdyPEoCA/feedshare-shrink_2048_1536/0/1685703253417?e=1688601600&v=beta&t=dpJNTGH96wjn6pesXs_mT1NyiI9jD3R-utMqTUc8jpc"} />
 
       <section class=" volunteer pt-4">
-        <Heading title="Volunteer"  />
+        <Heading title="Volunteer with Us "  />
        <div className="container mt-3">
          <div className="row">
            <div className="col-md-7 volunteer_content">
