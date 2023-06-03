@@ -82,8 +82,6 @@ export default function ChildEducation() {
 
          </div>
 
-
-
        </section>
        
 
