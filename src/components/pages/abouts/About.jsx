@@ -222,7 +222,7 @@ export default function About() {
           <div className="row mt-3 advisor_row">
             <div className="col-md-3">
               <img
-                src="https://www.navvkhushbharat.com/wp-content/uploads/2023/01/Sandeep_2022_Pic-1024x889.jpg"
+                src="https://media.licdn.com/dms/image/D4D22AQEOcudcdWvFyw/feedshare-shrink_1280/0/1685794163800?e=1688601600&v=beta&t=D5IWYUKouar0o3Gq6n_d32HX-tXjZ1Iw3X7qqS5yAqo"
                 class="card-img-top w-100"
                 alt=""
               />

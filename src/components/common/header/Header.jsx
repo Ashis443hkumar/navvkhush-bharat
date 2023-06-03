@@ -14,7 +14,7 @@ export default function Header() {
       <header className="header">
         <div className="logo">
           <img src="https://media.licdn.com/dms/image/D4D22AQFpF6XnIVilsg/feedshare-shrink_1280/0/1685791142227?e=1688601600&v=beta&t=yA5p52Dgs48ezP6R0iRphLPK7vgh4GknujzgAUW3ySY" alt="" />
-          <h3>NavvKhush Bharat ccsdo</h3>
+          <h3>NAVVKHUSH HELPING FOUNDATION-CCSDO</h3>
         </div>
 
         <nav className= {isMobile ? 'mobile-menu-link' : "navigation" } onClick={() => setisMobile(false)} >
