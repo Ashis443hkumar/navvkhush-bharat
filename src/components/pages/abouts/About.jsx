@@ -10,7 +10,7 @@ export default function About() {
   return (
      <>
 
-     <section>
+     <section class="about">
      <AboutHeroBack
         AboutTitle=""
         cover={
@@ -106,7 +106,6 @@ export default function About() {
 
          </div>
        </section>
-
     
        {/* achiment_tell_date */}
        <section class="achiment_tell_date">
@@ -116,25 +115,25 @@ export default function About() {
             <div className="col-md-6 content_achiment gdfg">
               <h3>Child Education </h3>
               <ul>
-                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
+                <li> Digital literacy Program in 137+ Government Schools in Delhi.</li>
                 <li>
-                  We also got Delhi Government Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi.
+                   School for underprivileged Children
                 </li>
                 <li>
-                We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities.
+                     Summer Camp
                 </li>
                 <li>Opening  School  for underpriviledged children so they can gain quality education Summer Camp for children.</li>
+                <li>Grooming Sessions to underprivileged children</li>
               </ul>
             </div>
             <div className="col-md-6 content_achiment gfgfdg">
               <h3>Women Empowerment</h3>
               <ul>
-                <li>Our NGO is registered in Tihar Jail. We give stitching classes to the women inmates to empower themselves and face the society afterwards in their life.</li>
-               
-                <li>
-                   We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities..
-                </li>
-                <li>Fashion Designing Course for women, absolutely free of cost. Stitching Course.</li>
+                <li>Our NGO is registered in Tihar Jail. We give stitching work to the women inmates to empower themselves and face the society afterwards in their life..</li>
+                <li> Stitching Course for women, absolutely free of cost for making them independent.</li>
+                <li> Fashion Designing Course for women, absolutely free of cost.</li>
+
+              
               </ul>
             </div>
           </div>

@@ -10,7 +10,7 @@ export default function Career(){
     
       <AboutHeroBack AboutTitle="" cover="https://media.licdn.com/dms/image/D4D22AQHYDiUYhdUcvA/feedshare-shrink_20/0/1685703253296?e=1688601600&v=beta&t=PlBvMd8BEOx3CyOyVEiCIHzBLcwQDxjHq_I0prgqimU" />
       
-      <section class="careers">
+      {/* <section class="careers">
         <Heading title="Job Openings" />
         <div className="container">
           <div className="row mt-4 ">
@@ -98,7 +98,7 @@ export default function Career(){
 
           
       </div>
-    </section>
+    </section> */}
 
 
    
