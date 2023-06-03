@@ -14,7 +14,7 @@ export default function About() {
      <AboutHeroBack
         AboutTitle=""
         cover={
-          'https://media.licdn.com/dms/image/D4D22AQGVTV2N-rVrQw/feedshare-shrink_800/0/1685791142191?e=1688601600&v=beta&t=-To_qf9YHuOlpX9POTK2Lwx1ZNLg1jqcQiVJSzRBTrw'}/>
+          'https://media.licdn.com/dms/image/D4D22AQFqIab8M6DXQA/feedshare-shrink_2048_1536/0/1685345817433?e=1688601600&v=beta&t=z3NLOlhDeukuf82dMR4t3gb0n3sBHabGkECGjzxxAp4'}/>
      </section>
           
        <section class="founder_about_sectin py-4">
@@ -80,7 +80,7 @@ export default function About() {
           <div className="col-md-4 card_content">
           <div className="card">
             <div className="founder_image">
-            <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top " alt="" />
+            <img src="https://media.licdn.com/dms/image/D4D22AQGVTV2N-rVrQw/feedshare-shrink_800/0/1685791142191?e=1688601600&v=beta&t=-To_qf9YHuOlpX9POTK2Lwx1ZNLg1jqcQiVJSzRBTrw" class="card-img-top " alt="" />
             <div class="home_icons">
                 <SocialsIcons/>
               </div>
@@ -147,7 +147,7 @@ export default function About() {
           <div className="row advisor_row">
             <div className="col-md-3">
               <img
-                src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/advisor-1.jpg"
+                src="https://media.licdn.com/dms/image/D4D22AQFBMRpQt83rOg/feedshare-shrink_1280/0/1685792822184?e=1688601600&v=beta&t=3VUp7nvhzrAlYTNDmQWkwaSqbrCG3BwsVtgmuutbdt0"
                 class="card-img-top w-100"
                 alt=""
               />
@@ -212,7 +212,7 @@ export default function About() {
             </div>
             <div className="col-md-3">
               <img
-                src="https://www.navvkhushbharat.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-11.50.52-AM.jpeg"
+                src="https://media.licdn.com/dms/image/D4D22AQGG2OTL4FMjdg/feedshare-shrink_800/0/1685792822165?e=1688601600&v=beta&t=t5MkSOIbYkBn1eqOmNvkq5LQuOXO0_iL5m6iSLb-ACY"
                 class="card-img-top w-100"
                 alt=""
               />
@@ -284,7 +284,7 @@ export default function About() {
             </div>
             <div className="col-md-3">
               <img
-                src="https://www.navvkhushbharat.com/wp-content/uploads/2023/01/Image-2022-09-19-at-15.26.56.jpg"
+                src="https://media.licdn.com/dms/image/D4D22AQGMslFkApWd6w/feedshare-shrink_800/0/1685792822194?e=1688601600&v=beta&t=Y4MRpycVVAz9TTCs289fS93x6sEjtq-2gDtLEygs1Pg"
                 class="card-img-top w-100"
                 alt=""
               />

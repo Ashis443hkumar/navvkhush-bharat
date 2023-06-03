@@ -212,7 +212,7 @@ export default function Home() {
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img  ">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/corpet.jpg"
+                  src="https://media.licdn.com/dms/image/D4D22AQHFWGqAR3pHVw/feedshare-shrink_800/0/1685792821945?e=1688601600&v=beta&t=uAM19SkN7jNBeLKwyJBPvEMhOC52Uloj6z4Yy5q7EnI"
                   className="w-100"
                   alt=""
                 />
@@ -221,7 +221,7 @@ export default function Home() {
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/honda.jpg"
+                  src="https://media.licdn.com/dms/image/D4D22AQEO0YLx_NB5Lg/feedshare-shrink_800/0/1685792821919?e=1688601600&v=beta&t=9PZDW9NSk66HlsOM586_mga_wXuwGN2NQ3-6KJmcteU"
                   className="w-100"
                   alt=""
                 />
@@ -230,7 +230,7 @@ export default function Home() {
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/hsl.jpg"
+                  src="https://media.licdn.com/dms/image/D4D22AQEb57jIy3ZwdQ/feedshare-shrink_800/0/1685792821798?e=1688601600&v=beta&t=aAt_8UZMhZQYkAN6at9ZeUP7qM3VZrEN7PssHR5ggas"
                   className="w-100"
                   alt=""
                 />
@@ -239,7 +239,7 @@ export default function Home() {
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/munjal.jpg"
+                  src="https://media.licdn.com/dms/image/D4D22AQEEatFcfQxEKg/feedshare-shrink_800/0/1685792821898?e=1688601600&v=beta&t=HZ6rNRigIJr23oa1Fg7q4LG1x5VhnogfDXAXOWzLlkQ"
                   className="w-100"
                   alt=""
                 />
@@ -248,7 +248,7 @@ export default function Home() {
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/shivam.jpg"
+                  src="https://media.licdn.com/dms/image/D4D22AQGMS74rnwDbzw/feedshare-shrink_800/0/1685792822135?e=1688601600&v=beta&t=kHLPIFc4aUM2l7yu5it2vhyf8yYaT-6taUm8ulGCHl4"
                   className="w-100"
                   alt=""
                 />
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-12 partner_img ">
               <figure>
                 <img
-                  src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/trust.jpg"
+                  src="https://media.licdn.com/dms/image/D4D22AQG70ip95ToVVg/feedshare-shrink_800/0/1685792822073?e=1688601600&v=beta&t=GZu1WVb1uK1NOTzWD0m_F8EsgI_8mDpCBW1KP0IKiwU"
                   className="w-100"
                   alt=""
                 />
