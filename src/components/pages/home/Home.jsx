@@ -50,20 +50,20 @@ export default function Home() {
           <div className="col-md-4 card_content">
           <div className="card">
             <div className="founder_image">
-            <img src="https://www.navvkhushbharat.com/wp-content/uploads/2021/05/trustee.jpg" class="card-img-top " alt="" />
+            <img src="https://media.licdn.com/dms/image/D4D22AQGVTV2N-rVrQw/feedshare-shrink_800/0/1685791142191?e=1688601600&v=beta&t=-To_qf9YHuOlpX9POTK2Lwx1ZNLg1jqcQiVJSzRBTrw" class="card-img-top " alt="" />
             <div class="home_icons">
                 <SocialsIcons/>
               </div>
             </div>
             <div className="card-body text-center">
               <h2>KAVITA RAWAT</h2>
-              <h4>FOUNDER, NavvKhush Bharat</h4>
+              <h4>FOUNDER, NAVVKHUSH HELPING FOUNDATION</h4>
             </div>
           </div>
           </div>
           <div className="col-md-8">
             <div class="founder_content pt-3">
-            <p class="pt-1">Welcome to Navv Khush Bharat, also known as Crime Control & Social Development Organisation. Our mission is to bring positive change to the lives of women and children in semi-urban slums and villages. As a registered NGO, we are committed to improving the quality of education for children and empowering women to achieve financial independence. </p>
+            <p class="pt-1">Welcome to navvkhush helping foundation,  also known as Crime Control & Social Development Organisation. Our mission is to bring positive change to the lives of women and children in semi-urban slums and villages. As a registered NGO, we are committed to improving the quality of education for children and empowering women to achieve financial independence. </p>
 
             <p>Through education, we aim to instil an open mindset in children and break the cycle of poverty. For women, we provide skill development programs, along with social and economic support, to help them become self-sufficient. Our current operations are based in Delhi and Gurgaon, but we plan to expand our projects to other parts of India. Join us in our efforts to make a difference in the lives of those who need it most</p>
             <button onClick={() =>navigate("./about")}>
@@ -353,11 +353,15 @@ export default function Home() {
    </section>
 
      {/* cta section  */}
-      <section class="cta_section">
-         <div class="cta_content">
-          <span class="title">Subscribe to our newsletter.</span>
+       <form class="form">
+         <div>
+           <span class="title">Subscribe to our newsletter</span>
          </div>
-      </section>
+        <div>
+          <input placeholder="Enter your email" type="email" name="email" id="email-address"/>
+          <button type="submit">Subscribe</button>
+        </div>
+      </form>
 
 
     </>

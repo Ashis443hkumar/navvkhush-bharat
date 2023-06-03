@@ -14,7 +14,7 @@ export default function About() {
      <AboutHeroBack
         AboutTitle=""
         cover={
-          'https://media.licdn.com/dms/image/D4D22AQE3MXOL2Wk-Dw/feedshare-shrink_2048_1536/0/1685533134283?e=1688601600&v=beta&t=BgEtUut_N6GNtjDGXBot-qN7Tpq27Dwc6EujgUbbOdQ'}/>
+          'https://media.licdn.com/dms/image/D4D22AQGVTV2N-rVrQw/feedshare-shrink_800/0/1685791142191?e=1688601600&v=beta&t=-To_qf9YHuOlpX9POTK2Lwx1ZNLg1jqcQiVJSzRBTrw'}/>
      </section>
           
        <section class="founder_about_sectin py-4">

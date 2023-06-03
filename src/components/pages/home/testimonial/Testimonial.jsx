@@ -62,14 +62,15 @@ export default function Testimonial() {
                         /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
-                        Balbir Kaur
+                        Nisha Yadav
                       </div>
                       <div class="link-position d-flex justify-content-center">
-                        Student
+                        Social Media Marketing
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div class="col-md-4 style-3 trtrt">
                   <div class="tour-item ">
                     <div class="tour-desc bg-white">
@@ -88,14 +89,15 @@ export default function Testimonial() {
                         /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
-                        Balbir Kaur
+                        Avijeet Ganguli
                       </div>
                       <div class="link-position d-flex justify-content-center">
-                        Student
+                        Digital Marketing
                       </div>
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </section>
