@@ -117,20 +117,21 @@ export default function About() {
               <ul>
                 <li> Digital literacy Program in 137+ Government Schools in Delhi.</li>
                 <li>
-                   School for underprivileged Children
+                   School for underprivileged Children.
                 </li>
                 <li>
-                     Summer Camp
+                     Summer Camp.
                 </li>
                 <li>Opening  School  for underpriviledged children so they can gain quality education Summer Camp for children.</li>
-                <li>Grooming Sessions to underprivileged children</li>
+                <li>Grooming Sessions to underprivileged children.</li>
               </ul>
             </div>
             <div className="col-md-6 content_achiment gfgfdg">
               <h3>Women Empowerment</h3>
               <ul>
-                <li>Our NGO is registered in Tihar Jail. We give stitching work to the women inmates to empower themselves and face the society afterwards in their life..</li>
+                <li>Our NGO is registered in Tihar Jail. We give stitching work to the women inmates to empower themselves and face the society afterwards in their life.</li>
                 <li> Stitching Course for women, absolutely free of cost for making them independent.</li>
+                <li>We also got orders from Munjal Showa to stitch their uniforms and which provides employment opportunities. We also stitch T-shirts for AG Industries and other major companies. All these stitching works are done by women who are employed in our NGO.</li>
                 <li> Fashion Designing Course for women, absolutely free of cost.</li>
 
               

@@ -35,19 +35,17 @@ export default function ChildEducation() {
            </div>
 
 
-            {/* Navv Khush Bharat School  */}
+            {/* summer camp  */}
             <div className="row child_content">
               <h3 class="my-4 pb-3 text-center">Summer Camp</h3>
               <div className="col-lg-6 summer_camp_img">
                 <img className="" src="https://media.licdn.com/dms/image/D4D22AQEU3DgPR6cdtA/feedshare-shrink_1280/0/1685684251209?e=1688601600&v=beta&t=poqxMjSiDIUtwlkGjX_1rznD_vSBa2ijwHnHKeDeGuk" alt="" />
               </div>
              <div className="col-md-6">
-               <p>In 2022, we launched a digital literacy awareness programme in collaboration with the Delhi government. The programme focused on creating awareness amongst students about digitalisation and the impact it can have in a post-Covid world. For this programme, we focused on children between the ages of 14 and 18 studying in classes 8th-12th grade. As these children will soon have to prepare for their entrance exams, Covid has significantly impacted their education. We wanted to help these students by teaching them how the internet can help them academically. This is how our team was able to reach out to over 1.5 lakhs of students in government schools. It was a 3-month programme where we interacted frequently with 
-                the students to teach them the benefits of the internet.</p>
+               <p>In year 2023, we decided to start school for underprivileged student. But before school, we started summer camp for every children to gain trust of parents that NGO’s school can also provide quality education & facilities. In summer camp we gave different activities to children, which will be helpful for their physical development as well as cognitive development. It was mainly for children aged 3 years to 10 years. Extra-curricular activities are very beneficial for children’s mental growth. Activities performed by children in summer camp are dancing, rhymes singing, colouring, zumba, food preparation without fire & many more. We aimed for 25 children in summer camp but we achieved more than that, total 34 children got admissions in summer camp. This was not only limited to children even we asked their parents for suggestions how we can improve and also implemented. Parents were satisfied with summer camp that their children are learning new things which are making them more understandable and conscious to their surroundings. Some of parents suggested us to organize sessions like this for children</p>
              </div>
              <div className="col-md-12 summer_content">
-             <p>During this programme, we taught them how to use browsers such as Google Chrome to find materials that could be useful for their studies. The students were also taught how to create presentations, videos and emails, which should help them prepare for the real world. Since most of these children come from underprivileged backgrounds, we wanted them to excel in this competitive world and be prepared for better jobs by teaching them these skills. So we partnered with 137 schools that share the same vision of helping these children succeed. We also wanted them to </p>
-             <p>see their education beyond the classroom, because the internet is a great way to learn new skills. For example, many educators post their study material and lectures on YouTube, which can help students prepare for their exams. Our goal was to show them how the internet can help them become self-reliant.</p>
+            
              
              </div>
            </div>
