@@ -36,7 +36,7 @@ export default function Home() {
              </div>
            </div>
             <div className="col-md-6 ">
-              <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" class="w-100 founimage" alt=""/>
+              <img src="https://media.licdn.com/dms/image/D4D22AQFFnkX20jbX_g/feedshare-shrink_2048_1536/0/1685791142446?e=1688601600&v=beta&t=xnH8WAO_d7XCIVDUFYifqFtF75dX4yFLWz50Zl1f6rw" class="w-100 founimage" alt=""/>
             </div>
           </div>
         </div>

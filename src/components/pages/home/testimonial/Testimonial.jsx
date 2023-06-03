@@ -38,7 +38,7 @@ export default function Testimonial() {
                         Ashish Sharma
                       </div>
                       <div class="link-position d-flex justify-content-center">
-                        Developer
+                       Php Developer
                       </div>
                       
                     </div>
