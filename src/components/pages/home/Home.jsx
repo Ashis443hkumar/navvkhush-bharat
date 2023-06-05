@@ -122,42 +122,42 @@ export default function Home() {
           <div className="row py-4">
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
-                src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-1.png"
+                src="https://media.licdn.com/dms/image/D4D22AQG8vybjCSL-Rg/feedshare-shrink_800/0/1685944914546?e=1688601600&v=beta&t=gGxnipfgshjSQMa7axLmcg5vHKbh3V35gYwuYz6KjxQ"
                 alt=""
                 class="w-100"
               />
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
-                src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-2.png"
+                src="https://media.licdn.com/dms/image/D4D22AQHxUjy64FOgpQ/feedshare-shrink_800/0/1685944914595?e=1688601600&v=beta&t=E6aNF1qmvtqbrUH4x-qkIlgRv817l_xg9_sK3NVU7Ys"
                 alt=""
                 class="w-100"
               />
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
-                src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-3.png"
+                src="https://media.licdn.com/dms/image/D4D22AQEEgwUZEt04Hw/feedshare-shrink_800/0/1685944914512?e=1688601600&v=beta&t=MSdsiOtz3V_2lOF7JKEXKRLn19YzVlLk94f-SJc6JVU"
                 alt=""
                 class="w-100"
               />
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
-                src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-4.png"
+                src="https://media.licdn.com/dms/image/D4D22AQG8qA_UTi6LqA/feedshare-shrink_800/0/1685944914589?e=1688601600&v=beta&t=5ofDF0rsVIBBBOS7PbXKhOtHecMkUXXEL6DZpzZ73CI"
                 alt=""
                 class="w-100"
               />
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
-                src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-5.png"
+                src="https://media.licdn.com/dms/image/D4D22AQHex5YW1dsfMA/feedshare-shrink_800/0/1685944914591?e=1688601600&v=beta&t=_JmR7aKC84xysvzUKWw-vmvAryketjTqpI_E90is5Iw"
                 alt=""
                 class="w-100"
               />
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
               <img
-                src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-6.png"
+                src="https://media.licdn.com/dms/image/D4D22AQENxUJe3i0SrQ/feedshare-shrink_800/0/1685944914871?e=1688601600&v=beta&t=AZlcNr5ni731CR4tmhtPJG9DNGpN-Ie8ZdQAyDfCSzo"
                 alt=""
                 class="w-100"
               />

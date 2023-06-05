@@ -125,7 +125,7 @@ export default function Donate() {
 
                   </div>
                   <div className="col-md-6">
-                    <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/IMG-20220816-WA0011-2.jpg" alt="" class="w-100 "  />
+                    <img src="https://media.licdn.com/dms/image/D4D22AQG769umklDoGQ/feedshare-shrink_1280/0/1685684250599?e=1688601600&v=beta&t=TC5ZDv-HiJuzRRKhZjfHeRqp3b3HxNXsKqsl6BDtbww" alt="" class="w-100 "  />
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export default function Donate() {
                   </div>
                   </div>
                   <div className="col-md-6">
-                    <img src="https://www.navvkhushbharat.com/wp-content/uploads/2022/12/9_7_2022-3_07_45-PM.jpg" class="w-100" alt=""/>
+                    <img src="https://media.licdn.com/dms/image/D4D22AQEU3DgPR6cdtA/feedshare-shrink_1280/0/1685684251209?e=1688601600&v=beta&t=poqxMjSiDIUtwlkGjX_1rznD_vSBa2ijwHnHKeDeGuk" class="w-100" alt=""/>
                   </div>
                 </div>
               </div>
