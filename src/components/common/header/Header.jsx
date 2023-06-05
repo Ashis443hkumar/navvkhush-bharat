@@ -22,13 +22,13 @@ export default function Header() {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/about/">About </NavLink> </li>
 
-            <li><NavLink to="/programs/">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
+            <li><NavLink to="/programs/whomen">Programs <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
                 <li><NavLink to="/programs/whomen/">Women Empowerment </NavLink></li>
                 <li><NavLink to="/programs/childeducation">Child Education</NavLink></li>                      
               </ul>
             </li>
-            <li><NavLink to="/media">Media <i class="fa-solid fa-caret-down"></i></NavLink>
+            <li><NavLink to="/media/gallery">Media <i class="fa-solid fa-caret-down"></i></NavLink>
               <ul class="dropdown_menu">
                 <li><NavLink to="/media/newletters">NewsLetter</NavLink></li>
                 <li><NavLink to="/media/gallery">Gallery</NavLink></li>
@@ -38,7 +38,7 @@ export default function Header() {
 
             <li><NavLink to="/blog">Blog</NavLink></li>
 
-            <li><NavLink to="/careers/">Careers <i class="fa-solid fa-caret-down"></i></NavLink>
+            <li><NavLink to="/careers/intership">Careers <i class="fa-solid fa-caret-down"></i></NavLink>
              <ul class="dropdown_menu">
                 <li><NavLink to="/careers/intership">Internship</NavLink></li>
                 <li><NavLink to="/careers/volunteer">Volunteer</NavLink></li>
