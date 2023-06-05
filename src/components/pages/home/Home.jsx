@@ -120,47 +120,29 @@ export default function Home() {
         <div className="container">
          <Heading title="CONTRIBUTION TO SDG’s" />
           <div className="row py-4">
-            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
+            <div className="col-lg-2 col-md-4 col-sm-6  ">
               <img
-                src="https://media.licdn.com/dms/image/D4D22AQG8vybjCSL-Rg/feedshare-shrink_800/0/1685944914546?e=1688601600&v=beta&t=gGxnipfgshjSQMa7axLmcg5vHKbh3V35gYwuYz6KjxQ"
-                alt=""
-                class="w-100"
-              />
+                src="https://media.licdn.com/dms/image/D4D22AQG8vybjCSL-Rg/feedshare-shrink_800/0/1685944914546?e=1688601600&v=beta&t=gGxnipfgshjSQMa7axLmcg5vHKbh3V35gYwuYz6KjxQ" alt="" />
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
+            <div className="col-lg-2 col-md-4 col-sm-6  ">
               <img
-                src="https://media.licdn.com/dms/image/D4D22AQHxUjy64FOgpQ/feedshare-shrink_800/0/1685944914595?e=1688601600&v=beta&t=E6aNF1qmvtqbrUH4x-qkIlgRv817l_xg9_sK3NVU7Ys"
-                alt=""
-                class="w-100"
-              />
+                src="https://media.licdn.com/dms/image/D4D22AQHxUjy64FOgpQ/feedshare-shrink_800/0/1685944914595?e=1688601600&v=beta&t=E6aNF1qmvtqbrUH4x-qkIlgRv817l_xg9_sK3NVU7Ys" alt="" />
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
+            <div className="col-lg-2 col-md-4 col-sm-6  ">
               <img
-                src="https://media.licdn.com/dms/image/D4D22AQEEgwUZEt04Hw/feedshare-shrink_800/0/1685944914512?e=1688601600&v=beta&t=MSdsiOtz3V_2lOF7JKEXKRLn19YzVlLk94f-SJc6JVU"
-                alt=""
-                class="w-100"
-              />
+                src="https://media.licdn.com/dms/image/D4D22AQEEgwUZEt04Hw/feedshare-shrink_800/0/1685944914512?e=1688601600&v=beta&t=MSdsiOtz3V_2lOF7JKEXKRLn19YzVlLk94f-SJc6JVU" alt="" />
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
+            <div className="col-lg-2 col-md-4 col-sm-6  ">
               <img
-                src="https://media.licdn.com/dms/image/D4D22AQG8qA_UTi6LqA/feedshare-shrink_800/0/1685944914589?e=1688601600&v=beta&t=5ofDF0rsVIBBBOS7PbXKhOtHecMkUXXEL6DZpzZ73CI"
-                alt=""
-                class="w-100"
-              />
+                src="https://media.licdn.com/dms/image/D4D22AQG8qA_UTi6LqA/feedshare-shrink_800/0/1685944914589?e=1688601600&v=beta&t=5ofDF0rsVIBBBOS7PbXKhOtHecMkUXXEL6DZpzZ73CI" alt="" />
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
+            <div className="col-lg-2 col-md-4 col-sm-6  ">
               <img
-                src="https://media.licdn.com/dms/image/D4D22AQHex5YW1dsfMA/feedshare-shrink_800/0/1685944914591?e=1688601600&v=beta&t=_JmR7aKC84xysvzUKWw-vmvAryketjTqpI_E90is5Iw"
-                alt=""
-                class="w-100"
-              />
+                src="https://media.licdn.com/dms/image/D4D22AQHex5YW1dsfMA/feedshare-shrink_800/0/1685944914591?e=1688601600&v=beta&t=_JmR7aKC84xysvzUKWw-vmvAryketjTqpI_E90is5Iw" alt="" />
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6  ">
+            <div className="col-lg-2 col-md-4 col-sm-6  ">
               <img
-                src="https://media.licdn.com/dms/image/D4D22AQENxUJe3i0SrQ/feedshare-shrink_800/0/1685944914871?e=1688601600&v=beta&t=AZlcNr5ni731CR4tmhtPJG9DNGpN-Ie8ZdQAyDfCSzo"
-                alt=""
-                class="w-100"
-              />
+                src="https://media.licdn.com/dms/image/D4D22AQENxUJe3i0SrQ/feedshare-shrink_800/0/1685944914871?e=1688601600&v=beta&t=AZlcNr5ni731CR4tmhtPJG9DNGpN-Ie8ZdQAyDfCSzo" alt="" />
             </div>
           </div>
         </div>
@@ -202,58 +184,39 @@ export default function Home() {
         </div>
       </section>
 
+
       <Testimonial/>
 
        {/* our partner section  */}
-      <section className="Our_partner my-0">
-        <div className="container-fluid">
-        <Heading title="Our Partners"  />
-          <div className="row my-3">
-            <div className="col-lg-2 col-md-4 col-sm-6  partner_img  ">
-                <img
-                  src="https://media.licdn.com/dms/image/D4D22AQHFWGqAR3pHVw/feedshare-shrink_800/0/1685792821945?e=1688601600&v=beta&t=uAM19SkN7jNBeLKwyJBPvEMhOC52Uloj6z4Yy5q7EnI"
-                  className="w-100"
-                  alt=""
-                />
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6  partner_img ">
-                <img
-                  src="https://media.licdn.com/dms/image/D4D22AQEO0YLx_NB5Lg/feedshare-shrink_800/0/1685792821919?e=1688601600&v=beta&t=9PZDW9NSk66HlsOM586_mga_wXuwGN2NQ3-6KJmcteU"
-                  className="w-100"
-                  alt=""
-                />
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6  partner_img ">
-                <img
-                  src="https://media.licdn.com/dms/image/D4D22AQEb57jIy3ZwdQ/feedshare-shrink_800/0/1685792821798?e=1688601600&v=beta&t=aAt_8UZMhZQYkAN6at9ZeUP7qM3VZrEN7PssHR5ggas"
-                  className="w-100"
-                  alt=""
-                />
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6  partner_img ">
-                <img
-                  src="https://media.licdn.com/dms/image/D4D22AQEEatFcfQxEKg/feedshare-shrink_800/0/1685792821898?e=1688601600&v=beta&t=HZ6rNRigIJr23oa1Fg7q4LG1x5VhnogfDXAXOWzLlkQ"
-                  className="w-100"
-                  alt=""
-                />
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6  partner_img ">
-                <img
-                  src="https://media.licdn.com/dms/image/D4D22AQGMS74rnwDbzw/feedshare-shrink_800/0/1685792822135?e=1688601600&v=beta&t=kHLPIFc4aUM2l7yu5it2vhyf8yYaT-6taUm8ulGCHl4"
-                  className="w-100"
-                  alt=""
-                />
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6  partner_img ">
-                <img
-                  src="https://media.licdn.com/dms/image/D4D22AQG70ip95ToVVg/feedshare-shrink_800/0/1685792822073?e=1688601600&v=beta&t=GZu1WVb1uK1NOTzWD0m_F8EsgI_8mDpCBW1KP0IKiwU"
-                  className="w-100"
-                  alt=""
-                />
-            </div>
-          </div>
-        </div>
-      </section>
+
+       <section class="partner_section">
+         <Heading title="OUR PARTNERS" />
+         <div className="container-fluid">
+           <div className="row">
+             <div className="col-md-4 col-lg-2 col-sm-6 ">
+               <img src="https://media.licdn.com/dms/image/D4D22AQHFWGqAR3pHVw/feedshare-shrink_800/0/1685792821945?e=1688601600&v=beta&t=uAM19SkN7jNBeLKwyJBPvEMhOC52Uloj6z4Yy5q7EnI" alt="" />
+             </div>
+             <div className="col-md-4 col-lg-2 col-sm-6 ">
+               <img src="https://media.licdn.com/dms/image/D4D22AQEO0YLx_NB5Lg/feedshare-shrink_800/0/1685792821919?e=1688601600&v=beta&t=9PZDW9NSk66HlsOM586_mga_wXuwGN2NQ3-6KJmcteU" alt="" />
+             </div>
+             <div className="col-md-4 col-lg-2 col-sm-6 ">
+               <img src="https://media.licdn.com/dms/image/D4D22AQEb57jIy3ZwdQ/feedshare-shrink_800/0/1685792821798?e=1688601600&v=beta&t=aAt_8UZMhZQYkAN6at9ZeUP7qM3VZrEN7PssHR5ggas" alt="" />
+             </div>
+             <div className="col-md-4 col-lg-2 col-sm-6 ">
+               <img src="https://media.licdn.com/dms/image/D4D22AQEEatFcfQxEKg/feedshare-shrink_800/0/1685792821898?e=1688601600&v=beta&t=HZ6rNRigIJr23oa1Fg7q4LG1x5VhnogfDXAXOWzLlkQ" alt="" />
+             </div>
+             <div className="col-md-4 col-lg-2 col-sm-6 ">
+               <img src="https://media.licdn.com/dms/image/D4D22AQGMS74rnwDbzw/feedshare-shrink_800/0/1685792822135?e=1688601600&v=beta&t=kHLPIFc4aUM2l7yu5it2vhyf8yYaT-6taUm8ulGCHl4" alt="" />
+             </div>
+             <div className="col-md-4 col-lg-2 col-sm-6 ">
+               <img src="https://media.licdn.com/dms/image/D4D22AQG70ip95ToVVg/feedshare-shrink_800/0/1685792822073?e=1688601600&v=beta&t=GZu1WVb1uK1NOTzWD0m_F8EsgI_8mDpCBW1KP0IKiwU" alt="" />
+             </div>
+
+           </div>
+         </div>
+       </section>
+
+     
       
      {/* accodain faq  */}
      <section class="faa_section"> 

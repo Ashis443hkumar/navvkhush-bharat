@@ -73,9 +73,8 @@ export default function About() {
 
      {/* founder messages  */}
      <section class="founder mt-4">
-         <div className="container py-3">
-           <Heading title="FOUNDER'S MESSAGE" />
-
+        <Heading title="FOUNDER'S MESSAGE" />
+       <div className="container py-3">
         <div className="row founder_content">
           <div className="col-md-4 card_content">
           <div className="card">
@@ -145,8 +144,8 @@ export default function About() {
       <section class="advisor">
         <div className="container-fluid">
           <Heading title="Advisory Board Members" />
-          <div className="row advisor_row">
-            <div className="col-md-3">
+          <div className="row advisor_row parlad_godara">
+            <div className="col-md-3 ">
               <img
                 src="https://media.licdn.com/dms/image/D4D22AQFBMRpQt83rOg/feedshare-shrink_1280/0/1685792822184?e=1688601600&v=beta&t=3VUp7nvhzrAlYTNDmQWkwaSqbrCG3BwsVtgmuutbdt0"
                 class="card-img-top w-100"
@@ -219,7 +218,7 @@ export default function About() {
               />
             </div>
           </div>
-          <div className="row mt-3 advisor_row">
+          <div className="row mt-3 advisor_row parlad_godara">
             <div className="col-md-3">
               <img
                 src="https://media.licdn.com/dms/image/D4D22AQEOcudcdWvFyw/feedshare-shrink_1280/0/1685794163800?e=1688601600&v=beta&t=D5IWYUKouar0o3Gq6n_d32HX-tXjZ1Iw3X7qqS5yAqo"
@@ -291,7 +290,7 @@ export default function About() {
               />
             </div>
           </div>
-          <div className="row mt-3 advisor_row">
+          <div className="row mt-3 advisor_row parlad_godara">
             <div className="col-md-3">
               <img
                 src="https://media.licdn.com/dms/image/D4D22AQENIy-UORHqAw/feedshare-shrink_800/0/1685000870580?e=1687996800&v=beta&t=VtimxBu8lnsNHUvJdSEwA2bxMf0FhtWld_9fiYUF7H4"

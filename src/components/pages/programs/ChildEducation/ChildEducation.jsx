@@ -9,7 +9,7 @@ export default function ChildEducation() {
   return (
      <>
      
-     <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQEWndiM_gUeYQ/feedshare-shrink_2048_1536/0/1685533736414?e=1688601600&v=beta&t=dgK-8Hm-76-xQTaB3KU365DEK1X12qLaBJftpMzplIA"} />
+       <AboutHeroBack AboutTitle="" cover={"https://media.licdn.com/dms/image/D4D22AQEWndiM_gUeYQ/feedshare-shrink_2048_1536/0/1685533736414?e=1688601600&v=beta&t=dgK-8Hm-76-xQTaB3KU365DEK1X12qLaBJftpMzplIA"} />
        
        {/* <Heading title="CHILD EDUCATION" /> */}
        <section class="CHILD_EDUCATION mt-4">
@@ -35,7 +35,7 @@ export default function ChildEducation() {
            </div>
 
 
-            {/* summer camp  */}
+            {/* ----------------- summer camp ----------- */}
             <div className="row child_content">
               <h3 class="my-4 pb-3 text-center">Summer Camp</h3>
               <div className="col-lg-6 summer_camp_img">

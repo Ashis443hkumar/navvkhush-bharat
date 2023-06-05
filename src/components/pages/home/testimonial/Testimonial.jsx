@@ -12,7 +12,7 @@ export default function Testimonial() {
               <h3>Testimonials</h3>
             </div>
             <div class="col-md-12 d-flex justify-content-center">
-              <h2>Explore the students experience</h2>
+              <h2>Explore the experience</h2>
             </div>
           </div>
           <section class="home-testimonial-bottom">
@@ -22,10 +22,7 @@ export default function Testimonial() {
                   <div class="tour-item ">
                     <div class="tour-desc bg-white">
                       <div class="tour-text color-grey-3 text-center">
-                        &ldquo; I am so grateful for the work that this NGO does
-                        to empower women and educate children. Their commitment
-                        to creating a better future for vulnerable communities
-                        is truly inspiring.&rdquo;
+                        &ldquo; Initiative by this NGO to providing fashion designing & stitching courses free of cost is very helpful for women who cannot afford but want to learn and do something in this field..&rdquo;
                       </div>
                       <div class="d-flex justify-content-center pt-2 pb-2">
                         {/* <img
@@ -35,10 +32,10 @@ export default function Testimonial() {
                         /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
-                        Ashish Sharma
+                        Komal
                       </div>
                       <div class="link-position d-flex justify-content-center">
-                       Php Developer
+                        Staff
                       </div>
                       
                     </div>
@@ -49,10 +46,7 @@ export default function Testimonial() {
                   <div class="tour-item ">
                     <div class="tour-desc bg-white">
                       <div class="tour-text color-grey-3 text-center">
-                        &ldquo;I have seen firsthand the impact that this NGO
-                        has on the lives of women and children. Their dedication
-                        to providing education and resources has transformed
-                        communities and given hope.&rdquo;
+                        &ldquo;Providing expensive courses free of cost to women could be a great opportunity in order to making women independent & confident. Great work !.&rdquo;
                       </div>
                       <div class="d-flex justify-content-center pt-2 pb-2">
                         {/* <img
@@ -62,10 +56,10 @@ export default function Testimonial() {
                         /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
-                        Nisha Yadav
+                        Renu 
                       </div>
                       <div class="link-position d-flex justify-content-center">
-                        Social Media Marketing
+                        Stitching Teacher
                       </div>
                     </div>
                   </div>
@@ -75,11 +69,7 @@ export default function Testimonial() {
                   <div class="tour-item ">
                     <div class="tour-desc bg-white">
                       <div class="tour-text color-grey-3 text-center">
-                        &ldquo;As a mother, I cannot express enough how
-                        important it is for children to have access to quality
-                        education. This NGO is doing incredible work to ensure
-                        that all children have the opportunity to learn and
-                        succeed..&rdquo;
+                        &ldquo;Education for underprivileged children is the best initiative that an NGO could have taken, I would say. Providing quality education to those who don’t have opportunity to study, this is a blessing for them.&rdquo;
                       </div>
                       <div class="d-flex justify-content-center pt-2 pb-2">
                         {/* <img
@@ -89,10 +79,10 @@ export default function Testimonial() {
                         /> */}
                       </div>
                       <div class="link-name d-flex justify-content-center">
-                        Avijeet Ganguli
+                           Saurabh 
                       </div>
                       <div class="link-position d-flex justify-content-center">
-                        Digital Marketing
+                          Finance Head
                       </div>
                     </div>
                   </div>

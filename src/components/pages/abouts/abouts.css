@@ -352,29 +352,37 @@
   letter-spacing: -0.025em;
   color: #fff;
 }
-/* about founder  */
 @media (max-width:300px){
-  .founder .heading h2 {
-    font-size: 22px;
-  }
-  .founder .container .row{
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .content_desc{
-    margin-top: 20px;
-  }
+ 
 }
 
-/* achiment_tell_date */
-@media (max-width:300px){
+@media (max-width: 600px){
+  
+/* about founder  */
+
+  .founder .container .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .content_desc{
+    margin-top: 10px;
+  }
+
+  /* achiment_tell_date */
   .achiment_tell_date .heading h2{
     font-size: 19px;
     margin-bottom: -20px;
-    
   }
   .achiment_tell_date h3{
     font-size: 15px;
   }
- 
+  /* advisory boadad */
+  .parlad_godara{
+    display: flex;
+    flex-direction: column;
+  }
+  .advisor_row img{
+    width: 100%;
+    object-fit: cover;
+  } 
 }

@@ -114,15 +114,15 @@
 }
 
 /* --------------Our_partner ----- */
-.Our_partner {
+.partner_section{
   padding: 30px 5%;
   background-color: #f2f2f2;
   margin-top: 40px;
   margin-bottom: 30px;
 }
-.Our_partner img {
+.partner_section img {
   width: 100%;
-  height: 100px;
+  height: 140px;
 }
 .Our_partne .partner_img:hover img {
   transform: rotate(90deg);
@@ -216,9 +216,14 @@
   }
   /* video_content */
   .video_content {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
-
+  .partner_section .col-md-4 img{
+    width: 100%;
+    margin-top: 20px;
+  }
+ 
+  
   /* faq section */
   .faa_section .row{
     display: flex;
@@ -241,6 +246,10 @@
     margin-top: -20px;
   }
 }
+
+
+
+
 
 /* media query  */
 @media (max-width: 300px) {
