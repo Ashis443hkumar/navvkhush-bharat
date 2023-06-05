@@ -1,22 +1,21 @@
 home_about_sectin
 /* -----------home about section ------------- */
 
-.home_abouts_sectin{
-  background-color: #182C61;
+.home_abouts_sectin {
+  background-color: #182c61;
 }
-.home_about_sectin{
+.home_about_sectin {
   background-color: red;
   margin-top: 300px;
 }
-.home_about_btn{
+.home_about_btn {
   margin-left: -30px;
   margin-top: -10px;
 }
-.home_about_btn{
+.home_about_btn {
   margin-left: 0px;
-  
 }
-.home_about_btn button{
+.home_about_btn button {
   text-transform: capitalize;
   font-size: 16px;
 }
@@ -25,25 +24,25 @@ home_about_sectin
 .mission_goal {
   padding: 30px 5%;
 }
-.mission_goal h3{
+.mission_goal h3 {
   color: #ffb142;
   font-size: 23px;
   margin-top: 20px;
 }
-.mission_goal img{
+.mission_goal img {
   width: 70px;
   height: 70px;
   object-fit: cover;
 }
 
 /* ------------sdg_section---------- */
-.sdg_section{
+.sdg_section {
   padding: 20px 5%;
   background-color: #eee;
 }
 
 /* ----------- cta_section  ------------*/
-.cta_section{
+.cta_section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,124 +60,121 @@ home_about_sectin
 }
 
 /* ---------------youtube video  ------------- */
-.youtube_thhubanail{
+.youtube_thhubanail {
   padding: 0px 5%;
 }
 /* --------------Our_partner ----- */
-.Our_partner{
+.Our_partner {
   padding: 30px 5%;
   background-color: #f2f2f2;
   margin-top: 40px;
   margin-bottom: 30px;
 }
-.Our_partner img{
+.Our_partner img {
   width: 100px;
   height: 100px;
 }
-.Our_partne .partner_img:hover img{
+.Our_partne .partner_img:hover img {
   transform: rotate(90deg);
 }
 
 /* home founder meassgae  */
-.home_founder{
+.home_founder {
   margin-top: -150px;
 }
-.founder_home{
+.founder_home {
   padding: 20px 5%;
   background-color: #eeee;
   padding-bottom: 10px;
 }
-.founder_home .card .card-body{
+.founder_home .card .card-body {
   padding: 10px;
   padding-bottom: 0px;
 }
-.founder_image{
+.founder_image {
   position: relative;
 }
-.founder_image .home_icons{
+.founder_image .home_icons {
   position: absolute;
   right: 10px;
   bottom: 5px;
 }
-.founder_home img{
+.founder_home img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-.founder_content h2{
+.founder_content h2 {
   font-size: 18px;
 }
-.founder_content h4{
+.founder_content h4 {
   font-size: 14px;
-  color: #B53471;
+  color: #b53471;
   font-weight: 400;
   padding-bottom: -190px;
 }
-.founder_content button{
+.founder_content button {
   margin-left: 0%;
 }
-.card_content .home_icons{
+.card_content .home_icons {
   margin-top: 10px;
 }
-.card_content .home_icons img{
+.card_content .home_icons img {
   width: 35px;
   height: 35px;
   line-height: 35px;
   object-fit: cover;
   background: none;
 }
-.card_content .youtube{
+.card_content .youtube {
   display: none;
 }
-.card_content .what_apps{
+.card_content .what_apps {
   display: none;
 }
-.card_content .facebook{
+.card_content .facebook {
   display: none;
 }
-.card_content .twitter{
+.card_content .twitter {
   display: none;
 }
-.card_content .linkedin{
+.card_content .linkedin {
   display: none;
 }
 
 /* home banner */
-.home_banner .banner{
+.home_banner .banner {
   background-color: #fd79a8;
 }
 
-
 /* accodin  */
-.accordion{
-  background-color: #182C61;
+.accordion {
+  background-color: #182c61;
   padding: 30px 5%;
 }
-.accordion-item{
+.accordion-item {
   margin-bottom: 20px;
 }
-.faq_readMore{
+.faq_readMore {
   background: none;
-  color:#d35400 ;
+  color: #d35400;
 }
-.faq_head h2{
+.faq_head h2 {
   color: #fff;
   font-size: 44px;
   margin-top: 110px;
   font-weight: bold;
 }
-.accordion-item h2 button{
+.accordion-item h2 button {
   margin-left: 0px;
 }
 /* trail */
-.dewfr  a img{
+.dewfr a img {
   display: none;
 }
 
-.home_abouts{
-  margin-top: -120px;
-}
-/* cta  */
+
+/* -------------------------cta ------------------------ */
 .form {
   display: flex;
   justify-content: space-between;
@@ -216,7 +212,7 @@ home_about_sectin
   outline: none;
   line-height: 1.5rem;
   font-size: 0.875rem;
-  color: rgb(255 255 255 );
+  color: rgb(255 255 255);
   padding: 0.5rem 0.875rem;
   background-color: rgb(255 255 255 / 0.05);
   border: 1px solid rgba(253, 253, 253, 0.363);
@@ -244,73 +240,89 @@ home_about_sectin
   outline: none;
 }
 
-
-
-
-
+/*------------------ media query ------------- */
+@media (max-width: 600px) {
+  /* faq section */
+  .faa_section .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .faq_head h2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+  }
+  /* cta from  */
+  .cta_form_section .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+  }
+  .title {
+    margin-top: -20px;
+  }
+}
 
 /* media query  */
-@media (max-width:300px){
-  .home_abouts{
+@media (max-width: 300px) {
+  .home_abouts {
     margin-top: -200px;
-    background-color: #182C61;
+    background-color: #182c61;
     padding: 20px 0;
   }
-  .founimage{
+  .founimage {
     margin-bottom: 20px;
   }
 }
 
 /* founder image  */
-@media (max-width:300px){
-  .founder_home .row{
+@media (max-width: 300px) {
+  .founder_home .row {
     display: flex;
     flex-direction: column;
-    
   }
-  .founder_home .heading h2{
+  .founder_home .heading h2 {
     font-size: 21px;
   }
 }
 
-@media (max-width:300px){
-  .home_banner .banner{
+@media (max-width: 300px) {
+  .home_banner .banner {
     background-color: #fd79a8;
     height: 200px;
   }
-  .home_banner .banner button{
+  .home_banner .banner button {
     font-size: 15px;
-    
   }
 }
 /* .home_vlounterr .banner  */
 
-@media (max-width:300px){
-  .home_vlounterr .banner{
+@media (max-width: 300px) {
+  .home_vlounterr .banner {
     height: 200px;
-  
   }
-  .home_vlounterr .banner button{
+  .home_vlounterr .banner button {
     font-size: 15px;
   }
 }
 
 /* video_content */
-@media (max-width:300px){
-  .video_content{
-     margin-bottom: 40px;
+@media (max-width: 300px) {
+  .video_content {
+    margin-bottom: 40px;
   }
 }
 
-@media (max-width:300px){
-  .founder .container .row{
+@media (max-width: 300px) {
+  .founder .container .row {
     flex-direction: column;
   }
-  .founder h2{
+  .founder h2 {
     margin-top: 30px;
     font-size: 30px;
     text-align: center;
     margin-bottom: 30px;
   }
-
 }
