@@ -5,6 +5,7 @@ import "./footer.css"
 import { Link, useNavigate } from "react-router-dom"
 
 export default function Footer() {
+  
   const navigate =  useNavigate()
 
   return (
@@ -15,20 +16,20 @@ export default function Footer() {
           <p>At NavvKhush Bharat-CCSDO, we empower women for a dignified life, providing economic and social support, reducing violence, and fostering equality, with notable achievements in education, counseling, and financial independence for women and children.</p>
           <div class="footer_logo_content">
           <img src="https://media.licdn.com/dms/image/D4D22AQFpF6XnIVilsg/feedshare-shrink_1280/0/1685791142227?e=1688601600&v=beta&t=yA5p52Dgs48ezP6R0iRphLPK7vgh4GknujzgAUW3ySY" alt="" />
-          <h1>Navvkhush Bharat ccsdo</h1>
+          <h1>NAVVKHUSH HELPING FOUNDATION-CCSDO</h1>
           </div>
         </div>
         
         <div className="footer_links padding_bottom_footer">
           <h3>QUICK LINKS </h3>
           <ul class="footer_menu_link">
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Home</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> About Us</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Programs</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Media</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Blog</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Careers</a></li>
-            <li><a href=""><i class="fa-solid fa-greater-than"></i> Contact Us</a></li>
+            <li><Link to="/"><i class="fa-solid fa-greater-than"></i> Home</Link></li>
+            <li><Link to="/about"><i class="fa-solid fa-greater-than"></i> About Us</Link></li>
+            <li><Link to="/programs/whomen"><i class="fa-solid fa-greater-than"></i> Programs</Link></li>
+            <li><Link to="/media/gallery"><i class="fa-solid fa-greater-than"></i> Media</Link></li>
+            <li><Link to="/blog"><i class="fa-solid fa-greater-than"></i> Blog</Link></li>
+            <li><Link to="/careers/intership"><i class="fa-solid fa-greater-than"></i> Careers</Link></li>
+            <li><Link to="/contact"><i class="fa-solid fa-greater-than"></i> Contact Us</Link></li>
           </ul>
         </div>
      
@@ -36,7 +37,7 @@ export default function Footer() {
           <h3>Office Address</h3>
           <div class="address_bar">
             <span><i class="fa-solid fa-location-dot"></i></span>
-            <address class="address"> Head Office : 21/41-42 2nd Floor Kalyan Puri, Delhi -110091</address> 
+            <address class="address"> Head Office : 21/41-42 2nd Floor, Kalyan Puri, Delhi -110091</address> 
           </div>
           <div class="address_bar">
             <span><i class="fa-solid fa-location-dot"></i></span>
@@ -48,8 +49,8 @@ export default function Footer() {
           </div>
           <div class="email phone footer_phone">
             <strong><i class="fa-solid fa-phone"></i></strong>
-            <span>+918287372178</span>
-            <span class="hr_number">+91 9971725342</span>
+            <span>+91 8287372178</span>
+            <span class="hr_number">+91 9311281717</span>
           </div>
         </div>
 
@@ -57,12 +58,12 @@ export default function Footer() {
           <h3>CONTACT US </h3>
            <div class="">
              <div className="footer_btn">
-               <button onClick={() =>navigate("./careers/volunteer")}>
+               <button onClick={() =>navigate("./about/donate")}>
                   <HeroButton buttonTitle="Donate now" />     
                </button>
              </div>
              <ul>
-               <li><a href="">Donation</a></li>
+               <li><a href="./about/donate">Donation</a></li>
                <li><a href="">Terms and Conditions</a></li>
                <li><a href="">Privacy Policy</a></li>
                <li><a href="">Cancellation & Refund Policy</a></li>

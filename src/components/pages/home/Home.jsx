@@ -14,7 +14,7 @@ import Impact from './impact/Impact';
 import Heading from '../../common/heading/Heading';
 
 
-export default function Home() {
+export default function Home(props) {
 
     const navigate =  useNavigate()
 
