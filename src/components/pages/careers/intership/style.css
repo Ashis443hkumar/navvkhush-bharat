@@ -120,3 +120,24 @@
   display: inline-block;
   width: 100%;
 }
+
+/* media query  */
+@media (max-width:600px){
+   .Internship .row{
+     flex-direction: column;
+   }
+   .intershop_content h1{
+     font-size: 21px;
+   }
+   .intership_form{
+    background-color: #ffff;
+    box-shadow: 0px 0px 12px -6px;
+    padding: 40px 40px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    height: 900px;
+  }
+  .intership_submit_btn{
+    margin-top: -1px;
+  }
+}

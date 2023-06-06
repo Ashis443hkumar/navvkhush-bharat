@@ -48,3 +48,18 @@
 .contact_address  address{
   font-size: 18px;
 }
+@media(max-width:600px){
+  .contact_map iframe {
+    width: 100%;
+  }
+  .contact_map .gtrr{
+    margin-top: 40px;
+  }
+}
+
+@media(max-width:982px){
+  .contact_map iframe {
+    width: 100%;
+  }
+
+}

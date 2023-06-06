@@ -9,7 +9,6 @@ export default function Intership() {
      <>
      <AboutHeroBack  AboutTitle=""  cover={"https://media.licdn.com/dms/image/D4D22AQG3mAJRJAUMAA/feedshare-shrink_1280/0/1685703253352?e=1688601600&v=beta&t=aTfMz_BH41I-oVE4NNiVHpr1k3r9M1qQa4oo4pGAkdo"} />
 
-     
      <section class="Internship mt-4">
      <Heading title="Apply for Internship" />
        <div className="container mt-4">
@@ -155,8 +154,6 @@ export default function Intership() {
                       <option value="">2008</option>
                     </select>
                   </div>
-                 
-
                  </div>
                 </div>
 
@@ -178,7 +175,7 @@ export default function Intership() {
                    </div>
                  <div className="col-md-8 input_form">
                   <div class="">
-                    <input type="text" placeholder="2323 344 4451" />
+                    <input type="text" placeholder=" " />
                   </div>
                  </div>
                 </div>
@@ -203,13 +200,13 @@ export default function Intership() {
                       <div className="col-md-12">
                       <div class="">
                         <label htmlFor="">City</label>
-                        <input type="text" placeholder="city" />
+                        <input type="text" placeholder="" />
                       </div>
                       </div>
                       <div className="col-md-12 mt-1">
                       <div class="">
                         <label htmlFor="">Postal / Zip Code</label>
-                        <input type="text" placeholder="Postal / Zip Code" />
+                        <input type="text" placeholder="" />
                       </div>
                       </div>
 
