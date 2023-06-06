@@ -121,7 +121,6 @@ export default function About() {
                 <li>
                      Summer Camp.
                 </li>
-                <li>Opening  School  for underpriviledged children so they can gain quality education Summer Camp for children.</li>
                 <li>Grooming Sessions to underprivileged children.</li>
               </ul>
             </div>
