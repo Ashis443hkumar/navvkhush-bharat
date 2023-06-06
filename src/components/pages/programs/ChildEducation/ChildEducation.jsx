@@ -17,14 +17,14 @@ export default function ChildEducation() {
            <div className="row  child_contentt">
              <h3 class="my-3 pb-4 text-center">DIGITAL LITERACY</h3>
             <div className="col-lg-4">
-               <img className="w-100" src="https://media.licdn.com/dms/image/D4D22AQEhrzyrFs7h2A/feedshare-shrink_2048_1536/0/1685684251236?e=1688601600&v=beta&t=9Ab2cfoLaAm73oWxpYQNn5xKJGKVqvl01MR_tp0roR4" alt="" />
+               <img className="w-100" src="https://media.licdn.com/dms/image/D4D22AQGV4Xxdl3Qt8g/feedshare-shrink_1280/0/1686051614730?e=1689206400&v=beta&t=Y2w3iuRwGUDAEPeVX2gvPFne4dsV8OALZ4t6VmjbDIk" alt="" />
             </div>
             <div className="col-lg-4">
                <p>In 2022, we launched a digital literacy awareness programme in collaboration with the Delhi government. The programme focused on creating awareness amongst students about digitalisation and the impact it can have in a post-Covid world. For this programme, we focused on children between the ages of 14 and 18 studying in classes 8th-12th grade. As these children will soon have to prepare for their entrance exams, Covid has significantly impacted their education. We wanted to help these students by teaching them how the internet 
                </p>
             </div>
             <div className="col-lg-4">
-               <img class="w-100" src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_800/0/1685684251181?e=1688601600&v=beta&t=5mxG4a-CYn8KYUUM2xin0RCHko5cejrwx37nvQSDJbk" alt="" />
+               <img class="w-100" src="https://media.licdn.com/dms/image/D4D22AQFI0XiOQtMVIQ/feedshare-shrink_1280/0/1686051614026?e=1689206400&v=beta&t=lJVkwUUseDAGRs800iIjxD95jhskeUs21rAOULxNsRE" alt="" />
             </div>
             <div className="col-lg-12 child_content">
                <p>can help them academically. This is how our team was able to reach out to over 1.5 lakhs of students in government schools. It was a 3-month programme where we interacted frequently with the students to teach them the benefits of the internet.</p>
@@ -39,7 +39,7 @@ export default function ChildEducation() {
             <div className="row child_content">
               <h3 class="my-4 pb-3 text-center">Summer Camp</h3>
               <div className="col-lg-6 summer_camp_img">
-                <img className="" src="https://media.licdn.com/dms/image/D4D22AQEU3DgPR6cdtA/feedshare-shrink_1280/0/1685684251209?e=1688601600&v=beta&t=poqxMjSiDIUtwlkGjX_1rznD_vSBa2ijwHnHKeDeGuk" alt="" />
+                <img className="" src="https://media.licdn.com/dms/image/D4D22AQEwnNriCK-PIw/feedshare-shrink_1280/0/1686051614484?e=1689206400&v=beta&t=acq3cwoloExK0iBeeFuH6HyLfLr4EUuZZl_s6fiaorQ" alt="" />
               </div>
              <div className="col-md-6">
                <p>In year 2023, we decided to start school for underprivileged student. But before school, we started summer camp for every children to gain trust of parents that NGO’s school can also provide quality education & facilities. In summer camp we gave different activities to children, which will be helpful for their physical development as well as cognitive development. It was mainly for children aged 3 years to 10 years. Extra-curricular activities are very beneficial for children’s mental growth. Activities performed by children in summer camp are dancing, rhymes singing, colouring, zumba, food preparation without fire & many more. We aimed for 25 children in summer camp but we achieved more than that, total 34 children got admissions in summer camp. This was not only limited to children even we asked their parents for suggestions how we can improve and also implemented. Parents were satisfied with summer camp that their children are learning new things which are making them more understandable and conscious to their surroundings. Some of parents suggested us to organize sessions like this for children</p>
