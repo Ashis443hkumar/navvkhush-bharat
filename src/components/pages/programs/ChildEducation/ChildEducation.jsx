@@ -14,6 +14,7 @@ export default function ChildEducation() {
        {/* <Heading title="CHILD EDUCATION" /> */}
        <section class="CHILD_EDUCATION mt-4">
          <div className="container">
+
            <div className="row  child_contentt">
              <h3 class="my-3 pb-4 text-center">DIGITAL LITERACY</h3>
             <div className="col-lg-4">
@@ -52,7 +53,7 @@ export default function ChildEducation() {
 
 
            {/* Navv Khush Bharat School  */}
-           <div className="row mt-4 child_content">
+           <div className="row mt-4  child_content">
              <h3 className="text-center mb-3">NavvKhush helping foundation</h3>
               <div className="col-lg-6">
                   <img class="" src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt="" />
@@ -60,9 +61,8 @@ export default function ChildEducation() {
               <div className="col-lg-6">
                 <img class="" src="https://media.licdn.com/dms/image/D4D22AQG769umklDoGQ/feedshare-shrink_1280/0/1685684250599?e=1688601600&v=beta&t=TC5ZDv-HiJuzRRKhZjfHeRqp3b3HxNXsKqsl6BDtbww" alt="" />
               </div>
-             <div className="row mt-2">
+            <div className="row mt-2  summer_content_bottom">
              <div className="col-md-12 ">
-               
                <p >The ultimate aim of this project is to empower disadvantaged children by providing them with the necessary resources and support to break the cycle of poverty. By enrolling these children in school and providing them with everything they need, from clothing and school materials to tutoring and medical facilities, we aim to give them a dignified and happy childhood. </p>
 
                <p class="bharta_school_content">In addition to basic necessities, we are also focusing on the mental health of these children by organising sports and play activities, excursions, and other events to help them feel more stable and secure. We want to create a safe environment where children can learn new things and develop positive habits.</p>
@@ -76,8 +76,8 @@ export default function ChildEducation() {
                < p class="bharta_school_content">We invite you to join us on this project and make a difference in the lives of these children. You can visit us anytime and stay connected with us through our social media handles. Together, we can create a brighter future for these children and help break the cycle of poverty.</p>
              </div>
              </div>
-           </div>
 
+           </div>
          </div>
 
        </section>

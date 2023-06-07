@@ -1,96 +1,177 @@
-import React,{useState} from "react";
-import Heading from "../../../common/heading/Heading";
-import AboutHeroBack from "../../home/hero/AboutHeroback";
-
+import React, { useState } from 'react';
+import Heading from '../../../common/heading/Heading';
+import './style.css';
 
 export default function Newletters() {
-
   return (
-     <>
-    
-     <section class="mt-4">
-         <Heading title="News Letters" />
-         <div className="container mt-3">
-           <div className="row media_content">
-             <div className="col-md-6">
-               <div className="card">
-                 <img src="https://www.seedsindia.org/wp-content/uploads/2023/04/Wazirabad-Lake-1536x1024.jpg" alt="" class="w-100" />
-                 <div className="card-body">
-                   <h4>Heading</h4>
-                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a>  
+    <>
+      <section class="newLetter_section">
+        <Heading title="News letters" />
+        <article className="summer_camp"> 
+          <div className="container">
+              <div className="col-md-12">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqjsClYJsvWhcbxMPu7pC_YzCGTaMBmewd_A5h-dMdHw&s"
+                  alt=""
+                  class=""
+                />
+            </div>
 
-                 </div>
-               </div>
-             </div>
-             <div className="col-md-6">
-             <div className="card">
-                 <img src="https://media.licdn.com/dms/image/D4D22AQHQd9uGBPVqfA/feedshare-shrink_800/0/1685355472628?e=1687996800&v=beta&t=HHQef6nKpubll1QV5ZHmPPguMe2WAVmWywSyya-e_VE" alt="" class="w-100" />
-                 <div className="card-body">
-                 <h4>Heading</h4>
-                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a>  
-                 </div>
-               </div>
-             </div>
-          
-             <div className="col-md-6">
-             <div className="card">
-                 <img src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" alt="" class="w-100" />
-                 <div className="card-body">
-                 <h4>Heading</h4>
-                  <p>navvkhush bharat restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
-                 </div>
-               </div>
-             </div>
-             <div className="col-md-6">
-             <div className="card">
-                 <img src="https://media.licdn.com/dms/image/D4D22AQHFXLl5DSwEkg/feedshare-shrink_1280/0/1685355472112?e=1687996800&v=beta&t=Z9JlTuzNoSHz7I64NA0Bu_PRXxStzzKRaZhWn1aZ8Sg" alt="" class="w-100" />
-                 <div className="card-body">
-                 <h4>Heading</h4>
-                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
-                 </div>
-               </div>
-             </div>
-             <div className="col-md-6">
-             <div className="card">
-                 <img src="https://media.licdn.com/dms/image/D4D22AQE8jVpBjy8UVA/feedshare-shrink_1280/0/1685355471986?e=1687996800&v=beta&t=izNihEchxCsY-rjbbEsd-xhnszrcGA-jvBcGgX1DEY4" alt="" class="w-100" />
-                 <div className="card-body">
-                 <h4>Heading</h4>
-                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
-                 </div>
-               </div>
-             </div>
-             <div className="col-md-6">
-             <div className="card">
-                 <img src="https://media.licdn.com/dms/image/D4D22AQH1xunuqkoghA/feedshare-shrink_800/0/1685355472111?e=1687996800&v=beta&t=_fUd4GL3kwkZuNOGLNugLGVSsDvrtzqNFBDNVLZNmDY" alt="" class="w-100" />
-                 <div className="card-body">
-                 <h4>Heading</h4>
-                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
-                 </div>
-               </div>
-             </div>
-             <div className="col-md-6">
-             <div className="card">
-                 <img src="https://media.licdn.com/dms/image/D4D22AQEaerTyOPR2WQ/feedshare-shrink_1280/0/1685355472442?e=1687996800&v=beta&t=ZzkgnzBupNozrKxsVl7DP2f59wvqY54DdvHWKj-9-QE" alt="" class="w-100" />
-                 <div className="card-body">
-                 <h4>Heading</h4>
-                  <p>SEEDS restores Wazirabad lake in Gurugram through nature-based solutions</p>
-                  <a href ="https://docs.google.com/document/d/1K46mekw5A-pqYPWxchWb84C9TiveKao9g7gKfhV2YFI/edit" attributes-list download ="optional-value" > Download Now </a> 
-                 </div>
-               </div>
-             </div>
+            {/* summer_camp */}
+          <div className="row  summer_bottomm">
+           <div className="col-md-6">
+                  <div className="summer_content_left">
+                    <h3>NAVVKHUSH HELPING FOUNDATION</h3>
+                    <p>
+                      We are very excited to announce that the School Project
+                      that we were working on "NAVVKHUSH HELPING FOUNDATION" has
+                      come to it's fruition and is now open. A lot of kids have
+                      already started to come and learn from our teachers. We
+                      will be providing them with all the necessary facilities
+                      like, uniform, meals, books, stationery etc
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6 summer_content_rightt">
+                  <div className="">
+                    <h3>SUMMER CAMP</h3>
+                    <p class="">
+                      As mentioned in the last edition of our newsletter, Crime
+                      Control & Social Development Organisation (CCSDO) is
+                      excited to announce the launch of our Summer Camp for
+                      children. This initiative aims to provide a holistic and
+                      engaging experience for children during their summer
+                      break. We believe that this camp is not only an
+                      opportunity for fun and recreation but also a platform to
+                      impart valuable life skills and knowledge. At our Summer
+                      Camp, children have the chance to participate in a wide
+                      range of activities designed to foster their creativity,
+                      physical fitness, and personal development.
+                    </p>
+                  </div>
+                </div>
+            </div>
 
 
-           </div>
-         </div>
-       </section>
+            <div className="row mt-1 summer_bottom">
+              <div className="col-md-4 summer_bottom_content ">
+                <h3>Jindal steel CSR Project (Apparel)</h3>
+                <p>
+                  IIn this project, we are providing fashion designing/stitching
+                  training absolutely free of cost to women.
+                </p>
+              </div>
+              <div className="col-md-4 summer_bottom_content">
+                <h3>Project NIPUN under Ministry of Housing & Urban Affairs</h3>
+                <p>
+                  his will enable the construction workers to seek better jobs,
+                  increased wages and pursue overseas placements.
+                </p>
+              </div>
+              <div className="col-md-4 summer_bottom_content">
+                <h3>Sankalp Project</h3>
+                <p>
+                  This is a capacity building program for women sponsored by
+                  NIESBUD. It is a 3-day training Certification Programme where
+                  we train small businesses on how to grow their business on
+                  online platforms.
+                </p>
+              </div>
+            </div>
 
+          </div>
+      </article>
 
-     </>
+      {/* upcomingProject */}
+        <article class="upcomingProject">
+          <div className="container">
+
+          <div className="row mt-1 summer_bottom">
+              <div className="col-md-12 ">
+                <h2>UPCOMING PROJECTS</h2>
+              </div>
+              <div className="row jhnkjkhkhjn">
+                <div className="col-md-6">
+                  <h3 class="jindal_text">Jindal Steel CSR Project (Apparel)</h3>
+                  <p>
+                    Our project will focus on connecting and supporting
+                    marginalizing communities, including transgender
+                    individuals, disputed women, and individuals involved in the
+                    sex work industry. We will provide free fashion designing
+                    training to empower them with valuable skills and
+                    self-expression opportunities. By promoting inclusivity and
+                    breaking stereotypes, we aim to create a more accepting
+                    society. Our program will equip participants with the skills
+                    needed for employment and sustainable livelihoods. By
+                    nurturing creativity, we will help them in building
+                    selfconfidence and a sense of identity, enabling
+                    participants to achieve their dreams. Our initiative strives
+                    to challenge societal prejudices and foster social change
+                    towards a more inclusive society.
+                  </p>
+                </div>
+
+                <div className="col-md-6">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <img src="https://www.shutterstock.com/image-photo/new-project-word-on-notepad-260nw-293529491.jpg" class="" alt=""/>
+                    </div>
+                    <div className="col-md-12 ">
+                    <h3 class="sfuritschema">SFURTI Scheme</h3>
+                    <p>
+                    Scheme of Fund for Regeneration of Traditional Industries, a
+                    programme by Ministry of Micro Small and Medium Enterprises,
+                    Government of India aims to organize the traditional
+                    industries and artisans and producers into collectives and
+                    provide them with support in order to make quality and
+                    competitive products to ensure long-term sustainability of
+                    the sector and its artisans.
+                  </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        
+      </section>
+    </>
   );
 }
+
+
+
+      {/* <div className="row mt-1 summer_camp_content">
+                <div className="col-md-6">
+                  <div className="summer_content_left">
+                    <h3>NAVVKHUSH HELPING FOUNDATION</h3>
+                    <p>
+                      We are very excited to announce that the School Project
+                      that we were working on "NAVVKHUSH HELPING FOUNDATION" has
+                      come to it's fruition and is now open. A lot of kids have
+                      already started to come and learn from our teachers. We
+                      will be providing them with all the necessary facilities
+                      like, uniform, meals, books, stationery etc
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6 mr-4">
+                  <div className="summer_content_right">
+                    <h3>SUMMER CAMP</h3>
+                    <p>
+                      As mentioned in the last edition of our newsletter, Crime
+                      Control & Social Development Organisation (CCSDO) is
+                      excited to announce the launch of our Summer Camp for
+                      children. This initiative aims to provide a holistic and
+                      engaging experience for children during their summer
+                      break. We believe that this camp is not only an
+                      opportunity for fun and recreation but also a platform to
+                      impart valuable life skills and knowledge. At our Summer
+                      Camp, children have the chance to participate in a wide
+                      range of activities designed to foster their creativity,
+                      physical fitness, and personal development.
+                    </p>
+                  </div>
+                </div>
+              </div> */}

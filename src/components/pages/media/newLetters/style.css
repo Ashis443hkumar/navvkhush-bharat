@@ -1,0 +1,82 @@
+.summer_camp {
+
+}
+
+.summer_camp img{
+  width: 100%;
+  height: 300px;
+}
+.summer_camp_content{
+  margin-right: 5px;
+}
+.summer_camp_content h3{
+  font-size: 22px;
+}
+.summer_content_left h3{
+  font-size: 31px;
+}
+.summer_content_left p{
+  font-size: 19px;
+}
+
+.summer_content_rightt{
+  background-color:wheat;
+  padding: 20px;
+}
+.summer_content_rightt h3{
+  font-size: 36px;
+}
+.summer_content_rightt p{
+  font-size: 19px;
+}
+
+.summer_bottom{
+  background-color: wheat;
+}
+.summer_bottom_content{
+  padding: 20px;
+}
+.summer_bottom_content p{
+  font-size: 18px;
+}
+
+/* upcomingProject */
+.upcomingProject {
+  margin-top: 60px;
+}
+.upcomingProject h2{
+  background-color: coral;
+  padding: 40px 0;
+  text-align: center;
+}
+.jindal_text{
+  background-color: #636e72;
+  text-align: center;
+  color: #FFF;
+  padding: 40px 0;
+}
+.upcomingProject img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.sfuritschema{
+  background-color: green;
+  padding: 30px 0;
+  text-align: center;
+  color: #FFF;
+  margin-top: 1px;
+}
+.upcomingProject .summer_bottom{
+  background-color: #fff;
+}
+.upcomingProject .row{
+  padding: 0%;
+}
+.upcomingProject .row .col-md-12 {
+  padding: 0%;
+  margin-left: -2px;
+}
+.jhnkjkhkhjn{
+  margin-top: -7px;
+}
