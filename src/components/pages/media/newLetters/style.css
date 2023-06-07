@@ -5,6 +5,7 @@
 .summer_camp img{
   width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 .summer_camp_content{
   margin-right: 5px;
